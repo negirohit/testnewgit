@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_1">
+              <span class="suite-name border-skipped">Suite 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_1">
+                    <span>C:\Content\Debs Backup\Project\FortuneIndia\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,  1 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_1" class="hide-methods skipped suite-Suite_1"> (hide)</a> <!-- hide-methods skipped suite-Suite_1 -->
+                      <a href="#" panel-name="suite-Suite_1" class="show-methods skipped suite-Suite_1"> (show)</a> <!-- show-methods skipped suite-Suite_1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="sectionpage.SectionTC_02" hash-for-method="sectionleadstoryclick(chrome-win-saucelabs)">sectionleadstoryclick(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_1" class="hide-methods passed suite-Suite_1"> (hide)</a> <!-- hide-methods passed suite-Suite_1 -->
+                      <a href="#" panel-name="suite-Suite_1" class="show-methods passed suite-Suite_1"> (show)</a> <!-- show-methods passed suite-Suite_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="homepage.HomeTC_02" hash-for-method="carousalcheck(chrome-win-saucelabs)">carousalcheck(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="homepage.HomeTC_01" hash-for-method="homestory_click(chrome-win-saucelabs)">homestory_click(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="specialpage.SpecialTC_02" hash-for-method="mpw_click(chrome-win-saucelabs)">mpw_click(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="searchpage.search" hash-for-method="searchTest(chrome-win-saucelabs)">searchTest(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="sectionpage.SectionTC_02" hash-for-method="sectionleadstoryclick(chrome-win-saucelabs)">sectionleadstoryclick(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="sectionpage.SectionTC_01" hash-for-method="sectionstoryclick(chrome-win-saucelabs)">sectionstoryclick(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_1" title="specialpage.SpecialTC_01" hash-for-method="special500_click(chrome-win-saucelabs)">special500_click(chrome-win-saucelabs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_1" class="panel Suite_1">
+          <div class="suite-Suite_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">sectionpage.SectionTC_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sectionleadstoryclick(chrome-win-saucelabs)">
+                  </a> <!-- sectionleadstoryclick(chrome-win-saucelabs) -->
+                  <span class="method-name">sectionleadstoryclick</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.64 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;ABPDigitalNoida-13724&apos;, ip: &apos;10.138.10.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2944_9428}, takesHeapSnapshot=true, pageLoadStrategy=normal, hasMetadata=true, handlesAlerts=true, databaseEnabled=false, version=67.0.3396.62, browserConnectionEnabled=false, nativeEvents=true, webdriver.remote.sessionid=f4d556bac4704b5f91efbe290870862d, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f4d556bac4704b5f91efbe290870862d
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at basepackage.PageClass.menuoptions_click(PageClass.java:124)
+	at sectionpage.SectionTC_02.sectionleadstoryclick(SectionTC_02.java:47)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-skipped -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homepage.HomeTC_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carousalcheck(chrome-win-saucelabs)">
+                  </a> <!-- carousalcheck(chrome-win-saucelabs) -->
+                  <span class="method-name">carousalcheck</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-passed -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">homepage.HomeTC_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homestory_click(chrome-win-saucelabs)">
+                  </a> <!-- homestory_click(chrome-win-saucelabs) -->
+                  <span class="method-name">homestory_click</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-passed -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sectionpage.SectionTC_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sectionstoryclick(chrome-win-saucelabs)">
+                  </a> <!-- sectionstoryclick(chrome-win-saucelabs) -->
+                  <span class="method-name">sectionstoryclick</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-passed -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">specialpage.SpecialTC_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mpw_click(chrome-win-saucelabs)">
+                  </a> <!-- mpw_click(chrome-win-saucelabs) -->
+                  <span class="method-name">mpw_click</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-passed -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">searchpage.search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(chrome-win-saucelabs)">
+                  </a> <!-- searchTest(chrome-win-saucelabs) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-passed -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sectionpage.SectionTC_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sectionleadstoryclick(chrome-win-saucelabs)">
+                  </a> <!-- sectionleadstoryclick(chrome-win-saucelabs) -->
+                  <span class="method-name">sectionleadstoryclick</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-passed -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">specialpage.SpecialTC_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="special500_click(chrome-win-saucelabs)">
+                  </a> <!-- special500_click(chrome-win-saucelabs) -->
+                  <span class="method-name">special500_click</span>
+                  <span class="parameters">(chrome-win-saucelabs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-passed -->
+        </div> <!-- panel Suite_1 -->
+        <div panel-name="test-xml-Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Content\Debs Backup\Project\FortuneIndia\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite 1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;basepackage.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Fortune_TestCases&quot;&gt;
+    &lt;parameter name=&quot;browser_name&quot; value=&quot;chrome-win-saucelabs&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;homepage.HomeTC_01&quot;/&gt;
+      &lt;class name=&quot;homepage.HomeTC_02&quot;/&gt;
+      &lt;class name=&quot;sectionpage.SectionTC_01&quot;/&gt;
+      &lt;class name=&quot;sectionpage.SectionTC_02&quot;/&gt;
+      &lt;class name=&quot;specialpage.SpecialTC_02&quot;/&gt;
+      &lt;class name=&quot;specialpage.SpecialTC_01&quot;/&gt;
+      &lt;class name=&quot;searchpage.search&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Fortune_TestCases --&gt;
+&lt;/suite&gt; &lt;!-- Suite 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Fortune_TestCases (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_1');
+function tableData_Suite_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'mpw_click')
+data.setCell(0, 2, 'specialpage.SpecialTC_02')
+data.setCell(0, 3, 328329);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sectionleadstoryclick')
+data.setCell(1, 2, 'sectionpage.SectionTC_02')
+data.setCell(1, 3, 315330);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchTest')
+data.setCell(2, 2, 'searchpage.search')
+data.setCell(2, 3, 299704);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'special500_click')
+data.setCell(3, 2, 'specialpage.SpecialTC_01')
+data.setCell(3, 3, 79309);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sectionstoryclick')
+data.setCell(4, 2, 'sectionpage.SectionTC_01')
+data.setCell(4, 3, 78771);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'homestory_click')
+data.setCell(5, 2, 'homepage.HomeTC_01')
+data.setCell(5, 3, 60171);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'carousalcheck')
+data.setCell(6, 2, 'homepage.HomeTC_02')
+data.setCell(6, 3, 54943);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sectionleadstoryclick')
+data.setCell(7, 2, 'sectionpage.SectionTC_02')
+data.setCell(7, 3, 35075);
+window.suiteTableData['Suite_1']= { tableData: data, tableDiv: 'times-div-Suite_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Suite_1">
+              </div> <!-- times-div-Suite_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">homepage.HomeTC_02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">mail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sectionpage.SectionTC_01</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">mail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">specialpage.SpecialTC_02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">mail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">searchpage.search</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">mail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sectionpage.SectionTC_02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">mail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">specialpage.SpecialTC_01</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">mail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">homepage.HomeTC_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homestory_click(chrome-win-saucelabs)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=homestory_click status=SUCCESS method=HomeTC_01.homestory_click(java.lang.String)[p...)</span>
+                <span class="method-start">60175 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homepage.HomeTC_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">carousalcheck(chrome-win-saucelabs)</span>
+                <span class="method-start">61016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close([TestResult name=carousalcheck status=SUCCESS method=HomeTC_02.carousalcheck(java.lang.String)[pri:0...)</span>
+                <span class="method-start">115962 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sectionpage.SectionTC_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sectionstoryclick(chrome-win-saucelabs)</span>
+                <span class="method-start">116796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=sectionstoryclick status=SUCCESS method=SectionTC_01.sectionstoryclick(java.lang.St...)</span>
+                <span class="method-start">195569 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sectionpage.SectionTC_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sectionleadstoryclick(chrome-win-saucelabs)</span>
+                <span class="method-start">196350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=sectionleadstoryclick status=SKIP method=SectionTC_02.sectionleadstoryclick(java.la...)</span>
+                <span class="method-start">231466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sectionleadstoryclick(chrome-win-saucelabs)</span>
+                <span class="method-start">232241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=sectionleadstoryclick status=SUCCESS method=SectionTC_02.sectionleadstoryclick(java...)</span>
+                <span class="method-start">547574 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">specialpage.SpecialTC_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">mpw_click(chrome-win-saucelabs)</span>
+                <span class="method-start">548344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=mpw_click status=SUCCESS method=SpecialTC_02.mpw_click(java.lang.String)[pri:0, ins...)</span>
+                <span class="method-start">876676 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">specialpage.SpecialTC_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">special500_click(chrome-win-saucelabs)</span>
+                <span class="method-start">877516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=special500_click status=SUCCESS method=SpecialTC_01.special500_click(java.lang.Stri...)</span>
+                <span class="method-start">956830 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">searchpage.search</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(chrome-win-saucelabs)</span>
+                <span class="method-start">957613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=searchTest status=SUCCESS method=search.searchTest(java.lang.String)[pri:0, instanc...)</span>
+                <span class="method-start">1257320 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">homepage.HomeTC_01</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">mail</span>
+                <span class="method-start">1258194 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

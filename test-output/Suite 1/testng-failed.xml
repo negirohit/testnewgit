@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <parameter name="browser_name" value="chrome-win-saucelabs"/>
+  <listeners>
+    <listener class-name="basepackage.AnnotationTransformer"/>
+  </listeners>
+  <test name="Fortune_TestCases(failed)">
+    <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+      <class name="homepage.HomeTC_02">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_02 -->
+      <class name="homepage.HomeTC_01">
+        <methods>
+          <include name="teardown"/>
+          <include name="mail"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_01 -->
+      <class name="sectionpage.SectionTC_01">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.SectionTC_01 -->
+      <class name="specialpage.SpecialTC_02">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- specialpage.SpecialTC_02 -->
+      <class name="searchpage.search">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- searchpage.search -->
+      <class name="sectionpage.SectionTC_02">
+        <methods>
+          <include name="sectionleadstoryclick" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.SectionTC_02 -->
+      <class name="specialpage.SpecialTC_01">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- specialpage.SpecialTC_01 -->
+    </classes>
+  </test> <!-- Fortune_TestCases(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->
