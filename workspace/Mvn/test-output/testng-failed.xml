@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="homepage.HomeTC_14">
+        <methods>
+          <include name="nav_clickable"/>
+          <include name="close"/>
+          <include name="end"/>
+          <include name="CallSetup"/>
+          <include name="call"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_14 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

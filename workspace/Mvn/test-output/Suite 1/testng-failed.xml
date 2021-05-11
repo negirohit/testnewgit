@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="Ebela HomePage(failed)">
+    <classes>
+      <class name="homepage.HomeTC_01">
+        <methods>
+          <include name="Logo_clickable"/>
+          <include name="close"/>
+          <include name="end"/>
+          <include name="CallSetup"/>
+          <include name="call"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_01 -->
+    </classes>
+  </test> <!-- Ebela HomePage(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

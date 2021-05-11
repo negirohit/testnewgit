@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite 1]">
+  <test name="Ebela HomePage(failed)">
+    <classes>
+      <class name="homepage.HomeTC_09">
+        <methods>
+          <include name="CallSetup"/>
+          <include name="end"/>
+          <include name="footer_clickable"/>
+          <include name="close"/>
+          <include name="call"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_09 -->
+      <class name="homepage.HomeTC_10">
+        <methods>
+          <include name="close"/>
+          <include name="CallSetup"/>
+          <include name="end"/>
+          <include name="call"/>
+          <include name="opinion_poll"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_10 -->
+      <class name="homepage.HomeTC_11">
+        <methods>
+          <include name="end"/>
+          <include name="BackToTop"/>
+          <include name="CallSetup"/>
+          <include name="call"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_11 -->
+      <class name="homepage.HomeTC_12">
+        <methods>
+          <include name="close"/>
+          <include name="end"/>
+          <include name="Total_Stories"/>
+          <include name="CallSetup"/>
+          <include name="call"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_12 -->
+      <class name="homepage.HomeTC_15">
+        <methods>
+          <include name="close"/>
+          <include name="end"/>
+          <include name="TrendingBar"/>
+          <include name="CallSetup"/>
+          <include name="call"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_15 -->
+    </classes>
+  </test> <!-- Ebela HomePage(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

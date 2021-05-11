@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="Ebela 404 Url Check(failed)">
+    <classes>
+      <class name="TestCase.TestCase1">
+        <methods>
+          <include name="TestCaseTwo"/>
+        </methods>
+      </class> <!-- TestCase.TestCase1 -->
+    </classes>
+  </test> <!-- Ebela 404 Url Check(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

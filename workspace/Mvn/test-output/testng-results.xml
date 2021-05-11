@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40438" started-at="2017-09-08T05:46:38Z" finished-at="2017-09-08T05:47:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40438" started-at="2017-09-08T05:46:38Z" finished-at="2017-09-08T05:47:18Z">
+      <class name="homepage.HomeTC_16">
+        <test-method status="PASS" signature="call()[pri:0, instance:homepage.HomeTC_16@335eadca]" name="call" is-config="true" duration-ms="187" started-at="2017-09-08T11:16:38Z" finished-at="2017-09-08T11:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method status="PASS" signature="CallSetup()[pri:0, instance:homepage.HomeTC_16@335eadca]" name="CallSetup" is-config="true" duration-ms="3309" started-at="2017-09-08T11:16:38Z" finished-at="2017-09-08T11:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CallSetup -->
+        <test-method status="PASS" signature="social_clickable()[pri:4, instance:homepage.HomeTC_16@335eadca]" name="social_clickable" duration-ms="37107" started-at="2017-09-08T11:16:41Z" finished-at="2017-09-08T11:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- social_clickable -->
+        <test-method status="PASS" signature="close()[pri:0, instance:homepage.HomeTC_16@335eadca]" name="close" is-config="true" duration-ms="0" started-at="2017-09-08T11:17:18Z" finished-at="2017-09-08T11:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="end()[pri:0, instance:homepage.HomeTC_16@335eadca]" name="end" is-config="true" duration-ms="339" started-at="2017-09-08T11:17:18Z" finished-at="2017-09-08T11:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- homepage.HomeTC_16 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
