@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <parameter name="browser_name" value="chrome-win-saucelabs"/>
+  <listeners>
+    <listener class-name="base.AnnotationTransformer"/>
+  </listeners>
+  <test name="Ebela_TestCases(failed)">
+    <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+      <class name="sectionpage.SubSectionCheck">
+        <methods>
+          <include name="CallSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.SubSectionCheck -->
+      <class name="homepage.Nanabidh">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- homepage.Nanabidh -->
+      <class name="homepage.Poll">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- homepage.Poll -->
+      <class name="sectionpage.BackToTop">
+        <methods>
+          <include name="CallSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.BackToTop -->
+      <class name="homepage.BackToTopScroll">
+        <methods>
+          <include name="CallSetup"/>
+          <include name="teardown"/>
+          <include name="mail"/>
+        </methods>
+      </class> <!-- homepage.BackToTopScroll -->
+      <class name="homepage.social">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- homepage.social -->
+      <class name="homepage.NavClick">
+        <methods>
+          <include name="CallSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- homepage.NavClick -->
+      <class name="sectionpage.LoadMore">
+        <methods>
+          <include name="CallSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.LoadMore -->
+      <class name="sectionpage.NavBarCheck">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- sectionpage.NavBarCheck -->
+      <class name="sectionpage.breadcrumb">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- sectionpage.breadcrumb -->
+      <class name="homepage.horoscope">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- homepage.horoscope -->
+      <class name="homepage.FooterClick">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- homepage.FooterClick -->
+      <class name="homepage.SampurnoBibhag">
+        <methods>
+          <include name="SampurnaBhibhag" invocation-numbers="0"/>
+          <include name="CallSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- homepage.SampurnoBibhag -->
+      <class name="homepage.Brandlogo">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- homepage.Brandlogo -->
+      <class name="sectionpage.BrandLogo">
+        <methods>
+          <include name="teardown"/>
+          <include name="CallSetup"/>
+        </methods>
+      </class> <!-- sectionpage.BrandLogo -->
+    </classes>
+  </test> <!-- Ebela_TestCases(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="544554" started-at="2016-11-22T05:54:11Z" finished-at="2016-11-22T06:03:15Z">
+    <groups>
+    </groups>
+    <test name="Abp Sitemap check" duration-ms="406418" started-at="2016-11-22T05:54:11Z" finished-at="2016-11-22T06:00:57Z">
+      <class name="test_sitemap.Abp_sitemap">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test_sitemap.Abp_sitemap@2f7c7260]" name="openBrowser" is-config="true" duration-ms="4021" started-at="2016-11-22T11:24:11Z" finished-at="2016-11-22T11:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:test_sitemap.Abp_sitemap@2f7c7260]" name="openUrl" is-config="true" duration-ms="2528" started-at="2016-11-22T11:24:15Z" finished-at="2016-11-22T11:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="abpSiteMap()[pri:0, instance:test_sitemap.Abp_sitemap@2f7c7260]" name="abpSiteMap" duration-ms="399008" started-at="2016-11-22T11:24:17Z" finished-at="2016-11-22T11:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abpSiteMap -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test_sitemap.Abp_sitemap@2f7c7260]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2016-11-22T11:30:56Z" finished-at="2016-11-22T11:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=abpSiteMap status=SUCCESS method=Abp_sitemap.abpSiteMap()[pri:0, instance:test_sitemap.Abp_sitemap@2f7c7260] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:test_sitemap.Abp_sitemap@2f7c7260]" name="closedriver" is-config="true" duration-ms="859" started-at="2016-11-22T11:30:56Z" finished-at="2016-11-22T11:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- test_sitemap.Abp_sitemap -->
+    </test> <!-- Abp Sitemap check -->
+    <test name="Ebela sitemap check" duration-ms="138105" started-at="2016-11-22T06:00:57Z" finished-at="2016-11-22T06:03:15Z">
+      <class name="test_sitemap.ebela_Sitemap">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test_sitemap.ebela_Sitemap@b684286]" name="openBrowser" is-config="true" duration-ms="3345" started-at="2016-11-22T11:30:57Z" finished-at="2016-11-22T11:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:test_sitemap.ebela_Sitemap@b684286]" name="openUrl" is-config="true" duration-ms="3184" started-at="2016-11-22T11:31:01Z" finished-at="2016-11-22T11:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="ebelaSiteMap()[pri:0, instance:test_sitemap.ebela_Sitemap@b684286]" name="ebelaSiteMap" duration-ms="129221" started-at="2016-11-22T11:31:04Z" finished-at="2016-11-22T11:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebelaSiteMap -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:test_sitemap.ebela_Sitemap@b684286]" name="after_method" is-config="true" duration-ms="2355" started-at="2016-11-22T11:33:13Z" finished-at="2016-11-22T11:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+      </class> <!-- test_sitemap.ebela_Sitemap -->
+    </test> <!-- Ebela sitemap check -->
+  </suite> <!-- Suite 1 -->
+</testng-results>

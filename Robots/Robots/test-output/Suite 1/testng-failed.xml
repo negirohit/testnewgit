@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="ABPDigital SSL(failed)">
+    <classes>
+      <class name="abpdigital_Robots.robots">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.robots -->
+      <class name="abpdigital_Robots.SSl_protocol">
+        <methods>
+          <include name="test_T2online_SSl_protocol"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.SSl_protocol -->
+      <class name="abpdigital_Robots.CanonicalCheck">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.CanonicalCheck -->
+    </classes>
+  </test> <!-- ABPDigital SSL(failed) -->
+  <test name="EbelaABP CanonicalCHeck(failed)">
+    <classes>
+      <class name="abpdigital_Robots.robots">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.robots -->
+      <class name="abpdigital_Robots.CanonicalCheck">
+        <methods>
+          <include name="CanonicalCheck_ABP"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.CanonicalCheck -->
+    </classes>
+  </test> <!-- EbelaABP CanonicalCHeck(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

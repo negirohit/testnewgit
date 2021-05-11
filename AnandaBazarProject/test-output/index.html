@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Anandautsav_2018">
+              <span class="suite-name border-failed">Anandautsav 2018</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Anandautsav_2018">
+                    <span>D:\SeleniumProjects\AnandaBazarProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Anandautsav_2018">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Anandautsav_2018">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Anandautsav_2018">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Anandautsav_2018">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Anandautsav_2018">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Anandautsav_2018">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Anandautsav_2018" class="hide-methods failed suite-Anandautsav_2018"> (hide)</a> <!-- hide-methods failed suite-Anandautsav_2018 -->
+                      <a href="#" panel-name="suite-Anandautsav_2018" class="show-methods failed suite-Anandautsav_2018"> (show)</a> <!-- show-methods failed suite-Anandautsav_2018 -->
+                    </span>
+                    <div class="method-list-content failed suite-Anandautsav_2018">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_storyPage">validate_storyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Anandautsav_2018 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Anandautsav_2018" class="hide-methods passed suite-Anandautsav_2018"> (hide)</a> <!-- hide-methods passed suite-Anandautsav_2018 -->
+                      <a href="#" panel-name="suite-Anandautsav_2018" class="show-methods passed suite-Anandautsav_2018"> (show)</a> <!-- show-methods passed suite-Anandautsav_2018 -->
+                    </span>
+                    <div class="method-list-content passed suite-Anandautsav_2018">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_celebrities_during_puja">validate_celebrities_during_puja</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_food_section">validate_food_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_homeAndDecor">validate_homeAndDecor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_lead_stories">validate_lead_stories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_lifestyle_section">validate_lifestyle_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_mahishasur_pala">validate_mahishasur_pala</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_puja_parikrama">validate_puja_parikrama</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Anandautsav_2018" title="AnandBazarTest.pagetest" hash-for-method="validate_sectionPage">validate_sectionPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Anandautsav_2018 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Anandautsav_2018" class="panel Anandautsav_2018">
+          <div class="suite-Anandautsav_2018-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">AnandBazarTest.pagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_storyPage">
+                  </a> <!-- validate_storyPage -->
+                  <span class="method-name">validate_storyPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Values should be different. Actual: Durga Puja 2018: Some Kolkata street foods you have to try in this puja dgtl - anandautsav.anandabazar.com
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failEquals(Assert.java:185)
+	at org.junit.Assert.assertNotEquals(Assert.java:161)
+	at org.junit.Assert.assertNotEquals(Assert.java:175)
+	at AnandBazarPage.StoryPage.assertOtherStories(StoryPage.java:87)
+	at AnandBazarTest.pagetest.validate_storyPage(pagetest.java:89)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Anandautsav_2018-class-failed -->
+          <div class="suite-Anandautsav_2018-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AnandBazarTest.pagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_celebrities_during_puja">
+                  </a> <!-- validate_celebrities_during_puja -->
+                  <span class="method-name">validate_celebrities_during_puja</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_food_section">
+                  </a> <!-- validate_food_section -->
+                  <span class="method-name">validate_food_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_homeAndDecor">
+                  </a> <!-- validate_homeAndDecor -->
+                  <span class="method-name">validate_homeAndDecor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_lead_stories">
+                  </a> <!-- validate_lead_stories -->
+                  <span class="method-name">validate_lead_stories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_lifestyle_section">
+                  </a> <!-- validate_lifestyle_section -->
+                  <span class="method-name">validate_lifestyle_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_mahishasur_pala">
+                  </a> <!-- validate_mahishasur_pala -->
+                  <span class="method-name">validate_mahishasur_pala</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_puja_parikrama">
+                  </a> <!-- validate_puja_parikrama -->
+                  <span class="method-name">validate_puja_parikrama</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_sectionPage">
+                  </a> <!-- validate_sectionPage -->
+                  <span class="method-name">validate_sectionPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Anandautsav_2018-class-passed -->
+        </div> <!-- panel Anandautsav_2018 -->
+        <div panel-name="test-xml-Anandautsav_2018" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SeleniumProjects\AnandaBazarProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Anandautsav 2018&quot;&gt;
+  &lt;test name=&quot;AnandaUtsav Test Cases&quot;&gt;
+    &lt;parameter name=&quot;BrowserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AnandBazarTest.pagetest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AnandaUtsav Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Anandautsav 2018 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Anandautsav_2018" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Anandautsav 2018</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AnandaUtsav Test Cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Anandautsav_2018" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Anandautsav 2018</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Anandautsav_2018" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Anandautsav 2018</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Anandautsav_2018');
+function tableData_Anandautsav_2018() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validate_lead_stories')
+data.setCell(0, 2, 'AnandBazarTest.pagetest')
+data.setCell(0, 3, 33464);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validate_storyPage')
+data.setCell(1, 2, 'AnandBazarTest.pagetest')
+data.setCell(1, 3, 17017);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validate_celebrities_during_puja')
+data.setCell(2, 2, 'AnandBazarTest.pagetest')
+data.setCell(2, 3, 12199);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validate_mahishasur_pala')
+data.setCell(3, 2, 'AnandBazarTest.pagetest')
+data.setCell(3, 3, 8862);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validate_sectionPage')
+data.setCell(4, 2, 'AnandBazarTest.pagetest')
+data.setCell(4, 3, 8848);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validate_food_section')
+data.setCell(5, 2, 'AnandBazarTest.pagetest')
+data.setCell(5, 3, 8746);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validate_homeAndDecor')
+data.setCell(6, 2, 'AnandBazarTest.pagetest')
+data.setCell(6, 3, 7360);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validate_lifestyle_section')
+data.setCell(7, 2, 'AnandBazarTest.pagetest')
+data.setCell(7, 3, 4655);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validate_puja_parikrama')
+data.setCell(8, 2, 'AnandBazarTest.pagetest')
+data.setCell(8, 3, 32);
+window.suiteTableData['Anandautsav_2018']= { tableData: data, tableDiv: 'times-div-Anandautsav_2018'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Anandautsav_2018">
+              </div> <!-- times-div-Anandautsav_2018 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Anandautsav_2018" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Anandautsav 2018</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Anandautsav_2018" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Anandautsav_2018" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AnandBazarTest.pagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BrowserFactory(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validate_lead_stories</span>
+                <span class="method-start">7367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_puja_parikrama</span>
+                <span class="method-start">40832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_celebrities_during_puja</span>
+                <span class="method-start">40865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_mahishasur_pala</span>
+                <span class="method-start">53064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_lifestyle_section</span>
+                <span class="method-start">61926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_food_section</span>
+                <span class="method-start">66582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_homeAndDecor</span>
+                <span class="method-start">75328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_sectionPage</span>
+                <span class="method-start">82689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validate_storyPage</span>
+                <span class="method-start">91537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">108555 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+  
+<test name="ABP AND EBELA APIS " >
+    <classes>
+	
+	  <class name="abp.ebelaVentunoVideoArticleAPI"/>
+	   <class name="abp.getabparticlebydepartmentid"/>
+	    <class name="abp.getabparticlebyid"/>
+	     <class name="abp.getabpreletedarticle"/>
+	      <class name="abp.getarticlebyPqId"/>
+	       <class name="abp.getarticlesbycontentid"/>
+	        <class name="abp.getebelaarticlebytag"/>
+	         <class name="abp.getebelaarticlefromdeptid"/>
+	          <class name="abp.getebelaarticlesbycontentid"/>
+	           <class name="abp.getebelaarticlewithcontentid"/>
+	            <class name="abp.getebelaauthorarticle"/>
+	             <class name="abp.getebelabloggerarticle"/>
+	              <class name="abp.getebelacontestarticlebydept"/>
+	               <class name="abp.getebelaimagearticle"/>
+	                <class name="abp.getebelaotherarticlesbytag"/> 
+	                <class name="abp.getebelaphotobyid"/> 
+	               <class name="abp.getebelaphotosbytimestamp"/> 
+	              <class name="abp.getebelaquotearticle"/> 
+	             <class name="abp.getebelavideoarticlebyid"/> 
+	            <class name="abp.getebelavideoarticlebytag"/> 
+	           <class name="abp.getEbelaVideoArticleFeeds"/> 
+	          <class name="abp.getebelavideobytimestamp"/> 
+	         <class name="abp.getHoroscopeRelatedArticlesByTagsWithFallBack"/> 
+	        <class name="abp.gethorroscopearticlebydepartmentid"/> 
+	       <class name="abp.gethorroscopearticlebydepartmentidbyarticleid"/> 
+	      <class name="abp.getmorefromweb"/> 
+	     <class name="abp.getphotogalleryarticlefrompqid"/> 
+	    <class name="abp.getRelatedArticlesByTagsWithFallBack"/>
+	    <class name="abp.getRelatedArticlesByTagsWithFallBackWithDeptID"/>
+	    <class name="abp.getrelatedebelaimagearticle"/>
+	    <class name="abp.getrelatedebelavideoarticle"/>
+	    <class name="abp.getsitemapfeed"/>
+	    <class name="abp.getstorysitemap"/>
+	    <class name="abp.gettopicsbytag_ABP"/>             
+	    <class name="abp.gettopicsbytag_Ebela"/>  
+    </classes>
+    
+</test>
+ 
+
+ 
+</suite>
+

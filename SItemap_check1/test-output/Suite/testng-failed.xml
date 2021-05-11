@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="T2Online_Topic_SiteMap(failed)">
+    <classes>
+      <class name="test_sitemap.Ebela_topic_sitemap">
+        <methods>
+          <include name="openUrl"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.Ebela_topic_sitemap -->
+      <class name="test_sitemap.Abp_sitemap">
+        <methods>
+          <include name="openUrl"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="closedriver"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.Abp_sitemap -->
+      <class name="test_sitemap.ebela_Sitemap">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="openUrl"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.ebela_Sitemap -->
+      <class name="test_sitemap.t2online_topic_sitemap">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="T2onlinesSiteMapCheck"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- test_sitemap.t2online_topic_sitemap -->
+    </classes>
+  </test> <!-- T2Online_Topic_SiteMap(failed) -->
+  <test name="Ebela_Topic_Map(failed)">
+    <classes>
+      <class name="test_sitemap.Ebela_topic_sitemap">
+        <methods>
+          <include name="openUrl"/>
+          <include name="ebela_topic_SiteMapCheck"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.Ebela_topic_sitemap -->
+      <class name="test_sitemap.Abp_sitemap">
+        <methods>
+          <include name="openUrl"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="closedriver"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.Abp_sitemap -->
+      <class name="test_sitemap.ebela_Sitemap">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="openUrl"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.ebela_Sitemap -->
+      <class name="test_sitemap.t2online_topic_sitemap">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- test_sitemap.t2online_topic_sitemap -->
+    </classes>
+  </test> <!-- Ebela_Topic_Map(failed) -->
+</suite> <!-- Failed suite [Suite] -->

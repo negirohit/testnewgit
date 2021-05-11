@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/xml-path-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/xml-path-3.0.7-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/xml-path-3.0.7-deps/groovy-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/xml-path-3.0.7-deps/groovy-xml-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/xml-path-3.0.7-deps/jaxb-api-2.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/xml-path-3.0.7-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/docs/rest-assured-common-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/docs/rest-assured-common-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/docs/xml-path-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/xml/docs/xml-path-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/jaxb-api-2.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-aop-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-beans-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-context-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-core-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-expression-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-test-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-web-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/spring mock/spring-mock-mvc-3.0.7-deps/spring-webmvc-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/btf-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/jackson-annotations-2.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/jackson-core-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/jackson-coreutils-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/jackson-databind-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/joda-time-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/jopt-simple-4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/json-schema-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/json-schema-validator-2.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/jsr305-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/libphonenumber-6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/msg-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/rhino-1.7R4.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/json-schema-validator-3.0.7-deps/uri-template-0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/docs/json-schema-validator-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/schema validator/docs/json-schema-validator-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/scala support/scala-support-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/scala support/scala-support-3.0.7-deps/jaxb-api-2.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/scala support/scala-support-3.0.7-deps/scala-library-2.11.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/groovy-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/groovy-json-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/groovy-xml-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/httpmime-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/jaxb-api-2.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/rest-assured-3.0.7-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/json-path-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/json-path-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/rest-assured-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/rest-assured-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/rest-assured-common-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/rest-assured-common-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/xml-path-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/rest/docs/xml-path-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/json-path-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/json-path-3.0.7-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/json-path-3.0.7-deps/groovy-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/json-path-3.0.7-deps/groovy-json-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/docs/json-path-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/docs/json-path-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/docs/rest-assured-common-3.0.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Rest jars/json/docs/rest-assured-common-3.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/curvesapi-1.03.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/geogebra_main.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/javax.mail-api-1.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/json-path-0.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/json-smart-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/org-apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/poi-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/poi-examples-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/poi-excelant-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/poi-ooxml-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/poi-ooxml-schemas-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/poi-scratchpad-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Content/Debs Backup/All selenium jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

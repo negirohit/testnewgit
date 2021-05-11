@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/apis/Au_pq_api.java=UTF-8
+encoding//src/apis/Get_Article_By_Id.java=UTF-8
+encoding//src/apis/Get_Articles_Between_Time.java=UTF-8
+encoding//src/apis/Get_Sub_Pages_By_Page_Id.java=UTF-8
+encoding//src/apis/Get_latest_articles_by_vstoryid.java=UTF-8

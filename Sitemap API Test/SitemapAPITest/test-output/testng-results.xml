@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14688" started-at="2018-07-27T11:45:57Z" finished-at="2018-07-27T11:46:11Z">
+    <groups>
+    </groups>
+    <test name="Anandabazar_News_SiteMap" duration-ms="14688" started-at="2018-07-27T11:45:57Z" finished-at="2018-07-27T11:46:11Z">
+      <class name="test_sitemap.abp_news_sitemap">
+        <test-method status="PASS" signature="ebela_news_sitemap(java.lang.String)[pri:0, instance:test_sitemap.abp_news_sitemap@5ae63ade]" name="ebela_news_sitemap" duration-ms="14668" started-at="2018-07-27T17:15:57Z" finished-at="2018-07-27T17:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebela_news_sitemap -->
+      </class> <!-- test_sitemap.abp_news_sitemap -->
+    </test> <!-- Anandabazar_News_SiteMap -->
+  </suite> <!-- Suite -->
+</testng-results>

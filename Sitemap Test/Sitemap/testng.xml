@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  
+<test name="T2Online_Topic_SiteMap">
+    <classes>
+      <class name="test_sitemap.t2online_topic_sitemap"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="ABPSiteMap">
+    <classes>
+      <class name="test_sitemap.Abp_sitemap"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="EbelaSiteMap">
+    <classes>
+      <class name="test_sitemap.ebela_Sitemap"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test name="Ebela_Topic_Map">
+    <classes>
+      <class name="test_sitemap.Ebela_topic_sitemap"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Ebela_FacebookInstantArticle">
+    <classes>
+      <class name="test_sitemap.FacebookInstantarticle"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,259 @@
+import java.io.File;
+import java.util.concurrent.TimeUnit;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.testng.Assert;
+import org.testng.ITestResult;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class Sectionpage extends base
+{
+
+	@BeforeMethod
+	public void openHomepage()
+	{
+		File file = new File("D:\\chromedriver.exe");
+	    System.setProperty("webdriver.chrome.driver", file.getAbsolutePath() );
+	    
+	    
+	}
+	
+	@Test
+	public void section_SubSectionClickSection() throws Exception
+	{
+		
+		APP_LOGS.debug("Checking Sub Section Click from Sectionpage");
+		String ar[] = new String[6];
+		ar[0]="http://t2online.com/entertainment/";
+		ar[1]="http://t2online.com/lifestyle/";
+		ar[2]="http://t2online.com/tech/";
+		ar[3]="http://t2online.com/sport/";
+		ar[4]="http://t2online.com/the-spin/";
+		ar[5]="http://t2online.com/video/";
+		for(int i= 0 ; i<5 ; i++)
+		{
+			System.out.println("SubSectionClickSection is being tested "+ar[i]);
+			SubSectionClick(ar[i]);
+			
+		}
+		//Separate Tech , Spin , Entertainment , Sport and lifestyle url check for video page
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://t2online.com/video/");
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		
+		WebElement spinvideo = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[9]/category-item/div/div/div[2]/div[1]/div[2]/div[2]/a/span"));
+		spinvideo.click();
+		Thread.sleep(5000);
+		String spinvideoUrl = driver.getCurrentUrl();
+		System.out.println("Current Spin Video Url"+spinvideoUrl);
+		
+		org.testng.Assert.assertNotEquals("http://t2online.com/404/", spinvideoUrl);
+		driver.navigate().back();
+		
+		WebElement techvideo = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[5]/category-item/div/div/div[2]/div[1]/div[2]/div[2]/a/span"));
+		techvideo.click();
+		Thread.sleep(5000);
+		String techvideoUrl = driver.getCurrentUrl();
+		System.out.println("Current Tech Video Url"+techvideoUrl);
+		
+		org.testng.Assert.assertNotEquals("http://t2online.com/404/", techvideoUrl);
+		driver.navigate().back();
+		
+		WebElement sportvideo = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[5]/category-item/div/div/div[2]/div[1]/div[2]/div[2]/a/span"));
+		sportvideo.click();
+		Thread.sleep(5000);
+		String sportvideoUrl = driver.getCurrentUrl();
+		System.out.println("Current Sport Video Url"+sportvideoUrl);
+		
+		org.testng.Assert.assertNotEquals("http://t2online.com/404/", sportvideoUrl);
+		driver.navigate().back();
+		
+		WebElement entertainmentvideo = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[5]/category-item/div/div/div[2]/div[1]/div[2]/div[2]/a/span"));
+		entertainmentvideo.click();
+		Thread.sleep(5000);
+		String entertainmentvideoUrl = driver.getCurrentUrl();
+		System.out.println("Current Entertainment Video Url"+entertainmentvideoUrl);
+		
+		org.testng.Assert.assertNotEquals("http://t2online.com/404/", entertainmentvideoUrl);
+		driver.navigate().back();
+		
+		WebElement lifestylevideo = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[5]/category-item/div/div/div[2]/div[1]/div[2]/div[2]/a/span"));
+		lifestylevideo.click();
+		Thread.sleep(5000);
+		String lifestylevideoUrl = driver.getCurrentUrl();
+		System.out.println("Current Lifestyle Video Url"+lifestylevideoUrl);
+		
+		org.testng.Assert.assertNotEquals("http://t2online.com/404/", lifestylevideoUrl);
+		driver.navigate().back();
+		driver.close();
+				
+	}
+
+	@Test
+	public void section_LoadMoreSection() throws Exception
+	{
+		APP_LOGS.debug("Checking Load More from Sectionpage");
+		String ar[] = new String[6];
+		ar[0]="http://t2online.com/entertainment/";
+		ar[1]="http://t2online.com/lifestyle/";
+		ar[2]="http://t2online.com/tech/";
+		ar[3]="http://t2online.com/sport/";
+		ar[4]="http://t2online.com/the-spin/";
+		ar[5]="http://t2online.com/video/";
+		for(int i= 0 ; i<5 ; i++)
+		{
+			System.out.println("SubSectionClickSection is being tested "+ar[i]);
+			LoadMore(ar[i]);
+			
+		}
+		WebDriver driver = new ChromeDriver();
+	    driver.get("http://t2online.com/video/");
+	    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	    
+	   Thread.sleep(2000);
+	   JavascriptExecutor jse = (JavascriptExecutor)driver;
+	   jse.executeScript("window.scrollBy(0,1750)", "");
+	   Thread.sleep(5000);
+	   
+	   WebElement loadclick = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[1]/div[8]/a"));
+	   loadclick.click();
+	   
+	   jse.executeScript("window.scrollBy(0,500)", "");
+	   Thread.sleep(5000);
+	   loadclick.click();
+	   jse.executeScript("window.scrollBy(0,250)", "");
+	   driver.close();
+		
+	}
+	
+
+	@Test
+	public void section_SubMenuAssertSection() throws Exception
+	{
+		APP_LOGS.debug("Checking Assertion in Submenu heading from Sectionpage");
+		String ar[] = new String[6];
+		ar[0]="http://t2online.com/entertainment/";
+		ar[1]="http://t2online.com/lifestyle/";
+		ar[2]="http://t2online.com/tech/";
+		ar[3]="http://t2online.com/sport/";
+		ar[4]="http://t2online.com/the-spin/";
+		ar[5]="http://t2online.com/video/";
+		for(int i= 0 ; i<5 ; i++)
+		{
+			System.out.println("SubSectionClickSection is being tested "+ar[i]);
+			SubMenuAssert(ar[i]);
+			
+		}
+		WebDriver driver = new ChromeDriver();
+	    driver.get("http://t2online.com/video/");
+	    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	    
+		String entermainment = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[1]/category-item/div/div/div[1]/span/a")).getText(); 
+		System.out.println(entermainment);
+		org.testng.Assert.assertEquals("ENTERTAINMENT",entermainment);
+		
+		String lifestyle = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[2]/category-item/div/div/div[1]/span/a")).getText();
+		System.out.println(lifestyle);
+		org.testng.Assert.assertEquals("LIFESTYLE",lifestyle);   
+		
+		String tech = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[5]/category-item/div/div/div[1]/span/a")).getText();
+		System.out.println(tech);
+		org.testng.Assert.assertEquals("TECH",tech);
+		
+		String sport = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[6]/category-item/div/div/div[1]/span/a")).getText();
+		System.out.println(sport);
+		org.testng.Assert.assertEquals("SPORT",sport);
+		
+		String spin = driver.findElement(By.xpath(".//*[@id='parallax']/ng-view/div[3]/div[9]/category-item/div/div/div[1]/span/a")).getText();
+		System.out.println(spin);
+		org.testng.Assert.assertEquals("THE SPIN",spin);
+		
+		driver.close();
+	
+	}
+	
+	@Test
+	public void section_scrollSection() throws Exception
+	{
+		APP_LOGS.debug("Checking Back to Top from Sectionpage");
+		String ar[] = new String[6];
+		ar[0]="http://t2online.com/entertainment/";
+		ar[1]="http://t2online.com/lifestyle/";
+		ar[2]="http://t2online.com/tech/";
+		ar[3]="http://t2online.com/sport/";
+		ar[4]="http://t2online.com/the-spin/";
+		ar[5]="http://t2online.com/video/";
+		for(int i= 0 ; i<6 ; i++)
+		{
+			System.out.println("SubSectionClickSection is being tested "+ar[i]);
+			scroll(ar[i]);
+			
+		}
+		
+		
+	}
+	
+	@Test
+	public void section_SubMenuStoryClickSection() throws Exception
+	{
+		APP_LOGS.debug("Checking Sub Menu Story and clicking on them from Sectionpage");
+		String ar[] = new String[6];
+		ar[0]="http://t2online.com/entertainment/";
+		ar[1]="http://t2online.com/lifestyle/";
+		ar[2]="http://t2online.com/tech/";
+		ar[3]="http://t2online.com/sport/";
+		ar[4]="http://t2online.com/the-spin/";
+		ar[5]="http://t2online.com/video/";
+		for(int i= 0 ; i<6 ; i++)
+		{
+			System.out.println("SubSectionClickSection is being tested "+ar[i]);
+			SubMenuStoryClick(ar[i]);
+			
+		}
+	}
+	
+}

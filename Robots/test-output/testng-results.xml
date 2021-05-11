@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="277765" started-at="2019-03-26T06:42:47Z" finished-at="2019-03-26T06:47:25Z">
+    <groups>
+    </groups>
+    <test name="ABPDigital_robots" duration-ms="277765" started-at="2019-03-26T06:42:47Z" finished-at="2019-03-26T06:47:25Z">
+      <class name="abpdigital_Robots.Photo_gallery">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="startdriver" is-config="true" duration-ms="14409" started-at="2019-03-26T12:12:47Z" finished-at="2019-03-26T12:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="PhotoGallery_1ststory_click()[pri:1, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="PhotoGallery_1ststory_click" duration-ms="54363" started-at="2019-03-26T12:13:01Z" finished-at="2019-03-26T12:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhotoGallery_1ststory_click -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="teardown" is-config="true" duration-ms="1002" started-at="2019-03-26T12:13:56Z" finished-at="2019-03-26T12:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PhotoGallery_1ststory_click status=SUCCESS method=Photo_gallery.PhotoGallery_1ststory_click()[pri:1, instance:abpdigital_Robots.Photo_gallery@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="startdriver" is-config="true" duration-ms="14285" started-at="2019-03-26T12:13:57Z" finished-at="2019-03-26T12:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="PhotoGallery_2ndstory_click()[pri:2, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="PhotoGallery_2ndstory_click" duration-ms="62811" started-at="2019-03-26T12:14:11Z" finished-at="2019-03-26T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhotoGallery_2ndstory_click -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="teardown" is-config="true" duration-ms="884" started-at="2019-03-26T12:15:14Z" finished-at="2019-03-26T12:15:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PhotoGallery_2ndstory_click status=SUCCESS method=Photo_gallery.PhotoGallery_2ndstory_click()[pri:2, instance:abpdigital_Robots.Photo_gallery@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="startdriver" is-config="true" duration-ms="16897" started-at="2019-03-26T12:15:15Z" finished-at="2019-03-26T12:15:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="PhotoGallery_3rdstory_click()[pri:3, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="PhotoGallery_3rdstory_click" duration-ms="62316" started-at="2019-03-26T12:15:32Z" finished-at="2019-03-26T12:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhotoGallery_3rdstory_click -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="teardown" is-config="true" duration-ms="910" started-at="2019-03-26T12:16:34Z" finished-at="2019-03-26T12:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PhotoGallery_3rdstory_click status=SUCCESS method=Photo_gallery.PhotoGallery_3rdstory_click()[pri:3, instance:abpdigital_Robots.Photo_gallery@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="startdriver" is-config="true" duration-ms="16660" started-at="2019-03-26T12:16:35Z" finished-at="2019-03-26T12:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="PhotoGallery()[pri:4, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="PhotoGallery" duration-ms="32193" started-at="2019-03-26T12:16:52Z" finished-at="2019-03-26T12:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhotoGallery -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="teardown" is-config="true" duration-ms="1003" started-at="2019-03-26T12:17:24Z" finished-at="2019-03-26T12:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PhotoGallery status=SUCCESS method=Photo_gallery.PhotoGallery()[pri:4, instance:abpdigital_Robots.Photo_gallery@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="mail()[pri:0, instance:abpdigital_Robots.Photo_gallery@31a5c39e]" name="mail" is-config="true" duration-ms="4269" started-at="2019-03-26T12:17:25Z" finished-at="2019-03-26T12:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+      </class> <!-- abpdigital_Robots.Photo_gallery -->
+    </test> <!-- ABPDigital_robots -->
+  </suite> <!-- Suite 1 -->
+</testng-results>

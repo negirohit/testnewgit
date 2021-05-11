@@ -1,0 +1,205 @@
+17/09/2018 15:26:46 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 15:26:50 devpinoyLogger Test Complete
+17/09/2018 15:46:34 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 15:48:53 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 15:49:12 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 16:01:40 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 16:01:42 devpinoyLogger Test Complete
+17/09/2018 16:56:59 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 16:57:59 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 16:59:52 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 16:59:55 devpinoyLogger Test Complete
+17/09/2018 17:00:18 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 17:00:20 devpinoyLogger Test Complete
+17/09/2018 17:35:19 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 17:35:22 devpinoyLogger Test Complete
+17/09/2018 17:46:06 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 17:55:54 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 17:55:57 devpinoyLogger Test Complete
+17/09/2018 17:56:04 devpinoyLogger https://api.ebela.in/getLatestArticles
+17/09/2018 17:56:06 devpinoyLogger Test Complete
+17/09/2018 18:04:14 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 18:14:10 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 18:16:17 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 18:41:10 devpinoyLogger https://api.ebela.in/getPQDepartments
+17/09/2018 18:41:12 devpinoyLogger Test Complete
+17/09/2018 19:12:18 devpinoyLogger https://api.ebela.in/getSubPagesByPageId
+17/09/2018 19:12:56 devpinoyLogger https://api.ebela.in/getSubPagesByPageId
+17/09/2018 19:13:35 devpinoyLogger https://api.ebela.in/getSubPagesByPageId
+17/09/2018 19:14:31 devpinoyLogger https://api.ebela.in/getSubPagesByPageId
+17/09/2018 19:15:23 devpinoyLogger https://api.ebela.in/getSubPagesByPageId
+17/09/2018 19:17:02 devpinoyLogger https://api.ebela.in/getSubPagesByPageId
+17/09/2018 19:17:05 devpinoyLogger Test Complete
+20/09/2018 20:51:10 devpinoyLogger https://api.ebela.in/getArticlesBetweenTime
+20/09/2018 20:51:40 devpinoyLogger https://api.ebela.in/getArticlesBetweenTime
+20/09/2018 20:52:04 devpinoyLogger https://api.ebela.in/getArticlesBetweenTime
+20/09/2018 20:59:11 devpinoyLogger https://api.ebela.in/getArticlesBetweenTime
+20/09/2018 21:01:35 devpinoyLogger https://api.ebela.in/getArticlesBetweenTime
+20/09/2018 21:02:17 devpinoyLogger https://api.ebela.in/getArticlesBetweenTime
+20/09/2018 21:02:57 devpinoyLogger https://api.ebela.in/getArticlesBetweenTime
+20/09/2018 21:03:00 devpinoyLogger Test Complete
+20/09/2018 21:26:45 devpinoyLogger https://api.ebela.in/getArticlesByTags
+20/09/2018 21:32:58 devpinoyLogger https://api.ebela.in/getArticlesByTags
+20/09/2018 21:33:25 devpinoyLogger https://api.ebela.in/getArticlesByTags
+20/09/2018 21:33:28 devpinoyLogger Test Complete
+20/09/2018 22:29:07 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:29:31 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:30:00 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:39:59 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:40:22 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:40:55 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:40:57 devpinoyLogger Test Complete
+20/09/2018 22:53:15 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:53:58 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:54:01 devpinoyLogger Test Complete
+20/09/2018 22:59:14 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 22:59:56 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 23:01:59 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 23:02:02 devpinoyLogger Test Complete
+20/09/2018 23:03:24 devpinoyLogger https://api.ebela.in/getArticleById
+20/09/2018 23:03:27 devpinoyLogger Test Complete
+20/09/2018 23:15:41 devpinoyLogger https://api.ebela.in/getPQArticles
+20/09/2018 23:15:43 devpinoyLogger Test Complete
+22/09/2018 21:29:26 devpinoyLogger https://api.ebela.in/ebelaVentunoVideoArticleAPI
+22/09/2018 21:29:30 devpinoyLogger Test Complete
+22/09/2018 21:29:30 devpinoyLogger https://api.ebela.in/getabparticlebydepartmentid
+22/09/2018 21:29:31 devpinoyLogger Test Complete
+22/09/2018 21:29:31 devpinoyLogger https://api.ebela.in/getabparticlebyid
+22/09/2018 21:29:32 devpinoyLogger Test Complete
+22/09/2018 21:29:32 devpinoyLogger https://api.ebela.in/getabpreletedarticle
+22/09/2018 21:29:33 devpinoyLogger Test Complete
+22/09/2018 21:29:33 devpinoyLogger https://api.ebela.in/getarticlebyPqId
+22/09/2018 21:29:34 devpinoyLogger Test Complete
+22/09/2018 21:29:34 devpinoyLogger https://api.ebela.in/getarticlesbycontentid
+22/09/2018 21:29:35 devpinoyLogger Test Complete
+22/09/2018 21:29:35 devpinoyLogger https://api.ebela.in/getebelaarticlebytag
+22/09/2018 21:29:36 devpinoyLogger Test Complete
+22/09/2018 21:29:36 devpinoyLogger https://api.ebela.in/getebelaarticlefromdeptid
+22/09/2018 21:29:37 devpinoyLogger Test Complete
+22/09/2018 21:29:37 devpinoyLogger https://api.ebela.in/getebelaarticlesbycontentid
+22/09/2018 21:29:38 devpinoyLogger Test Complete
+22/09/2018 21:29:38 devpinoyLogger https://api.ebela.in/getebelaarticlewithcontentid
+22/09/2018 21:29:38 devpinoyLogger Test Complete
+22/09/2018 21:29:38 devpinoyLogger https://api.ebela.in/getebelaauthorarticle
+22/09/2018 21:29:39 devpinoyLogger Test Complete
+22/09/2018 21:29:39 devpinoyLogger https://api.ebela.in/getebelabloggerarticle
+22/09/2018 21:29:40 devpinoyLogger Test Complete
+22/09/2018 21:29:40 devpinoyLogger https://api.ebela.in/getebelacontestarticlebydept
+22/09/2018 21:29:41 devpinoyLogger Test Complete
+22/09/2018 21:29:41 devpinoyLogger https://api.ebela.in/getebelaimagearticle
+22/09/2018 21:29:43 devpinoyLogger Test Complete
+22/09/2018 21:29:43 devpinoyLogger https://api.ebela.in/getebelaotherarticlesbytag
+22/09/2018 21:29:44 devpinoyLogger Test Complete
+22/09/2018 21:29:44 devpinoyLogger https://api.ebela.in/getebelaphotobyid
+22/09/2018 21:29:45 devpinoyLogger Test Complete
+22/09/2018 21:29:45 devpinoyLogger https://api.ebela.in/getebelaphotosbytimestamp
+22/09/2018 21:29:48 devpinoyLogger Test Complete
+22/09/2018 21:29:48 devpinoyLogger https://api.ebela.in/getebelaquotearticle
+22/09/2018 21:29:49 devpinoyLogger Test Complete
+22/09/2018 21:29:49 devpinoyLogger https://api.ebela.in/getebelavideoarticlebyid
+22/09/2018 21:29:50 devpinoyLogger Test Complete
+22/09/2018 21:29:50 devpinoyLogger https://api.ebela.in/getebelavideoarticlebytag
+22/09/2018 21:29:51 devpinoyLogger Test Complete
+22/09/2018 21:29:51 devpinoyLogger https://api.ebela.in/getEbelaVideoArticleFeeds
+22/09/2018 21:29:53 devpinoyLogger Test Complete
+22/09/2018 21:29:53 devpinoyLogger https://api.ebela.in/getebelavideobytimestamp
+22/09/2018 21:29:54 devpinoyLogger Test Complete
+22/09/2018 21:29:54 devpinoyLogger https://api.ebela.in/getHoroscopeRelatedArticlesByTagsWithFallBack
+22/09/2018 21:29:55 devpinoyLogger Test Complete
+22/09/2018 21:29:55 devpinoyLogger https://api.ebela.in/gethorroscopearticlebydepartmentid
+22/09/2018 21:30:01 devpinoyLogger Test Complete
+22/09/2018 21:30:01 devpinoyLogger https://api.ebela.in/gethorroscopearticlebydepartmentidbyarticleid
+22/09/2018 21:30:14 devpinoyLogger Test Complete
+22/09/2018 21:30:14 devpinoyLogger https://api.ebela.in/getmorefromweb
+22/09/2018 21:30:17 devpinoyLogger Test Complete
+22/09/2018 21:30:17 devpinoyLogger https://api.ebela.in/getphotogalleryarticlefrompqid
+22/09/2018 21:30:18 devpinoyLogger https://api.ebela.in/getRelatedArticlesByTagsWithFallBack
+22/09/2018 21:30:20 devpinoyLogger Test Complete
+22/09/2018 21:30:20 devpinoyLogger https://api.ebela.in/getRelatedArticlesByTagsWithFallBackWithDeptID
+22/09/2018 21:30:21 devpinoyLogger Test Complete
+22/09/2018 21:30:21 devpinoyLogger https://api.ebela.in/getrelatedebelaimagearticle
+22/09/2018 21:30:24 devpinoyLogger Test Complete
+22/09/2018 21:30:24 devpinoyLogger https://api.ebela.in/getrelatedebelavideoarticle
+22/09/2018 21:30:25 devpinoyLogger Test Complete
+22/09/2018 21:30:25 devpinoyLogger https://api.ebela.in/getsitemapfeed
+22/09/2018 21:30:39 devpinoyLogger Test Complete
+22/09/2018 21:30:39 devpinoyLogger https://api.ebela.in/getstorysitemap
+22/09/2018 21:30:45 devpinoyLogger Test Complete
+22/09/2018 21:30:45 devpinoyLogger https://api.ebela.in/gettopicsbytag/?showbody=2&pid=2&start=0&end=10
+22/09/2018 21:30:47 devpinoyLogger Test Complete
+22/09/2018 21:30:47 devpinoyLogger https://api.ebela.in/gettopicsbytag/?showbody=2&pid=2&start=0&end=10
+22/09/2018 21:30:48 devpinoyLogger Test Complete
+04/10/2018 14:04:15 devpinoyLogger https://api.ebela.in/ebelaVentunoVideoArticleAPI
+04/10/2018 14:04:18 devpinoyLogger Test Complete
+04/10/2018 18:13:54 devpinoyLogger https://api.ebela.in/getphotogalleryarticlefrompqid
+04/10/2018 18:59:41 devpinoyLogger https://api.ebela.in/getphotogalleryarticlefrompqid
+04/10/2018 18:59:53 devpinoyLogger https://api.ebela.in/getphotogalleryarticlefrompqid
+25/03/2019 18:40:28 devpinoyLogger https://api.ebela.in/getebelaphotobyid
+25/03/2019 18:40:37 devpinoyLogger Test Complete
+01/04/2019 15:14:01 devpinoyLogger http://abpdemo.ttef.in/ebelaVentunoVideoArticleAPI
+01/04/2019 15:14:06 devpinoyLogger Test Complete
+01/04/2019 15:14:06 devpinoyLogger http://abpdemo.ttef.in/getabparticlebydepartmentid
+01/04/2019 15:14:07 devpinoyLogger Test Complete
+01/04/2019 15:14:07 devpinoyLogger http://abpdemo.ttef.in/getabparticlebyid
+01/04/2019 15:14:08 devpinoyLogger Test Complete
+01/04/2019 15:14:08 devpinoyLogger http://abpdemo.ttef.in/getabpreletedarticle
+01/04/2019 15:14:09 devpinoyLogger Test Complete
+01/04/2019 15:14:09 devpinoyLogger http://abpdemo.ttef.in/getarticlebyPqId
+01/04/2019 15:14:10 devpinoyLogger Test Complete
+01/04/2019 15:14:10 devpinoyLogger http://abpdemo.ttef.in/getarticlesbycontentid
+01/04/2019 15:14:10 devpinoyLogger Test Complete
+01/04/2019 15:14:10 devpinoyLogger http://abpdemo.ttef.in/getebelaarticlebytag
+01/04/2019 15:14:11 devpinoyLogger Test Complete
+01/04/2019 15:14:11 devpinoyLogger http://abpdemo.ttef.in/getebelaarticlefromdeptid
+01/04/2019 15:14:12 devpinoyLogger Test Complete
+01/04/2019 15:14:12 devpinoyLogger http://abpdemo.ttef.in/getebelaarticlesbycontentid
+01/04/2019 15:14:13 devpinoyLogger Test Complete
+01/04/2019 15:14:13 devpinoyLogger http://abpdemo.ttef.in/getebelaarticlewithcontentid
+01/04/2019 15:14:14 devpinoyLogger Test Complete
+01/04/2019 15:14:14 devpinoyLogger http://abpdemo.ttef.in/getebelaauthorarticle
+01/04/2019 15:14:14 devpinoyLogger Test Complete
+01/04/2019 15:14:14 devpinoyLogger http://abpdemo.ttef.in/getebelabloggerarticle
+01/04/2019 15:14:16 devpinoyLogger Test Complete
+01/04/2019 15:14:16 devpinoyLogger http://abpdemo.ttef.in/getebelacontestarticlebydept
+01/04/2019 15:14:17 devpinoyLogger http://abpdemo.ttef.in/getebelaimagearticle
+01/04/2019 15:14:23 devpinoyLogger Test Complete
+01/04/2019 15:14:23 devpinoyLogger http://abpdemo.ttef.in/getebelaotherarticlesbytag
+01/04/2019 15:14:24 devpinoyLogger Test Complete
+01/04/2019 15:14:24 devpinoyLogger http://abpdemo.ttef.in/getebelaphotobyid
+01/04/2019 15:14:26 devpinoyLogger Test Complete
+01/04/2019 15:14:26 devpinoyLogger http://abpdemo.ttef.in/getebelaphotosbytimestamp
+01/04/2019 15:14:27 devpinoyLogger Test Complete
+01/04/2019 15:14:27 devpinoyLogger http://abpdemo.ttef.in/getebelaquotearticle
+01/04/2019 15:14:28 devpinoyLogger Test Complete
+01/04/2019 15:14:28 devpinoyLogger http://abpdemo.ttef.in/getebelavideoarticlebyid
+01/04/2019 15:14:29 devpinoyLogger Test Complete
+01/04/2019 15:14:29 devpinoyLogger http://abpdemo.ttef.in/getebelavideoarticlebytag
+01/04/2019 15:14:29 devpinoyLogger http://abpdemo.ttef.in/getEbelaVideoArticleFeeds
+01/04/2019 15:14:42 devpinoyLogger http://abpdemo.ttef.in/getebelavideobytimestamp
+01/04/2019 15:14:46 devpinoyLogger Test Complete
+01/04/2019 15:14:46 devpinoyLogger http://abpdemo.ttef.in/getHoroscopeRelatedArticlesByTagsWithFallBack
+01/04/2019 15:14:47 devpinoyLogger Test Complete
+01/04/2019 15:14:47 devpinoyLogger http://abpdemo.ttef.in/gethorroscopearticlebydepartmentid
+01/04/2019 15:14:49 devpinoyLogger Test Complete
+01/04/2019 15:14:49 devpinoyLogger http://abpdemo.ttef.in/gethorroscopearticlebydepartmentidbyarticleid
+01/04/2019 15:14:50 devpinoyLogger Test Complete
+01/04/2019 15:14:50 devpinoyLogger http://abpdemo.ttef.in/getmorefromweb
+01/04/2019 15:14:51 devpinoyLogger Test Complete
+01/04/2019 15:14:51 devpinoyLogger http://abpdemo.ttef.in/getphotogalleryarticlefrompqid
+01/04/2019 15:14:52 devpinoyLogger Test Complete
+01/04/2019 15:14:52 devpinoyLogger http://abpdemo.ttef.in/getRelatedArticlesByTagsWithFallBack
+01/04/2019 15:14:54 devpinoyLogger Test Complete
+01/04/2019 15:14:54 devpinoyLogger http://abpdemo.ttef.in/getRelatedArticlesByTagsWithFallBackWithDeptID
+01/04/2019 15:14:54 devpinoyLogger Test Complete
+01/04/2019 15:14:54 devpinoyLogger http://abpdemo.ttef.in/getrelatedebelaimagearticle
+01/04/2019 15:14:55 devpinoyLogger Test Complete
+01/04/2019 15:14:55 devpinoyLogger http://abpdemo.ttef.in/getrelatedebelavideoarticle
+01/04/2019 15:14:56 devpinoyLogger Test Complete
+01/04/2019 15:14:56 devpinoyLogger http://abpdemo.ttef.in/getsitemapfeed
+01/04/2019 15:14:59 devpinoyLogger Test Complete
+01/04/2019 15:14:59 devpinoyLogger http://abpdemo.ttef.in/getstorysitemap
+01/04/2019 15:15:00 devpinoyLogger Test Complete
+01/04/2019 15:15:00 devpinoyLogger http://abpdemo.ttef.in/gettopicsbytag/?showbody=2&pid=2&start=0&end=10
+01/04/2019 15:15:03 devpinoyLogger Test Complete
+01/04/2019 15:15:03 devpinoyLogger http://abpdemo.ttef.in/gettopicsbytag/?showbody=2&pid=2&start=0&end=10
+01/04/2019 15:15:04 devpinoyLogger Test Complete

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="UIS-PC" name="test_sitemap.ebela_Sitemap" tests="1" failures="0" timestamp="3 Dec 2016 03:03:01 GMT" time="114.813" errors="0">
+  <testcase name="ebelaSiteMap" time="108.28" classname="test_sitemap.ebela_Sitemap"/>
+</testsuite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="Abp Sitemap check(failed)">
+    <classes>
+      <class name="test_sitemap.ebela_Sitemap">
+        <methods>
+          <include name="after_method"/>
+          <include name="openUrl"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.ebela_Sitemap -->
+      <class name="test_sitemap.Abp_sitemap">
+        <methods>
+          <include name="openUrl"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="closedriver"/>
+          <include name="openBrowser"/>
+          <include name="abpSiteMap"/>
+        </methods>
+      </class> <!-- test_sitemap.Abp_sitemap -->
+    </classes>
+  </test> <!-- Abp Sitemap check(failed) -->
+  <test name="Ebela sitemap check(failed)">
+    <classes>
+      <class name="test_sitemap.ebela_Sitemap">
+        <methods>
+          <include name="after_method"/>
+          <include name="openUrl"/>
+          <include name="openBrowser"/>
+          <include name="ebelaSiteMap"/>
+        </methods>
+      </class> <!-- test_sitemap.ebela_Sitemap -->
+      <class name="test_sitemap.Abp_sitemap">
+        <methods>
+          <include name="openUrl"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="closedriver"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test_sitemap.Abp_sitemap -->
+    </classes>
+  </test> <!-- Ebela sitemap check(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

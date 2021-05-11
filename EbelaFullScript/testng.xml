@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+<listeners>
+        <listener class-name="base.AnnotationTransformer"/>
+  </listeners>
+  
+  <test name="Ebela_TestCases" >
+	<parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+	  
+	  <class name="homepage.BackToTopScroll"/>
+	  <class name="homepage.Brandlogo"/>
+	  <class name="homepage.FooterClick"/>
+	  <class name="homepage.horoscope"/>
+	  <class name="homepage.Nanabidh"/>
+	  <class name="homepage.NavClick"/>
+	  <class name="homepage.Poll"/>
+	  <class name="homepage.SampurnoBibhag"/>
+	  <class name="homepage.social"/>
+	  <class name="sectionpage.BackToTop"/>
+      <class name="sectionpage.BrandLogo"/>
+	  <class name="sectionpage.LoadMore"/>
+	  <class name="sectionpage.NavBarCheck"/>
+	  <class name="sectionpage.SubSectionCheck"/>
+	  <class name="sectionpage.breadcrumb"/>
+    </classes>
+    
+ </test>
+ 
+ 
+ 
+</suite>
+

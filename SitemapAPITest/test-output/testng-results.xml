@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5347" started-at="2019-01-08T04:55:46Z" finished-at="2019-01-08T04:55:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5347" started-at="2019-01-08T04:55:46Z" finished-at="2019-01-08T04:55:51Z">
+      <class name="test_sitemap.ebela_news_sitemap">
+        <test-method status="PASS" signature="ebela_news_sitemap()[pri:0, instance:test_sitemap.ebela_news_sitemap@4f970963]" name="ebela_news_sitemap" duration-ms="5326" started-at="2019-01-08T10:25:46Z" finished-at="2019-01-08T10:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebela_news_sitemap -->
+      </class> <!-- test_sitemap.ebela_news_sitemap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

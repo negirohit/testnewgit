@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <parameter name="browser_name" value="chrome-win-saucelabs"/>
+  <test name="ABPDigital robots(failed)">
+    <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+      <class name="abpdigital_Robots.Photo_gallery">
+        <methods>
+          <include name="PhotoGallery_3rdstory_click"/>
+          <include name="startdriver"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.Photo_gallery -->
+      <class name="abpdigital_Robots.CanonicalCheck">
+        <methods>
+          <include name="teardown"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.CanonicalCheck -->
+      <class name="abpdigital_Robots.robots">
+        <methods>
+          <include name="startdriver"/>
+          <include name="teardown"/>
+          <include name="mail"/>
+        </methods>
+      </class> <!-- abpdigital_Robots.robots -->
+    </classes>
+  </test> <!-- ABPDigital robots(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

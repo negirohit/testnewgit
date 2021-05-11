@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser_name" value="chrome-win-saucelabs"/>
+  <test name="Anandabazar_News_SiteMap(failed)">
+    <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+      <class name="test_sitemap.abp_news_sitemap">
+        <methods>
+          <include name="ebela_news_sitemap" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test_sitemap.abp_news_sitemap -->
+    </classes>
+  </test> <!-- Anandabazar_News_SiteMap(failed) -->
+</suite> <!-- Failed suite [Suite] -->

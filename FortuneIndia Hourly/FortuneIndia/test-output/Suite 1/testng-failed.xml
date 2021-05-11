@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <parameter name="browser_name" value="firefox-win-saucelabs"/>
+  <test name="Fortune Homepage in Safari Mac(failed)">
+    <parameter name="browser_name" value="safari-saucelabs"/>
+    <classes>
+      <class name="sectionpage.SectionTC_02">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.SectionTC_02 -->
+      <class name="specialpage.SpecialTC_01">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- specialpage.SpecialTC_01 -->
+      <class name="sectionpage.SectionTC_01">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.SectionTC_01 -->
+      <class name="homepage.HomeTC_01">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="homestory_click" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_01 -->
+      <class name="searchpage.search">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- searchpage.search -->
+      <class name="specialpage.SpecialTC_02">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- specialpage.SpecialTC_02 -->
+    </classes>
+  </test> <!-- Fortune Homepage in Safari Mac(failed) -->
+  <test name="Fortune Specialpage in Safari Mac(failed)">
+    <parameter name="browser_name" value="safari-saucelabs"/>
+    <classes>
+      <class name="sectionpage.SectionTC_02">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.SectionTC_02 -->
+      <class name="specialpage.SpecialTC_01">
+        <methods>
+          <include name="special500_click" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- specialpage.SpecialTC_01 -->
+      <class name="sectionpage.SectionTC_01">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- sectionpage.SectionTC_01 -->
+      <class name="homepage.HomeTC_01">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- homepage.HomeTC_01 -->
+      <class name="searchpage.search">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- searchpage.search -->
+      <class name="specialpage.SpecialTC_02">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- specialpage.SpecialTC_02 -->
+    </classes>
+  </test> <!-- Fortune Specialpage in Safari Mac(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

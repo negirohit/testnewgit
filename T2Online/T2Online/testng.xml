@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+
+<listeners>
+        <listener class-name="AnnotationTransformer"/>
+  </listeners>
+
+<test name="T2ONLINE_HOMEPAGE">
+    <classes>
+        <class name="Homepage"></class>
+    </classes>
+</test>
+
+<test name="T2ONLINE_MenuToStoryAssertion">
+    <classes>
+        <class name="MenuAssertion"></class>
+    </classes>
+</test>
+<test name="T2ONLINE_SECTIONPAGE">
+    <classes>
+        <class name="Sectionpage"></class>
+    </classes>
+</test>
+
+<test name="T2ONLINE_STORYPAGE">
+    <classes>
+        <class name="Storypage"></class>
+    </classes>
+</test>
+
+<test name="T2ONLINE_SEARCHPAGE">
+    <classes>
+        <class name="Searchpage"></class>
+    </classes>
+</test>
+
+
+</suite>
+

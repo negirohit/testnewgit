@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+
+<test name="Abp Sitemap check">
+    <classes>
+        <class name="test_sitemap.Abp_sitemap"></class>
+    </classes>
+</test>
+
+<test name="Ebela sitemap check">
+    <classes>
+        <class name="test_sitemap.ebela_Sitemap"></class>
+    </classes>
+</test>
+
+</suite>
+

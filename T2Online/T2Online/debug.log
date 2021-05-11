@@ -1,0 +1,95 @@
+[1207/115017:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[1219/114351:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report c943d191-e093-4b9c-8c86-ff990165bd1d
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report c943d191-e093-4b9c-8c86-ff990165bd1d
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report c943d191-e093-4b9c-8c86-ff990165bd1d
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report c943d191-e093-4b9c-8c86-ff990165bd1d
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 149c7d63-2cef-4048-97ab-0e2508bb43e4
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 149c7d63-2cef-4048-97ab-0e2508bb43e4
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 149c7d63-2cef-4048-97ab-0e2508bb43e4
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 149c7d63-2cef-4048-97ab-0e2508bb43e4
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 457b3244-52d5-4d3c-93c1-cab007d3e569
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 457b3244-52d5-4d3c-93c1-cab007d3e569
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 457b3244-52d5-4d3c-93c1-cab007d3e569
+[0116/174008:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 457b3244-52d5-4d3c-93c1-cab007d3e569
+[0120/152643:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0120/161651:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0120/165613:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 64f3c2cf-97dd-4b9a-9db5-9f1219b617d4
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report a3818516-85bb-465c-adf9-0115d48ee747
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dbd8da2f-754e-4c3e-88db-f819a1937900
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 243d16fc-fff8-4bf7-bc9c-0354ae4aa362
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 591d2be2-10d6-4cf9-90cf-57a126f838ed
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 64f3c2cf-97dd-4b9a-9db5-9f1219b617d4
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report a3818516-85bb-465c-adf9-0115d48ee747
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dbd8da2f-754e-4c3e-88db-f819a1937900
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 243d16fc-fff8-4bf7-bc9c-0354ae4aa362
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 591d2be2-10d6-4cf9-90cf-57a126f838ed
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report a3818516-85bb-465c-adf9-0115d48ee747
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report a3818516-85bb-465c-adf9-0115d48ee747
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dbd8da2f-754e-4c3e-88db-f819a1937900
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dbd8da2f-754e-4c3e-88db-f819a1937900
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report a3818516-85bb-465c-adf9-0115d48ee747
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dbd8da2f-754e-4c3e-88db-f819a1937900
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 243d16fc-fff8-4bf7-bc9c-0354ae4aa362
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 243d16fc-fff8-4bf7-bc9c-0354ae4aa362
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dbd8da2f-754e-4c3e-88db-f819a1937900
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 243d16fc-fff8-4bf7-bc9c-0354ae4aa362
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 591d2be2-10d6-4cf9-90cf-57a126f838ed
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 591d2be2-10d6-4cf9-90cf-57a126f838ed
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 243d16fc-fff8-4bf7-bc9c-0354ae4aa362
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 591d2be2-10d6-4cf9-90cf-57a126f838ed
+[0122/221125:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 591d2be2-10d6-4cf9-90cf-57a126f838ed
+[0122/235900:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 7b7c81f0-b594-4ac0-9355-b19f5dd93748
+[0215/121557.115:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0215/123349.401:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0215/124203.676:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0215/124720.195:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0215/170241.746:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0216/122127.882:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0228/152954.909:ERROR:process_info.cc(330)] VirtualQueryEx: Access is denied. (0x5)
+[0228/152954.951:ERROR:process_info.cc(547)] ReadMemoryInfo failed
+[0228/152954.951:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7feee891160 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0228/152954.951:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0228/152954.951:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0228/152954.951:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0301/151335.670:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 6cdd444c-6b43-4a39-ac87-23565a642e05
+[0301/151337.806:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 90d463b0-0827-4bbc-9424-18e9bff6da13
+[0301/151337.808:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report a4d048b8-3f0c-41b4-8c69-1738bae62cb0
+[0301/151337.809:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report e669c80e-fcca-469d-9cde-27c2a381cda0
+[0301/151337.811:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 4811a1e6-7f4a-497a-96f7-c8891191d04c
+[0301/151337.813:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report b68d9f30-f320-4d14-9237-e0f3c68352ad
+[0301/151337.814:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dbd3b0b8-af7a-4baa-a8ff-84bbeef17afc
+[0301/151337.816:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report d3c9bbe0-bb58-4d36-8d72-b8aa6ec0b2a2
+[0301/151337.818:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report dd9abc6a-7325-4db8-93fe-b7897fe078f3
+[0301/151337.819:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report e69ba7a9-3d3b-4696-92b3-1cb1b457a8ef
+[0301/151337.821:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 047a1997-ed32-478d-a0f6-69c54608b2f9
+[0301/151337.822:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 9c9ab8e5-c05f-4122-8571-da903a35c8e9
+[0301/151337.824:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report ebdbf475-ad1f-49ce-97e5-0ec0eb997d98
+[0303/151513.771:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 1928e01d-5311-4cd0-a077-42c9ed232e30
+[0303/151513.791:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 2a3cd26d-6d50-4ff4-ab21-fece006b6759
+[0303/151513.803:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 6a71b941-3022-4358-afd1-16524f4442bd
+[0303/151513.806:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 6a71b941-3022-4358-afd1-16524f4442bd
+[0303/151513.814:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report fc52fc8b-30d7-4de7-8d8b-9bf0ce4149a5
+[0303/151513.816:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report fc52fc8b-30d7-4de7-8d8b-9bf0ce4149a5
+[0307/160442.531:ERROR:process_info.cc(330)] VirtualQueryEx: Access is denied. (0x5)
+[0307/160442.594:ERROR:process_info.cc(547)] ReadMemoryInfo failed
+[0307/160442.594:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7feeff31160 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0307/160442.594:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0307/160442.594:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0307/160442.594:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0308/195118.636:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0318/154256.713:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 2a2ef708-b1e6-4829-9211-1f101c263f2e
+[0318/154256.734:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0318/154256.723:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0318/154257.975:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0318/154256.737:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0318/154256.721:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0318/154256.726:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0318/154256.732:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0318/154256.729:ERROR:prune_crash_reports.cc(58)] Database Pruning: Failed to remove report 07b9eb0e-e823-4f07-b1ac-2fbcfd2447ea
+[0420/175143.029:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0420/175941.669:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0420/180018.407:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0420/180018.408:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0420/180309.790:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)

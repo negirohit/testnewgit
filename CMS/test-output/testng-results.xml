@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="1574068" started-at="2019-02-21T11:12:55Z" finished-at="2019-02-21T11:39:09Z">
+    <groups>
+    </groups>
+    <test name="CMS(Telegraph)_Test_Cases" duration-ms="1574068" started-at="2019-02-21T11:12:55Z" finished-at="2019-02-21T11:39:09Z">
+      <class name="story.blank_story">
+        <test-method status="PASS" signature="create()[pri:0, instance:story.blank_story@56ac3a89]" name="create" is-config="true" duration-ms="0" started-at="2019-02-21T16:44:41Z" finished-at="2019-02-21T16:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="story_create(java.lang.String)[pri:0, instance:story.blank_story@56ac3a89]" name="story_create" duration-ms="228741" started-at="2019-02-21T16:44:41Z" finished-at="2019-02-21T16:48:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_create -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:story.blank_story@56ac3a89]" name="teardown" is-config="true" duration-ms="847" started-at="2019-02-21T16:48:30Z" finished-at="2019-02-21T16:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=story_create status=SUCCESS method=blank_story.story_create(java.lang.String)[pri:0, instance:story.blank_story@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- story.blank_story -->
+      <class name="base.login">
+        <test-method status="PASS" signature="hamburger_click(java.lang.String)[pri:0, instance:base.login@490ab905]" name="hamburger_click" duration-ms="61869" started-at="2019-02-21T16:42:55Z" finished-at="2019-02-21T16:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hamburger_click -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:base.login@490ab905]" name="teardown" is-config="true" duration-ms="790" started-at="2019-02-21T16:43:56Z" finished-at="2019-02-21T16:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hamburger_click status=SUCCESS method=login.hamburger_click(java.lang.String)[pri:0, instance:base.login@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login_pagetest(java.lang.String)[pri:0, instance:base.login@490ab905]" name="login_pagetest" duration-ms="42775" started-at="2019-02-21T16:43:57Z" finished-at="2019-02-21T16:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_pagetest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:base.login@490ab905]" name="teardown" is-config="true" duration-ms="955" started-at="2019-02-21T16:44:40Z" finished-at="2019-02-21T16:44:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_pagetest status=SUCCESS method=login.login_pagetest(java.lang.String)[pri:0, instance:base.login@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="mail()[pri:0, instance:base.login@490ab905]" name="mail" is-config="true" duration-ms="5980" started-at="2019-02-21T17:09:09Z" finished-at="2019-02-21T17:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+      </class> <!-- base.login -->
+      <class name="planner.Idea_creation">
+        <test-method status="PASS" signature="idea_create(java.lang.String)[pri:0, instance:planner.Idea_creation@27c20538]" name="idea_create" duration-ms="104409" started-at="2019-02-21T16:48:31Z" finished-at="2019-02-21T16:50:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idea_create -->
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.Idea_creation@27c20538]" name="create" is-config="true" duration-ms="0" started-at="2019-02-21T16:48:31Z" finished-at="2019-02-21T16:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.Idea_creation@27c20538]" name="teardown" is-config="true" duration-ms="854" started-at="2019-02-21T16:50:15Z" finished-at="2019-02-21T16:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=idea_create status=SUCCESS method=Idea_creation.idea_create(java.lang.String)[pri:0, instance:planner.Idea_creation@27c20538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.Idea_creation -->
+      <class name="planner.publish_story">
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.publish_story@cb644e]" name="create" is-config="true" duration-ms="1" started-at="2019-02-21T17:01:58Z" finished-at="2019-02-21T17:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="story_publish(java.lang.String)[pri:0, instance:planner.publish_story@cb644e]" name="story_publish" duration-ms="108811" started-at="2019-02-21T17:01:58Z" finished-at="2019-02-21T17:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_publish -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.publish_story@cb644e]" name="teardown" is-config="true" duration-ms="1010" started-at="2019-02-21T17:03:47Z" finished-at="2019-02-21T17:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=story_publish status=SUCCESS method=publish_story.story_publish(java.lang.String)[pri:0, instance:planner.publish_story@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.publish_story -->
+      <class name="planner.submitStory">
+        <test-method status="PASS" signature="submit_Story(java.lang.String)[pri:0, instance:planner.submitStory@6e1567f1]" name="submit_Story" duration-ms="212722" started-at="2019-02-21T16:56:54Z" finished-at="2019-02-21T17:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit_Story -->
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.submitStory@6e1567f1]" name="create" is-config="true" duration-ms="0" started-at="2019-02-21T16:56:54Z" finished-at="2019-02-21T16:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.submitStory@6e1567f1]" name="teardown" is-config="true" duration-ms="827" started-at="2019-02-21T17:00:27Z" finished-at="2019-02-21T17:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submit_Story status=SUCCESS method=submitStory.submit_Story(java.lang.String)[pri:0, instance:planner.submitStory@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.submitStory -->
+      <class name="planner.publish_story_delete">
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.publish_story_delete@13805618]" name="create" is-config="true" duration-ms="1" started-at="2019-02-21T17:03:48Z" finished-at="2019-02-21T17:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="story_publish_delete(java.lang.String)[pri:0, instance:planner.publish_story_delete@13805618]" name="story_publish_delete" duration-ms="113074" started-at="2019-02-21T17:03:48Z" finished-at="2019-02-21T17:05:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_publish_delete -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.publish_story_delete@13805618]" name="teardown" is-config="true" duration-ms="1107" started-at="2019-02-21T17:05:41Z" finished-at="2019-02-21T17:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=story_publish_delete status=SUCCESS method=publish_story_delete.story_publish_delete(java.lang.String)[pri:0, instance:planner.publish_story_delete@13805618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.publish_story_delete -->
+      <class name="planner.approveStory">
+        <test-method status="PASS" signature="story_approve(java.lang.String)[pri:0, instance:planner.approveStory@5cb9f472]" name="story_approve" duration-ms="89620" started-at="2019-02-21T17:00:27Z" finished-at="2019-02-21T17:01:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_approve -->
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.approveStory@5cb9f472]" name="create" is-config="true" duration-ms="0" started-at="2019-02-21T17:00:27Z" finished-at="2019-02-21T17:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.approveStory@5cb9f472]" name="teardown" is-config="true" duration-ms="988" started-at="2019-02-21T17:01:57Z" finished-at="2019-02-21T17:01:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=story_approve status=SUCCESS method=approveStory.story_approve(java.lang.String)[pri:0, instance:planner.approveStory@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.approveStory -->
+      <class name="planner.storyOpen">
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.storyOpen@59494225]" name="create" is-config="true" duration-ms="1" started-at="2019-02-21T16:55:02Z" finished-at="2019-02-21T16:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="Openstory(java.lang.String)[pri:0, instance:planner.storyOpen@59494225]" name="Openstory" duration-ms="110734" started-at="2019-02-21T16:55:02Z" finished-at="2019-02-21T16:56:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openstory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.storyOpen@59494225]" name="teardown" is-config="true" duration-ms="879" started-at="2019-02-21T16:56:53Z" finished-at="2019-02-21T16:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Openstory status=SUCCESS method=storyOpen.Openstory(java.lang.String)[pri:0, instance:planner.storyOpen@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.storyOpen -->
+      <class name="planner.idea_rejection">
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.idea_rejection@72d818d1]" name="create" is-config="true" duration-ms="1" started-at="2019-02-21T16:50:16Z" finished-at="2019-02-21T16:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="idea_reject(java.lang.String)[pri:0, instance:planner.idea_rejection@72d818d1]" name="idea_reject" duration-ms="172827" started-at="2019-02-21T16:50:16Z" finished-at="2019-02-21T16:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idea_reject -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.idea_rejection@72d818d1]" name="teardown" is-config="true" duration-ms="958" started-at="2019-02-21T16:53:09Z" finished-at="2019-02-21T16:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=idea_reject status=SUCCESS method=idea_rejection.idea_reject(java.lang.String)[pri:0, instance:planner.idea_rejection@72d818d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.idea_rejection -->
+      <class name="workspace.Openstory_assertion">
+        <test-method status="PASS" signature="create()[pri:0, instance:workspace.Openstory_assertion@4566e5bd]" name="create" is-config="true" duration-ms="1" started-at="2019-02-21T17:07:17Z" finished-at="2019-02-21T17:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="openstory_assertion(java.lang.String)[pri:0, instance:workspace.Openstory_assertion@4566e5bd]" name="openstory_assertion" duration-ms="110863" started-at="2019-02-21T17:07:17Z" finished-at="2019-02-21T17:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openstory_assertion -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:workspace.Openstory_assertion@4566e5bd]" name="teardown" is-config="true" duration-ms="928" started-at="2019-02-21T17:09:08Z" finished-at="2019-02-21T17:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openstory_assertion status=SUCCESS method=Openstory_assertion.openstory_assertion(java.lang.String)[pri:0, instance:workspace.Openstory_assertion@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- workspace.Openstory_assertion -->
+      <class name="planner.storyPromote">
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.storyPromote@6e06451e]" name="create" is-config="true" duration-ms="1" started-at="2019-02-21T16:53:10Z" finished-at="2019-02-21T16:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="story_promote(java.lang.String)[pri:0, instance:planner.storyPromote@6e06451e]" name="story_promote" duration-ms="111772" started-at="2019-02-21T16:53:10Z" finished-at="2019-02-21T16:55:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_promote -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.storyPromote@6e06451e]" name="teardown" is-config="true" duration-ms="821" started-at="2019-02-21T16:55:01Z" finished-at="2019-02-21T16:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=story_promote status=SUCCESS method=storyPromote.story_promote(java.lang.String)[pri:0, instance:planner.storyPromote@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.storyPromote -->
+      <class name="planner.story_collection_check">
+        <test-method status="PASS" signature="create()[pri:0, instance:planner.story_collection_check@56ef9176]" name="create" is-config="true" duration-ms="1" started-at="2019-02-21T17:05:42Z" finished-at="2019-02-21T17:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="story_collection(java.lang.String)[pri:0, instance:planner.story_collection_check@56ef9176]" name="story_collection" duration-ms="93724" started-at="2019-02-21T17:05:42Z" finished-at="2019-02-21T17:07:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-win-saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_collection -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:planner.story_collection_check@56ef9176]" name="teardown" is-config="true" duration-ms="1108" started-at="2019-02-21T17:07:16Z" finished-at="2019-02-21T17:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=story_collection status=SUCCESS method=story_collection_check.story_collection(java.lang.String)[pri:0, instance:planner.story_collection_check@56ef9176] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- planner.story_collection_check -->
+    </test> <!-- CMS(Telegraph)_Test_Cases -->
+  </suite> <!-- Suite 1 -->
+</testng-results>

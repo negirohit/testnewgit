@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <listeners>
+    <listener class-name="AnnotationTransformer"/>
+  </listeners>
+  <test name="RetryMulitple(failed)">
+    <classes>
+      <class name="Trendingstories_validation">
+        <methods>
+          <include name="openHomepage"/>
+          <include name="TrendingStories_valid"/>
+        </methods>
+      </class> <!-- Trendingstories_validation -->
+    </classes>
+  </test> <!-- RetryMulitple(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <listeners>
+    <listener class-name="AnnotationTransformer"/>
+  </listeners>
+  <test name="T2ONLINE_SECTIONPAGE(failed)">
+    <classes>
+      <class name="Sectionpage">
+        <methods>
+          <include name="openHomepage"/>
+          <include name="close"/>
+          <include name="sportsection_spin_SubMenuStoryClickSection"/>
+        </methods>
+      </class> <!-- Sectionpage -->
+      <class name="Homepage">
+        <methods>
+          <include name="openHomepage"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Homepage -->
+      <class name="Searchpage">
+        <methods>
+          <include name="close"/>
+          <include name="openHomepage"/>
+        </methods>
+      </class> <!-- Searchpage -->
+      <class name="MenuAssertion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- MenuAssertion -->
+      <class name="Storypage">
+        <methods>
+          <include name="close"/>
+          <include name="openHomepage"/>
+        </methods>
+      </class> <!-- Storypage -->
+    </classes>
+  </test> <!-- T2ONLINE_SECTIONPAGE(failed) -->
+  <test name="T2ONLINE_STORYPAGE(failed)">
+    <classes>
+      <class name="Sectionpage">
+        <methods>
+          <include name="openHomepage"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Sectionpage -->
+      <class name="Homepage">
+        <methods>
+          <include name="openHomepage"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Homepage -->
+      <class name="Searchpage">
+        <methods>
+          <include name="close"/>
+          <include name="openHomepage"/>
+        </methods>
+      </class> <!-- Searchpage -->
+      <class name="MenuAssertion">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- MenuAssertion -->
+      <class name="Storypage">
+        <methods>
+          <include name="story_tech_SubMenuStoryClick"/>
+          <include name="close"/>
+          <include name="openHomepage"/>
+        </methods>
+      </class> <!-- Storypage -->
+    </classes>
+  </test> <!-- T2ONLINE_STORYPAGE(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

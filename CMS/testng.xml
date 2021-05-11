@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+ <listeners>
+        <listener class-name="base.AnnotationTransformer"/>
+  </listeners>
+  
+<test name="CMS(Telegraph)_Test_Cases" >
+<parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+	  
+	    <class name="base.login"/> 
+	   <class name="story.blank_story"/>
+	   	 <class name="planner.Idea_creation"/>
+	   <class name="planner.idea_rejection"/>
+	   <class name="planner.storyPromote"/>
+	   <class name="planner.storyOpen"/>
+	   <class name="planner.submitStory"/>
+	   <class name="planner.approveStory"/>
+	   <class name="planner.publish_story"/>
+	   <class name="planner.publish_story_delete"/>
+	   <class name="planner.story_collection_check"/>
+	   <class name="workspace.Openstory_assertion"/>
+	  
+	  
+    </classes>
+    
+ </test>
+
+ 
+
+ 
+</suite>
+

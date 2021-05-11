@@ -1,0 +1,472 @@
+<html>
+<head>
+<title>TestNG:  ABP AND EBELA APIS </title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ABP AND EBELA APIS </h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 01 15:14:01 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63057 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='abp.getebelacontestarticlebydept.get_ebela_contest_article_by_dept()'><b>get_ebela_contest_article_by_dept</b><br>Test class: abp.getebelacontestarticlebydept</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;204&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at abp.getebelacontestarticlebydept.get_ebela_contest_article_by_dept(getebelacontestarticlebydept.java:41)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2010221835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2010221835'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;204&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at abp.getebelacontestarticlebydept.get_ebela_contest_article_by_dept(getebelacontestarticlebydept.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>abp.getebelacontestarticlebydept@3701eaf6</td></tr>
+<tr>
+<td title='abp.getebelavideoarticlebytag.get_ebela_video_article_by_tag()'><b>get_ebela_video_article_by_tag</b><br>Test class: abp.getebelavideoarticlebytag</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+JSON path count doesn&apos;t match.
+Expected: &lt;4&gt;
+  Actual: 2
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:276)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:259)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)
+	at abp.getebelavideoarticlebytag.get_ebela_video_article_by_tag(getebelavideoarticlebytag.java:43)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace774095232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace774095232'><pre>java.lang.AssertionError: 1 expectation failed.
+JSON path count doesn&apos;t match.
+Expected: &lt;4&gt;
+  Actual: 2
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:276)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:259)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)
+	at abp.getebelavideoarticlebytag.get_ebela_video_article_by_tag(getebelavideoarticlebytag.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>abp.getebelavideoarticlebytag@35d176f7</td></tr>
+<tr>
+<td title='abp.getEbelaVideoArticleFeeds.get_ebela_video_by_time_stamp()'><b>get_ebela_video_by_time_stamp</b><br>Test class: abp.getEbelaVideoArticleFeeds</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+JSON path count doesn&apos;t match.
+Expected: &lt;344&gt;
+  Actual: 311
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:276)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:259)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)
+	at abp.getEbelaVideoArticleFeeds.get_ebela_video_by_time_stamp(getEbelaVideoArticleFeeds.java:39)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1075236033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1075236033'><pre>java.lang.AssertionError: 1 expectation failed.
+JSON path count doesn&apos;t match.
+Expected: &lt;344&gt;
+  Actual: 311
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:276)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:259)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)
+	at abp.getEbelaVideoArticleFeeds.get_ebela_video_by_time_stamp(getEbelaVideoArticleFeeds.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>12</td>
+<td>abp.getEbelaVideoArticleFeeds@1dfe2924</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='abp.ebelaVentunoVideoArticleAPI.ebela_Ventuno_Video_Article_API()'><b>ebela_Ventuno_Video_Article_API</b><br>Test class: abp.ebelaVentunoVideoArticleAPI</td>
+<td></td>
+<td>4</td>
+<td>abp.ebelaVentunoVideoArticleAPI@887af79</td></tr>
+<tr>
+<td title='abp.getHoroscopeRelatedArticlesByTagsWithFallBack.get_Horoscope_Related_Articles_By_Tags_With_FallBack()'><b>get_Horoscope_Related_Articles_By_Tags_With_FallBack</b><br>Test class: abp.getHoroscopeRelatedArticlesByTagsWithFallBack</td>
+<td></td>
+<td>1</td>
+<td>abp.getHoroscopeRelatedArticlesByTagsWithFallBack@6e6c3152</td></tr>
+<tr>
+<td title='abp.getRelatedArticlesByTagsWithFallBack.get_Related_Articles_By_Tags_With_FallBack()'><b>get_Related_Articles_By_Tags_With_FallBack</b><br>Test class: abp.getRelatedArticlesByTagsWithFallBack</td>
+<td></td>
+<td>1</td>
+<td>abp.getRelatedArticlesByTagsWithFallBack@49fc609f</td></tr>
+<tr>
+<td title='abp.getRelatedArticlesByTagsWithFallBackWithDeptID.get_Related_Articles_By_Tags_With_FallBack_With_DeptID()'><b>get_Related_Articles_By_Tags_With_FallBack_With_DeptID</b><br>Test class: abp.getRelatedArticlesByTagsWithFallBackWithDeptID</td>
+<td></td>
+<td>0</td>
+<td>abp.getRelatedArticlesByTagsWithFallBackWithDeptID@cd2dae5</td></tr>
+<tr>
+<td title='abp.getabparticlebydepartmentid.get_abp_article_by_departmentid()'><b>get_abp_article_by_departmentid</b><br>Test class: abp.getabparticlebydepartmentid</td>
+<td></td>
+<td>0</td>
+<td>abp.getabparticlebydepartmentid@7fac631b</td></tr>
+<tr>
+<td title='abp.getabparticlebyid.get_abp_article_by_id()'><b>get_abp_article_by_id</b><br>Test class: abp.getabparticlebyid</td>
+<td></td>
+<td>0</td>
+<td>abp.getabparticlebyid@5b87ed94</td></tr>
+<tr>
+<td title='abp.getabpreletedarticle.get_abp_releted_article()'><b>get_abp_releted_article</b><br>Test class: abp.getabpreletedarticle</td>
+<td></td>
+<td>0</td>
+<td>abp.getabpreletedarticle@6e0e048a</td></tr>
+<tr>
+<td title='abp.getarticlebyPqId.get_article_by_Pq_Id()'><b>get_article_by_Pq_Id</b><br>Test class: abp.getarticlebyPqId</td>
+<td></td>
+<td>1</td>
+<td>abp.getarticlebyPqId@5bc79255</td></tr>
+<tr>
+<td title='abp.getstorysitemap.get_article_by_Pq_Id()'><b>get_article_by_Pq_Id</b><br>Test class: abp.getstorysitemap</td>
+<td></td>
+<td>0</td>
+<td>abp.getstorysitemap@79be0360</td></tr>
+<tr>
+<td title='abp.getebelaarticlebytag.get_ebela_article_by_tag()'><b>get_ebela_article_by_tag</b><br>Test class: abp.getebelaarticlebytag</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelaarticlebytag@23e028a9</td></tr>
+<tr>
+<td title='abp.getebelaarticlefromdeptid.get_ebela_article_from_deptid()'><b>get_ebela_article_from_deptid</b><br>Test class: abp.getebelaarticlefromdeptid</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelaarticlefromdeptid@3dd4520b</td></tr>
+<tr>
+<td title='abp.getebelaarticlewithcontentid.get_ebela_article_with_contentid()'><b>get_ebela_article_with_contentid</b><br>Test class: abp.getebelaarticlewithcontentid</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelaarticlewithcontentid@610694f1</td></tr>
+<tr>
+<td title='abp.getebelaarticlesbycontentid.get_ebela_articles_by_contentid()'><b>get_ebela_articles_by_contentid</b><br>Test class: abp.getebelaarticlesbycontentid</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelaarticlesbycontentid@5ae63ade</td></tr>
+<tr>
+<td title='abp.getebelaauthorarticle.get_ebela_author_article()'><b>get_ebela_author_article</b><br>Test class: abp.getebelaauthorarticle</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelaauthorarticle@43814d18</td></tr>
+<tr>
+<td title='abp.getebelabloggerarticle.get_ebela_blogger_article()'><b>get_ebela_blogger_article</b><br>Test class: abp.getebelabloggerarticle</td>
+<td></td>
+<td>1</td>
+<td>abp.getebelabloggerarticle@5c5a1b69</td></tr>
+<tr>
+<td title='abp.getebelaimagearticle.get_ebela_image_article()'><b>get_ebela_image_article</b><br>Test class: abp.getebelaimagearticle</td>
+<td></td>
+<td>6</td>
+<td>abp.getebelaimagearticle@627551fb</td></tr>
+<tr>
+<td title='abp.getebelaotherarticlesbytag.get_ebela_other_articles_bytag()'><b>get_ebela_other_articles_bytag</b><br>Test class: abp.getebelaotherarticlesbytag</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelaotherarticlesbytag@2b552920</td></tr>
+<tr>
+<td title='abp.getebelaphotobyid.get_ebela_photo_by_id()'><b>get_ebela_photo_by_id</b><br>Test class: abp.getebelaphotobyid</td>
+<td></td>
+<td>1</td>
+<td>abp.getebelaphotobyid@2758fe70</td></tr>
+<tr>
+<td title='abp.getebelaphotosbytimestamp.get_ebela_photos_by_timestamp()'><b>get_ebela_photos_by_timestamp</b><br>Test class: abp.getebelaphotosbytimestamp</td>
+<td></td>
+<td>1</td>
+<td>abp.getebelaphotosbytimestamp@1f36e637</td></tr>
+<tr>
+<td title='abp.getebelaquotearticle.get_ebela_quote_article()'><b>get_ebela_quote_article</b><br>Test class: abp.getebelaquotearticle</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelaquotearticle@578486a3</td></tr>
+<tr>
+<td title='abp.getebelavideoarticlebyid.get_ebela_video_article_by_id()'><b>get_ebela_video_article_by_id</b><br>Test class: abp.getebelavideoarticlebyid</td>
+<td></td>
+<td>0</td>
+<td>abp.getebelavideoarticlebyid@551aa95a</td></tr>
+<tr>
+<td title='abp.getebelavideobytimestamp.get_ebela_video_by_time_stamp()'><b>get_ebela_video_by_time_stamp</b><br>Test class: abp.getebelavideobytimestamp</td>
+<td></td>
+<td>4</td>
+<td>abp.getebelavideobytimestamp@6ebc05a6</td></tr>
+<tr>
+<td title='abp.gethorroscopearticlebydepartmentid.get_horroscope_article_by_departmentid()'><b>get_horroscope_article_by_departmentid</b><br>Test class: abp.gethorroscopearticlebydepartmentid</td>
+<td></td>
+<td>1</td>
+<td>abp.gethorroscopearticlebydepartmentid@50b494a6</td></tr>
+<tr>
+<td title='abp.gethorroscopearticlebydepartmentidbyarticleid.get_horroscope_article_by_departmentid_by_articleid()'><b>get_horroscope_article_by_departmentid_by_articleid</b><br>Test class: abp.gethorroscopearticlebydepartmentidbyarticleid</td>
+<td></td>
+<td>1</td>
+<td>abp.gethorroscopearticlebydepartmentidbyarticleid@3cef309d</td></tr>
+<tr>
+<td title='abp.getmorefromweb.get_more_from_web()'><b>get_more_from_web</b><br>Test class: abp.getmorefromweb</td>
+<td></td>
+<td>0</td>
+<td>abp.getmorefromweb@32709393</td></tr>
+<tr>
+<td title='abp.getphotogalleryarticlefrompqid.get_photogallery_article_from_pq_id()'><b>get_photogallery_article_from_pq_id</b><br>Test class: abp.getphotogalleryarticlefrompqid</td>
+<td></td>
+<td>1</td>
+<td>abp.getphotogalleryarticlefrompqid@3d99d22e</td></tr>
+<tr>
+<td title='abp.getarticlesbycontentid.get_related_ebela_image_article()'><b>get_related_ebela_image_article</b><br>Test class: abp.getarticlesbycontentid</td>
+<td></td>
+<td>0</td>
+<td>abp.getarticlesbycontentid@47ef968d</td></tr>
+<tr>
+<td title='abp.getrelatedebelaimagearticle.get_related_ebela_image_article()'><b>get_related_ebela_image_article</b><br>Test class: abp.getrelatedebelaimagearticle</td>
+<td></td>
+<td>0</td>
+<td>abp.getrelatedebelaimagearticle@3a883ce7</td></tr>
+<tr>
+<td title='abp.getrelatedebelavideoarticle.get_related_ebela_video_article()'><b>get_related_ebela_video_article</b><br>Test class: abp.getrelatedebelavideoarticle</td>
+<td></td>
+<td>0</td>
+<td>abp.getrelatedebelavideoarticle@4973813a</td></tr>
+<tr>
+<td title='abp.getsitemapfeed.get_sitemap_feed()'><b>get_sitemap_feed</b><br>Test class: abp.getsitemapfeed</td>
+<td></td>
+<td>2</td>
+<td>abp.getsitemapfeed@6321e813</td></tr>
+<tr>
+<td title='abp.gettopicsbytag_ABP.get_topics_by_tag_ABP()'><b>get_topics_by_tag_ABP</b><br>Test class: abp.gettopicsbytag_ABP</td>
+<td></td>
+<td>3</td>
+<td>abp.gettopicsbytag_ABP@22a67b4</td></tr>
+<tr>
+<td title='abp.gettopicsbytag_Ebela.get_topics_by_tag_Ebela()'><b>get_topics_by_tag_Ebela</b><br>Test class: abp.gettopicsbytag_Ebela</td>
+<td></td>
+<td>1</td>
+<td>abp.gettopicsbytag_Ebela@57855c9a</td></tr>
+</table><p>
+</body>
+</html>

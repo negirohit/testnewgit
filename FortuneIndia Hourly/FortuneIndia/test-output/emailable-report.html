@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite 1</th></tr><tr><td><a href="#t0">Fortune Homepage in Chrome Windows</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">62,169</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Fortune Homepage in Safari Mac</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">61,479</td><td></td><td></td></tr><tr><td><a href="#t2">Fortune Homepage in Firefox Windows</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">67,041</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t3">Fortune Sectionpage in Chrome Windows</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">174,528</td><td></td><td></td></tr><tr><td><a href="#t4">Fortune Specialpage in Safari Mac</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">171,883</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t5">Fortune Searchpage in Firefox Windows</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">76,781</td><td></td><td></td></tr><tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num attn">2</th><th class="num">613,881</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite 1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Fortune Homepage in Chrome Windows &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">homepage.HomeTC_01</td><td><a href="#m0">homestory_click</a></td><td rowspan="1">1532940649270</td><td rowspan="1">61387</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Fortune Homepage in Safari Mac &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">homepage.HomeTC_01</td><td><a href="#m1">homestory_click</a></td><td rowspan="1">1532940711486</td><td rowspan="1">60669</td></tr></tbody><tbody id="t2"><tr><th colspan="4">Fortune Homepage in Firefox Windows &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">homepage.HomeTC_01</td><td><a href="#m2">homestory_click</a></td><td rowspan="1">1532940773026</td><td rowspan="1">66168</td></tr></tbody><tbody id="t3"><tr><th colspan="4">Fortune Sectionpage in Chrome Windows &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">sectionpage.SectionTC_01</td><td><a href="#m3">sectionstoryclick</a></td><td rowspan="1">1532940840094</td><td rowspan="1">75676</td></tr><tr class="passedodd"><td rowspan="1">sectionpage.SectionTC_02</td><td><a href="#m4">sectionleadstoryclick</a></td><td rowspan="1">1532940916595</td><td rowspan="1">97139</td></tr></tbody><tbody id="t4"><tr><th colspan="4">Fortune Specialpage in Safari Mac &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">specialpage.SpecialTC_01</td><td><a href="#m5">special500_click</a></td><td rowspan="1">1532941014707</td><td rowspan="1">65915</td></tr><tr><th colspan="4">Fortune Specialpage in Safari Mac &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">specialpage.SpecialTC_02</td><td><a href="#m6">mpw_click</a></td><td rowspan="1">1532941081978</td><td rowspan="1">103544</td></tr></tbody><tbody id="t5"><tr><th colspan="4">Fortune Searchpage in Firefox Windows &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">searchpage.search</td><td><a href="#m7">searchTest</a></td><td rowspan="1">1532941186653</td><td rowspan="1">75996</td></tr></tbody></table><h2>Fortune Homepage in Chrome Windows</h2><h3 id="m0">homepage.HomeTC_01#homestory_click</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome-win-saucelabs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Fortune Homepage in Safari Mac</h2><h3 id="m1">homepage.HomeTC_01#homestory_click</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>safari-saucelabs</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29.97 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;itako46225.prod.miso&apos;, ip: &apos;fe80:0:0:0:8a4:a713:76cb:e386%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12604.5.6.1.1, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXCD966782
+*** Element info: {Using=xpath, value=.//*[@id=&apos;container&apos;]/div[2]/div[3]/section[1]/div[3]/article[1]/a/h3/span}
+Command duration or timeout: 37.33 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;ABPDigitalNoida-13724&apos;, ip: &apos;10.138.10.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, cleanSession=true, version=12604.5.6.1.1, platform=MAC, nativeEvents=true, webdriver.remote.sessionid=e6dea6f1c0634031a20106688a6999dd, locationContextEnabled=false, webStorageEnabled=true, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
+Session ID: e6dea6f1c0634031a20106688a6999dd
+*** Element info: {Using=xpath, value=.//*[@id=&apos;container&apos;]/div[2]/div[3]/section[1]/div[3]/article[1]/a/h3/span}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at basepackage.PageClass.homestory_click(PageClass.java:85)
+	at homepage.HomeTC_01.homestory_click(HomeTC_01.java:42)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29.97 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;itako46225.prod.miso&apos;, ip: &apos;fe80:0:0:0:8a4:a713:76cb:e386%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12604.5.6.1.1, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXCD966782
+*** Element info: {Using=xpath, value=.//*[@id=&apos;container&apos;]/div[2]/div[3]/section[1]/div[3]/article[1]/a/h3/span}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;ABPDigitalNoida-13724&apos;, ip: &apos;10.138.10.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy5.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:844)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Fortune Homepage in Firefox Windows</h2><h3 id="m2">homepage.HomeTC_01#homestory_click</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox-win-saucelabs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Fortune Sectionpage in Chrome Windows</h2><h3 id="m3">sectionpage.SectionTC_01#sectionstoryclick</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome-win-saucelabs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">sectionpage.SectionTC_02#sectionleadstoryclick</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome-win-saucelabs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Fortune Specialpage in Safari Mac</h2><h3 id="m5">specialpage.SpecialTC_01#special500_click</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>safari-saucelabs</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.00 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;itako183.prod.miso&apos;, ip: &apos;fe80:0:0:0:185e:9356:837e:8bac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12604.5.6.1.1, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2ECFD195
+*** Element info: {Using=css selector, value=.explore_500}
+Command duration or timeout: 36.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;ABPDigitalNoida-13724&apos;, ip: &apos;10.138.10.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, cleanSession=true, version=12604.5.6.1.1, platform=MAC, nativeEvents=true, webdriver.remote.sessionid=889cfddcf8b5467ba410f8c9b443f195, locationContextEnabled=false, webStorageEnabled=true, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
+Session ID: 889cfddcf8b5467ba410f8c9b443f195
+*** Element info: {Using=css selector, value=.explore_500}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at basepackage.PageClass.special500_click(PageClass.java:141)
+	at specialpage.SpecialTC_01.special500_click(SpecialTC_01.java:48)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.00 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;itako183.prod.miso&apos;, ip: &apos;fe80:0:0:0:185e:9356:837e:8bac%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12604.5.6.1.1, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2ECFD195
+*** Element info: {Using=css selector, value=.explore_500}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;ABPDigitalNoida-13724&apos;, ip: &apos;10.138.10.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy5.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:844)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">specialpage.SpecialTC_02#mpw_click</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>safari-saucelabs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Fortune Searchpage in Firefox Windows</h2><h3 id="m7">searchpage.search#searchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox-win-saucelabs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

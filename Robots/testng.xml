@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+<listeners>
+        <listener class-name="abpdigital_Robots.AnnotationTransformer"/>
+  </listeners>
+
+
+<test name="ABPDigital_robots">
+<parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+        
+        <class name="abpdigital_Robots.robots"></class>
+    	<class name="abpdigital_Robots.CanonicalCheck"></class>
+    	<class name="abpdigital_Robots.Photo_gallery"></class>
+    	<class name="abpdigital_Robots.SSl_protocol"></class>
+    
+    </classes>
+</test>
+
+
+
+</suite>
+

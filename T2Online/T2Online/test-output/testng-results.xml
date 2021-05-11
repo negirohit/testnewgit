@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="141" passed="139">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="5358382" started-at="2018-03-05T06:00:24Z" finished-at="2018-03-05T07:29:43Z">
+    <groups>
+    </groups>
+    <test name="T2ONLINE_HOMEPAGE" duration-ms="657880" started-at="2018-03-05T06:00:24Z" finished-at="2018-03-05T06:11:22Z">
+      <class name="Homepage">
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="4036" started-at="2018-03-05T11:30:24Z" finished-at="2018-03-05T11:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_BackToTop()[pri:0, instance:Homepage@589838eb]" name="homepage_BackToTop" duration-ms="5" started-at="2018-03-05T11:30:28Z" finished-at="2018-03-05T11:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_BackToTop -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="1128" started-at="2018-03-05T11:30:28Z" finished-at="2018-03-05T11:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="2073" started-at="2018-03-05T11:30:29Z" finished-at="2018-03-05T11:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_CarousalClick()[pri:0, instance:Homepage@589838eb]" name="homepage_CarousalClick" duration-ms="17830" started-at="2018-03-05T11:30:31Z" finished-at="2018-03-05T11:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_CarousalClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="789" started-at="2018-03-05T11:30:49Z" finished-at="2018-03-05T11:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="2744" started-at="2018-03-05T11:30:50Z" finished-at="2018-03-05T11:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_LoadMoreHome()[pri:0, instance:Homepage@589838eb]" name="homepage_LoadMoreHome" duration-ms="23975" started-at="2018-03-05T11:30:53Z" finished-at="2018-03-05T11:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_LoadMoreHome -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="999" started-at="2018-03-05T11:31:17Z" finished-at="2018-03-05T11:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="2319" started-at="2018-03-05T11:31:18Z" finished-at="2018-03-05T11:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_SocialShare()[pri:0, instance:Homepage@589838eb]" name="homepage_SocialShare" duration-ms="90450" started-at="2018-03-05T11:31:20Z" finished-at="2018-03-05T11:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_SocialShare -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="794" started-at="2018-03-05T11:32:51Z" finished-at="2018-03-05T11:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="2049" started-at="2018-03-05T11:32:51Z" finished-at="2018-03-05T11:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_entertainment_SubMenuAssert()[pri:0, instance:Homepage@589838eb]" name="homepage_entertainment_SubMenuAssert" duration-ms="10339" started-at="2018-03-05T11:32:53Z" finished-at="2018-03-05T11:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_entertainment_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="893" started-at="2018-03-05T11:33:04Z" finished-at="2018-03-05T11:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="2844" started-at="2018-03-05T11:33:05Z" finished-at="2018-03-05T11:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_entertainment_SubMenuStoryClick()[pri:0, instance:Homepage@589838eb]" name="homepage_entertainment_SubMenuStoryClick" duration-ms="50160" started-at="2018-03-05T11:33:07Z" finished-at="2018-03-05T11:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_entertainment_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="720" started-at="2018-03-05T11:33:58Z" finished-at="2018-03-05T11:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1937" started-at="2018-03-05T11:33:58Z" finished-at="2018-03-05T11:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_entertainment_SubSectionClick()[pri:0, instance:Homepage@589838eb]" name="homepage_entertainment_SubSectionClick" duration-ms="12836" started-at="2018-03-05T11:34:00Z" finished-at="2018-03-05T11:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_entertainment_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="749" started-at="2018-03-05T11:34:13Z" finished-at="2018-03-05T11:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1930" started-at="2018-03-05T11:34:14Z" finished-at="2018-03-05T11:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_lifestyle_SubMenuStoryClick()[pri:0, instance:Homepage@589838eb]" name="homepage_lifestyle_SubMenuStoryClick" duration-ms="60505" started-at="2018-03-05T11:34:16Z" finished-at="2018-03-05T11:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_lifestyle_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="840" started-at="2018-03-05T11:35:16Z" finished-at="2018-03-05T11:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1971" started-at="2018-03-05T11:35:17Z" finished-at="2018-03-05T11:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_lifestyle_SubSectionClick()[pri:0, instance:Homepage@589838eb]" name="homepage_lifestyle_SubSectionClick" duration-ms="20595" started-at="2018-03-05T11:35:19Z" finished-at="2018-03-05T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_lifestyle_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="770" started-at="2018-03-05T11:35:40Z" finished-at="2018-03-05T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1908" started-at="2018-03-05T11:35:40Z" finished-at="2018-03-05T11:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_spin_SubMenuStoryClick()[pri:0, instance:Homepage@589838eb]" name="homepage_spin_SubMenuStoryClick" duration-ms="36568" started-at="2018-03-05T11:35:42Z" finished-at="2018-03-05T11:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_spin_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="746" started-at="2018-03-05T11:36:19Z" finished-at="2018-03-05T11:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1913" started-at="2018-03-05T11:36:20Z" finished-at="2018-03-05T11:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_spin_SubSectionClick()[pri:0, instance:Homepage@589838eb]" name="homepage_spin_SubSectionClick" duration-ms="37200" started-at="2018-03-05T11:36:22Z" finished-at="2018-03-05T11:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_spin_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="987" started-at="2018-03-05T11:36:59Z" finished-at="2018-03-05T11:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="3491" started-at="2018-03-05T11:37:00Z" finished-at="2018-03-05T11:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_sport_SubMenuStoryClick()[pri:0, instance:Homepage@589838eb]" name="homepage_sport_SubMenuStoryClick" duration-ms="43473" started-at="2018-03-05T11:37:03Z" finished-at="2018-03-05T11:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_sport_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="752" started-at="2018-03-05T11:37:47Z" finished-at="2018-03-05T11:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1897" started-at="2018-03-05T11:37:48Z" finished-at="2018-03-05T11:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_sport_SubSectionClick()[pri:0, instance:Homepage@589838eb]" name="homepage_sport_SubSectionClick" duration-ms="49308" started-at="2018-03-05T11:37:49Z" finished-at="2018-03-05T11:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_sport_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="704" started-at="2018-03-05T11:38:39Z" finished-at="2018-03-05T11:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1917" started-at="2018-03-05T11:38:39Z" finished-at="2018-03-05T11:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_tech_SubMenuStoryClick()[pri:0, instance:Homepage@589838eb]" name="homepage_tech_SubMenuStoryClick" duration-ms="40326" started-at="2018-03-05T11:38:41Z" finished-at="2018-03-05T11:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_tech_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="766" started-at="2018-03-05T11:39:22Z" finished-at="2018-03-05T11:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1935" started-at="2018-03-05T11:39:22Z" finished-at="2018-03-05T11:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_tech_SubSectionClick()[pri:0, instance:Homepage@589838eb]" name="homepage_tech_SubSectionClick" duration-ms="23433" started-at="2018-03-05T11:39:24Z" finished-at="2018-03-05T11:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_tech_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="760" started-at="2018-03-05T11:39:48Z" finished-at="2018-03-05T11:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1957" started-at="2018-03-05T11:39:49Z" finished-at="2018-03-05T11:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_video_SubMenuStoryClick()[pri:0, instance:Homepage@589838eb]" name="homepage_video_SubMenuStoryClick" duration-ms="57266" started-at="2018-03-05T11:39:51Z" finished-at="2018-03-05T11:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_video_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="759" started-at="2018-03-05T11:40:48Z" finished-at="2018-03-05T11:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Homepage@589838eb]" name="openHomepage" is-config="true" duration-ms="1921" started-at="2018-03-05T11:40:49Z" finished-at="2018-03-05T11:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="homepage_video_SubSectionClick()[pri:0, instance:Homepage@589838eb]" name="homepage_video_SubSectionClick" duration-ms="30860" started-at="2018-03-05T11:40:50Z" finished-at="2018-03-05T11:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_video_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Homepage@589838eb]" name="close" is-config="true" duration-ms="686" started-at="2018-03-05T11:41:21Z" finished-at="2018-03-05T11:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Homepage -->
+    </test> <!-- T2ONLINE_HOMEPAGE -->
+    <test name="T2ONLINE_MenuToStoryAssertion" duration-ms="236294" started-at="2018-03-05T06:11:22Z" finished-at="2018-03-05T06:15:18Z">
+      <class name="MenuAssertion">
+        <test-method status="PASS" signature="entertainment_submenucontents()[pri:0, instance:MenuAssertion@4566e5bd]" name="entertainment_submenucontents" duration-ms="34104" started-at="2018-03-05T11:41:22Z" finished-at="2018-03-05T11:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainment_submenucontents -->
+        <test-method status="PASS" signature="close()[pri:0, instance:MenuAssertion@4566e5bd]" name="close" is-config="true" duration-ms="856" started-at="2018-03-05T11:41:56Z" finished-at="2018-03-05T11:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="lifestyle_submenucontents()[pri:0, instance:MenuAssertion@4566e5bd]" name="lifestyle_submenucontents" duration-ms="34040" started-at="2018-03-05T11:41:57Z" finished-at="2018-03-05T11:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestyle_submenucontents -->
+        <test-method status="PASS" signature="close()[pri:0, instance:MenuAssertion@4566e5bd]" name="close" is-config="true" duration-ms="862" started-at="2018-03-05T11:42:31Z" finished-at="2018-03-05T11:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="spin_submenucontents()[pri:0, instance:MenuAssertion@4566e5bd]" name="spin_submenucontents" duration-ms="35684" started-at="2018-03-05T11:42:32Z" finished-at="2018-03-05T11:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spin_submenucontents -->
+        <test-method status="PASS" signature="close()[pri:0, instance:MenuAssertion@4566e5bd]" name="close" is-config="true" duration-ms="882" started-at="2018-03-05T11:43:08Z" finished-at="2018-03-05T11:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="sports_submenucontents()[pri:0, instance:MenuAssertion@4566e5bd]" name="sports_submenucontents" duration-ms="56642" started-at="2018-03-05T11:43:08Z" finished-at="2018-03-05T11:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sports_submenucontents -->
+        <test-method status="PASS" signature="close()[pri:0, instance:MenuAssertion@4566e5bd]" name="close" is-config="true" duration-ms="879" started-at="2018-03-05T11:44:05Z" finished-at="2018-03-05T11:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="tech_submenucontents()[pri:0, instance:MenuAssertion@4566e5bd]" name="tech_submenucontents" duration-ms="34756" started-at="2018-03-05T11:44:06Z" finished-at="2018-03-05T11:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tech_submenucontents -->
+        <test-method status="PASS" signature="close()[pri:0, instance:MenuAssertion@4566e5bd]" name="close" is-config="true" duration-ms="840" started-at="2018-03-05T11:44:41Z" finished-at="2018-03-05T11:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="video_submenucontents()[pri:0, instance:MenuAssertion@4566e5bd]" name="video_submenucontents" duration-ms="35870" started-at="2018-03-05T11:44:42Z" finished-at="2018-03-05T11:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video_submenucontents -->
+        <test-method status="PASS" signature="close()[pri:0, instance:MenuAssertion@4566e5bd]" name="close" is-config="true" duration-ms="873" started-at="2018-03-05T11:45:17Z" finished-at="2018-03-05T11:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MenuAssertion -->
+    </test> <!-- T2ONLINE_MenuToStoryAssertion -->
+    <test name="T2ONLINE_SECTIONPAGE" duration-ms="3793746" started-at="2018-03-05T06:15:18Z" finished-at="2018-03-05T07:18:32Z">
+      <class name="Sectionpage">
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1934" started-at="2018-03-05T11:45:18Z" finished-at="2018-03-05T11:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="curatedsection_entertainment_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="curatedsection_entertainment_SubSectionClick" duration-ms="19892" started-at="2018-03-05T11:45:20Z" finished-at="2018-03-05T11:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curatedsection_entertainment_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="757" started-at="2018-03-05T11:45:40Z" finished-at="2018-03-05T11:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1918" started-at="2018-03-05T11:45:41Z" finished-at="2018-03-05T11:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="curatedsection_lifestyle_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="curatedsection_lifestyle_SubSectionClick" duration-ms="33475" started-at="2018-03-05T11:45:43Z" finished-at="2018-03-05T11:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curatedsection_lifestyle_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="767" started-at="2018-03-05T11:46:16Z" finished-at="2018-03-05T11:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1937" started-at="2018-03-05T11:46:17Z" finished-at="2018-03-05T11:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="curatedsection_spin_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="curatedsection_spin_SubSectionClick" duration-ms="34184" started-at="2018-03-05T11:46:19Z" finished-at="2018-03-05T11:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curatedsection_spin_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="702" started-at="2018-03-05T11:46:53Z" finished-at="2018-03-05T11:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1937" started-at="2018-03-05T11:46:54Z" finished-at="2018-03-05T11:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="curatedsection_sport_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="curatedsection_sport_SubSectionClick" duration-ms="26841" started-at="2018-03-05T11:46:56Z" finished-at="2018-03-05T11:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curatedsection_sport_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="756" started-at="2018-03-05T11:47:23Z" finished-at="2018-03-05T11:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1945" started-at="2018-03-05T11:47:24Z" finished-at="2018-03-05T11:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="curatedsection_tech_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="curatedsection_tech_SubSectionClick" duration-ms="27849" started-at="2018-03-05T11:47:25Z" finished-at="2018-03-05T11:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curatedsection_tech_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="697" started-at="2018-03-05T11:47:53Z" finished-at="2018-03-05T11:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1977" started-at="2018-03-05T11:47:54Z" finished-at="2018-03-05T11:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entersection_Lifestyle_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="entersection_Lifestyle_SubMenuStoryClickSection" duration-ms="58225" started-at="2018-03-05T11:47:56Z" finished-at="2018-03-05T11:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entersection_Lifestyle_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="675" started-at="2018-03-05T11:48:54Z" finished-at="2018-03-05T11:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1878" started-at="2018-03-05T11:48:55Z" finished-at="2018-03-05T11:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entersection_entertainment_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="entersection_entertainment_SubMenuStoryClickSection" duration-ms="34521" started-at="2018-03-05T11:48:57Z" finished-at="2018-03-05T11:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entersection_entertainment_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="712" started-at="2018-03-05T11:49:31Z" finished-at="2018-03-05T11:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1937" started-at="2018-03-05T11:49:32Z" finished-at="2018-03-05T11:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entersection_spin_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="entersection_spin_SubMenuStoryClickSection" duration-ms="37766" started-at="2018-03-05T11:49:34Z" finished-at="2018-03-05T11:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entersection_spin_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="964" started-at="2018-03-05T11:50:12Z" finished-at="2018-03-05T11:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2794" started-at="2018-03-05T11:50:13Z" finished-at="2018-03-05T11:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entersection_sport_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="entersection_sport_SubMenuStoryClickSection" duration-ms="36427" started-at="2018-03-05T11:50:15Z" finished-at="2018-03-05T11:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entersection_sport_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="944" started-at="2018-03-05T11:50:52Z" finished-at="2018-03-05T11:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2737" started-at="2018-03-05T11:50:53Z" finished-at="2018-03-05T11:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entersection_tech_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="entersection_tech_SubMenuStoryClickSection" duration-ms="36730" started-at="2018-03-05T11:50:56Z" finished-at="2018-03-05T11:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entersection_tech_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="775" started-at="2018-03-05T11:51:32Z" finished-at="2018-03-05T11:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1938" started-at="2018-03-05T11:51:33Z" finished-at="2018-03-05T11:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entersection_video_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="entersection_video_SubMenuStoryClickSection" duration-ms="39440" started-at="2018-03-05T11:51:35Z" finished-at="2018-03-05T11:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entersection_video_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="684" started-at="2018-03-05T11:52:14Z" finished-at="2018-03-05T11:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1912" started-at="2018-03-05T11:52:15Z" finished-at="2018-03-05T11:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainment_section_lifestyle_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="entertainment_section_lifestyle_SubMenuAssert" duration-ms="9564" started-at="2018-03-05T11:52:17Z" finished-at="2018-03-05T11:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainment_section_lifestyle_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="737" started-at="2018-03-05T11:52:27Z" finished-at="2018-03-05T11:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1941" started-at="2018-03-05T11:52:27Z" finished-at="2018-03-05T11:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainment_section_spin_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="entertainment_section_spin_SubMenuAssert" duration-ms="10961" started-at="2018-03-05T11:52:29Z" finished-at="2018-03-05T11:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainment_section_spin_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="747" started-at="2018-03-05T11:52:40Z" finished-at="2018-03-05T11:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1936" started-at="2018-03-05T11:52:41Z" finished-at="2018-03-05T11:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainment_section_sport_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="entertainment_section_sport_SubMenuAssert" duration-ms="15921" started-at="2018-03-05T11:52:43Z" finished-at="2018-03-05T11:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainment_section_sport_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="735" started-at="2018-03-05T11:52:59Z" finished-at="2018-03-05T11:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1936" started-at="2018-03-05T11:53:00Z" finished-at="2018-03-05T11:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainment_section_tech_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="entertainment_section_tech_SubMenuAssert" duration-ms="11408" started-at="2018-03-05T11:53:02Z" finished-at="2018-03-05T11:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainment_section_tech_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="730" started-at="2018-03-05T11:53:13Z" finished-at="2018-03-05T11:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1939" started-at="2018-03-05T11:53:14Z" finished-at="2018-03-05T11:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainment_section_video_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="entertainment_section_video_SubMenuAssert" duration-ms="10202" started-at="2018-03-05T11:53:16Z" finished-at="2018-03-05T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainment_section_video_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="737" started-at="2018-03-05T11:53:26Z" finished-at="2018-03-05T11:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1957" started-at="2018-03-05T11:53:27Z" finished-at="2018-03-05T11:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainmentsection_BackToTopSection()[pri:0, instance:Sectionpage@73846619]" name="entertainmentsection_BackToTopSection" duration-ms="1" started-at="2018-03-05T11:53:29Z" finished-at="2018-03-05T11:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainmentsection_BackToTopSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="769" started-at="2018-03-05T11:53:29Z" finished-at="2018-03-05T11:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1946" started-at="2018-03-05T11:53:29Z" finished-at="2018-03-05T11:53:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainmentsection_lifestyle_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="entertainmentsection_lifestyle_SubSectionClick" duration-ms="17215" started-at="2018-03-05T11:53:31Z" finished-at="2018-03-05T11:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainmentsection_lifestyle_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="763" started-at="2018-03-05T11:53:48Z" finished-at="2018-03-05T11:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1968" started-at="2018-03-05T11:53:49Z" finished-at="2018-03-05T11:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainmentsection_spin_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="entertainmentsection_spin_SubSectionClick" duration-ms="20534" started-at="2018-03-05T11:53:51Z" finished-at="2018-03-05T11:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainmentsection_spin_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="747" started-at="2018-03-05T11:54:12Z" finished-at="2018-03-05T11:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1937" started-at="2018-03-05T11:54:12Z" finished-at="2018-03-05T11:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainmentsection_sport_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="entertainmentsection_sport_SubSectionClick" duration-ms="15013" started-at="2018-03-05T11:54:14Z" finished-at="2018-03-05T11:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainmentsection_sport_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="750" started-at="2018-03-05T11:54:29Z" finished-at="2018-03-05T11:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1950" started-at="2018-03-05T11:54:30Z" finished-at="2018-03-05T11:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainmentsection_tech_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="entertainmentsection_tech_SubSectionClick" duration-ms="16337" started-at="2018-03-05T11:54:32Z" finished-at="2018-03-05T11:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainmentsection_tech_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="788" started-at="2018-03-05T11:54:48Z" finished-at="2018-03-05T11:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1930" started-at="2018-03-05T11:54:49Z" finished-at="2018-03-05T11:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="entertainmentsection_video_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="entertainmentsection_video_SubSectionClick" duration-ms="22534" started-at="2018-03-05T11:54:51Z" finished-at="2018-03-05T11:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entertainmentsection_video_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="746" started-at="2018-03-05T11:55:14Z" finished-at="2018-03-05T11:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1934" started-at="2018-03-05T11:55:14Z" finished-at="2018-03-05T11:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestyle_section_entertainment_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="lifestyle_section_entertainment_SubMenuAssert" duration-ms="29675" started-at="2018-03-05T11:55:16Z" finished-at="2018-03-05T11:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestyle_section_entertainment_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="751" started-at="2018-03-05T11:55:46Z" finished-at="2018-03-05T11:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1924" started-at="2018-03-05T11:55:47Z" finished-at="2018-03-05T11:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestyle_section_spin_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="lifestyle_section_spin_SubMenuAssert" duration-ms="30370" started-at="2018-03-05T11:55:49Z" finished-at="2018-03-05T11:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestyle_section_spin_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="741" started-at="2018-03-05T11:56:19Z" finished-at="2018-03-05T11:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1924" started-at="2018-03-05T11:56:20Z" finished-at="2018-03-05T11:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestyle_section_sport_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="lifestyle_section_sport_SubMenuAssert" duration-ms="9401" started-at="2018-03-05T11:56:22Z" finished-at="2018-03-05T11:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestyle_section_sport_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="744" started-at="2018-03-05T11:56:31Z" finished-at="2018-03-05T11:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1904" started-at="2018-03-05T11:56:32Z" finished-at="2018-03-05T11:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestyle_section_tech_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="lifestyle_section_tech_SubMenuAssert" duration-ms="14000" started-at="2018-03-05T11:56:34Z" finished-at="2018-03-05T11:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestyle_section_tech_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="733" started-at="2018-03-05T11:56:48Z" finished-at="2018-03-05T11:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1944" started-at="2018-03-05T11:56:49Z" finished-at="2018-03-05T11:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestyle_section_video_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="lifestyle_section_video_SubMenuAssert" duration-ms="10835" started-at="2018-03-05T11:56:51Z" finished-at="2018-03-05T11:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestyle_section_video_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="745" started-at="2018-03-05T11:57:01Z" finished-at="2018-03-05T11:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1939" started-at="2018-03-05T11:57:02Z" finished-at="2018-03-05T11:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_BackToTopSection()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_BackToTopSection" duration-ms="1" started-at="2018-03-05T11:57:04Z" finished-at="2018-03-05T11:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_BackToTopSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="777" started-at="2018-03-05T11:57:04Z" finished-at="2018-03-05T11:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1938" started-at="2018-03-05T11:57:05Z" finished-at="2018-03-05T11:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_entertainment_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_entertainment_SubMenuStoryClickSection" duration-ms="34277" started-at="2018-03-05T11:57:07Z" finished-at="2018-03-05T11:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_entertainment_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="748" started-at="2018-03-05T11:57:41Z" finished-at="2018-03-05T11:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1955" started-at="2018-03-05T11:57:42Z" finished-at="2018-03-05T11:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_entertainment_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_entertainment_SubSectionClick" duration-ms="19481" started-at="2018-03-05T11:57:44Z" finished-at="2018-03-05T11:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_entertainment_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="793" started-at="2018-03-05T11:58:03Z" finished-at="2018-03-05T11:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1931" started-at="2018-03-05T11:58:04Z" finished-at="2018-03-05T11:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_lifestyle_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_lifestyle_SubMenuStoryClickSection" duration-ms="37617" started-at="2018-03-05T11:58:06Z" finished-at="2018-03-05T11:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_lifestyle_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="760" started-at="2018-03-05T11:58:44Z" finished-at="2018-03-05T11:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1924" started-at="2018-03-05T11:58:44Z" finished-at="2018-03-05T11:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_spin_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_spin_SubMenuStoryClickSection" duration-ms="57741" started-at="2018-03-05T11:58:46Z" finished-at="2018-03-05T11:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_spin_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="818" started-at="2018-03-05T11:59:44Z" finished-at="2018-03-05T11:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1927" started-at="2018-03-05T11:59:45Z" finished-at="2018-03-05T11:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_spin_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_spin_SubSectionClick" duration-ms="23009" started-at="2018-03-05T11:59:47Z" finished-at="2018-03-05T12:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_spin_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="792" started-at="2018-03-05T12:00:10Z" finished-at="2018-03-05T12:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1927" started-at="2018-03-05T12:00:11Z" finished-at="2018-03-05T12:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_sport_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_sport_SubMenuStoryClickSection" duration-ms="38196" started-at="2018-03-05T12:00:12Z" finished-at="2018-03-05T12:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_sport_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="771" started-at="2018-03-05T12:00:51Z" finished-at="2018-03-05T12:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1919" started-at="2018-03-05T12:00:51Z" finished-at="2018-03-05T12:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_sport_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_sport_SubSectionClick" duration-ms="19387" started-at="2018-03-05T12:00:53Z" finished-at="2018-03-05T12:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_sport_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="750" started-at="2018-03-05T12:01:13Z" finished-at="2018-03-05T12:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="1935" started-at="2018-03-05T12:01:13Z" finished-at="2018-03-05T12:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_tech_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_tech_SubMenuStoryClickSection" duration-ms="37883" started-at="2018-03-05T12:01:15Z" finished-at="2018-03-05T12:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_tech_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="773" started-at="2018-03-05T12:01:53Z" finished-at="2018-03-05T12:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2007" started-at="2018-03-05T12:01:54Z" finished-at="2018-03-05T12:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_tech_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_tech_SubSectionClick" duration-ms="19363" started-at="2018-03-05T12:01:56Z" finished-at="2018-03-05T12:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_tech_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="781" started-at="2018-03-05T12:02:15Z" finished-at="2018-03-05T12:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2001" started-at="2018-03-05T12:02:16Z" finished-at="2018-03-05T12:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_video_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_video_SubMenuStoryClickSection" duration-ms="43416" started-at="2018-03-05T12:02:18Z" finished-at="2018-03-05T12:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_video_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="800" started-at="2018-03-05T12:03:02Z" finished-at="2018-03-05T12:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2543" started-at="2018-03-05T12:03:02Z" finished-at="2018-03-05T12:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="lifestylesection_video_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="lifestylesection_video_SubSectionClick" duration-ms="23798" started-at="2018-03-05T12:03:05Z" finished-at="2018-03-05T12:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifestylesection_video_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="751" started-at="2018-03-05T12:03:29Z" finished-at="2018-03-05T12:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2284" started-at="2018-03-05T12:03:30Z" finished-at="2018-03-05T12:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="section_LoadMoreSection()[pri:0, instance:Sectionpage@73846619]" name="section_LoadMoreSection" duration-ms="168441" started-at="2018-03-05T12:03:32Z" finished-at="2018-03-05T12:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- section_LoadMoreSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1064" started-at="2018-03-05T12:06:20Z" finished-at="2018-03-05T12:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2153" started-at="2018-03-05T12:06:21Z" finished-at="2018-03-05T12:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spin_section_entertainment_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="spin_section_entertainment_SubMenuAssert" duration-ms="13100" started-at="2018-03-05T12:06:23Z" finished-at="2018-03-05T12:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spin_section_entertainment_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="808" started-at="2018-03-05T12:06:37Z" finished-at="2018-03-05T12:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="3571" started-at="2018-03-05T12:06:37Z" finished-at="2018-03-05T12:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spin_section_lifestyle_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="spin_section_lifestyle_SubMenuAssert" duration-ms="12899" started-at="2018-03-05T12:06:41Z" finished-at="2018-03-05T12:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spin_section_lifestyle_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="2505" started-at="2018-03-05T12:06:54Z" finished-at="2018-03-05T12:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="3260" started-at="2018-03-05T12:06:56Z" finished-at="2018-03-05T12:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spin_section_sport_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="spin_section_sport_SubMenuAssert" duration-ms="12956" started-at="2018-03-05T12:07:00Z" finished-at="2018-03-05T12:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spin_section_sport_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="783" started-at="2018-03-05T12:07:13Z" finished-at="2018-03-05T12:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2950" started-at="2018-03-05T12:07:13Z" finished-at="2018-03-05T12:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spin_section_tech_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="spin_section_tech_SubMenuAssert" duration-ms="12860" started-at="2018-03-05T12:07:16Z" finished-at="2018-03-05T12:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spin_section_tech_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="776" started-at="2018-03-05T12:07:29Z" finished-at="2018-03-05T12:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2365" started-at="2018-03-05T12:07:30Z" finished-at="2018-03-05T12:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spin_section_video_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="spin_section_video_SubMenuAssert" duration-ms="9073" started-at="2018-03-05T12:07:32Z" finished-at="2018-03-05T12:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spin_section_video_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="717" started-at="2018-03-05T12:07:41Z" finished-at="2018-03-05T12:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2284" started-at="2018-03-05T12:07:42Z" finished-at="2018-03-05T12:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_BackToTopSection()[pri:0, instance:Sectionpage@73846619]" name="spinsection_BackToTopSection" duration-ms="1" started-at="2018-03-05T12:07:44Z" finished-at="2018-03-05T12:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_BackToTopSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1013" started-at="2018-03-05T12:07:44Z" finished-at="2018-03-05T12:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2271" started-at="2018-03-05T12:07:45Z" finished-at="2018-03-05T12:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_entertainment_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="spinsection_entertainment_SubMenuStoryClickSection" duration-ms="39698" started-at="2018-03-05T12:07:48Z" finished-at="2018-03-05T12:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_entertainment_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="796" started-at="2018-03-05T12:08:27Z" finished-at="2018-03-05T12:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2123" started-at="2018-03-05T12:08:28Z" finished-at="2018-03-05T12:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_entertainment_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="spinsection_entertainment_SubSectionClick" duration-ms="40260" started-at="2018-03-05T12:08:30Z" finished-at="2018-03-05T12:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_entertainment_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="765" started-at="2018-03-05T12:09:11Z" finished-at="2018-03-05T12:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="3209" started-at="2018-03-05T12:09:11Z" finished-at="2018-03-05T12:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_lifestyle_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="spinsection_lifestyle_SubMenuStoryClickSection" duration-ms="40122" started-at="2018-03-05T12:09:15Z" finished-at="2018-03-05T12:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_lifestyle_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="744" started-at="2018-03-05T12:09:55Z" finished-at="2018-03-05T12:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2096" started-at="2018-03-05T12:09:55Z" finished-at="2018-03-05T12:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_lifestyle_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="spinsection_lifestyle_SubSectionClick" duration-ms="38458" started-at="2018-03-05T12:09:57Z" finished-at="2018-03-05T12:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_lifestyle_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1229" started-at="2018-03-05T12:10:36Z" finished-at="2018-03-05T12:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2184" started-at="2018-03-05T12:10:37Z" finished-at="2018-03-05T12:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_spin_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="spinsection_spin_SubMenuStoryClickSection" duration-ms="39814" started-at="2018-03-05T12:10:39Z" finished-at="2018-03-05T12:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_spin_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="750" started-at="2018-03-05T12:11:19Z" finished-at="2018-03-05T12:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2216" started-at="2018-03-05T12:11:20Z" finished-at="2018-03-05T12:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_sport_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="spinsection_sport_SubMenuStoryClickSection" duration-ms="134806" started-at="2018-03-05T12:11:22Z" finished-at="2018-03-05T12:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_sport_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="795" started-at="2018-03-05T12:13:37Z" finished-at="2018-03-05T12:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2521" started-at="2018-03-05T12:13:38Z" finished-at="2018-03-05T12:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_sport_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="spinsection_sport_SubSectionClick" duration-ms="38582" started-at="2018-03-05T12:13:40Z" finished-at="2018-03-05T12:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_sport_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="760" started-at="2018-03-05T12:14:19Z" finished-at="2018-03-05T12:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2282" started-at="2018-03-05T12:14:20Z" finished-at="2018-03-05T12:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_tech_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="spinsection_tech_SubMenuStoryClickSection" duration-ms="52397" started-at="2018-03-05T12:14:22Z" finished-at="2018-03-05T12:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_tech_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="760" started-at="2018-03-05T12:15:14Z" finished-at="2018-03-05T12:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2475" started-at="2018-03-05T12:15:15Z" finished-at="2018-03-05T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_tech_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="spinsection_tech_SubSectionClick" duration-ms="35728" started-at="2018-03-05T12:15:18Z" finished-at="2018-03-05T12:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_tech_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="826" started-at="2018-03-05T12:15:53Z" finished-at="2018-03-05T12:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2195" started-at="2018-03-05T12:15:54Z" finished-at="2018-03-05T12:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_video_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="spinsection_video_SubMenuStoryClickSection" duration-ms="37382" started-at="2018-03-05T12:15:56Z" finished-at="2018-03-05T12:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_video_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="727" started-at="2018-03-05T12:16:34Z" finished-at="2018-03-05T12:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2709" started-at="2018-03-05T12:16:34Z" finished-at="2018-03-05T12:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="spinsection_video_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="spinsection_video_SubSectionClick" duration-ms="30859" started-at="2018-03-05T12:16:37Z" finished-at="2018-03-05T12:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinsection_video_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="804" started-at="2018-03-05T12:17:08Z" finished-at="2018-03-05T12:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2723" started-at="2018-03-05T12:17:09Z" finished-at="2018-03-05T12:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sport_section_entertainment_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="sport_section_entertainment_SubMenuAssert" duration-ms="12571" started-at="2018-03-05T12:17:11Z" finished-at="2018-03-05T12:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sport_section_entertainment_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="662" started-at="2018-03-05T12:17:24Z" finished-at="2018-03-05T12:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2792" started-at="2018-03-05T12:17:25Z" finished-at="2018-03-05T12:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sport_section_lifestyle_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="sport_section_lifestyle_SubMenuAssert" duration-ms="11362" started-at="2018-03-05T12:17:27Z" finished-at="2018-03-05T12:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sport_section_lifestyle_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="853" started-at="2018-03-05T12:17:39Z" finished-at="2018-03-05T12:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2186" started-at="2018-03-05T12:17:40Z" finished-at="2018-03-05T12:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sport_section_spin_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="sport_section_spin_SubMenuAssert" duration-ms="11062" started-at="2018-03-05T12:17:42Z" finished-at="2018-03-05T12:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sport_section_spin_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="795" started-at="2018-03-05T12:17:53Z" finished-at="2018-03-05T12:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2017" started-at="2018-03-05T12:17:54Z" finished-at="2018-03-05T12:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sport_section_tech_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="sport_section_tech_SubMenuAssert" duration-ms="31872" started-at="2018-03-05T12:17:56Z" finished-at="2018-03-05T12:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sport_section_tech_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="658" started-at="2018-03-05T12:18:28Z" finished-at="2018-03-05T12:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2167" started-at="2018-03-05T12:18:28Z" finished-at="2018-03-05T12:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sport_section_video_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="sport_section_video_SubMenuAssert" duration-ms="11572" started-at="2018-03-05T12:18:30Z" finished-at="2018-03-05T12:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sport_section_video_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="831" started-at="2018-03-05T12:18:42Z" finished-at="2018-03-05T12:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="3151" started-at="2018-03-05T12:18:43Z" finished-at="2018-03-05T12:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_BackToTopSection()[pri:0, instance:Sectionpage@73846619]" name="sportsection_BackToTopSection" duration-ms="0" started-at="2018-03-05T12:18:46Z" finished-at="2018-03-05T12:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_BackToTopSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1738" started-at="2018-03-05T12:18:46Z" finished-at="2018-03-05T12:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2859" started-at="2018-03-05T12:18:48Z" finished-at="2018-03-05T12:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_entertainment_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="sportsection_entertainment_SubSectionClick" duration-ms="45120" started-at="2018-03-05T12:18:51Z" finished-at="2018-03-05T12:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_entertainment_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="954" started-at="2018-03-05T12:19:36Z" finished-at="2018-03-05T12:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2645" started-at="2018-03-05T12:19:37Z" finished-at="2018-03-05T12:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_lifestyle_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="sportsection_lifestyle_SubMenuStoryClickSection" duration-ms="36396" started-at="2018-03-05T12:19:39Z" finished-at="2018-03-05T12:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_lifestyle_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1066" started-at="2018-03-05T12:20:16Z" finished-at="2018-03-05T12:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2782" started-at="2018-03-05T12:20:17Z" finished-at="2018-03-05T12:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_lifestyle_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="sportsection_lifestyle_SubSectionClick" duration-ms="20295" started-at="2018-03-05T12:20:20Z" finished-at="2018-03-05T12:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_lifestyle_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="733" started-at="2018-03-05T12:20:40Z" finished-at="2018-03-05T12:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2175" started-at="2018-03-05T12:20:41Z" finished-at="2018-03-05T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="SKIP" signature="sportsection_spin_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="sportsection_spin_SubMenuStoryClickSection" duration-ms="15628" started-at="2018-03-05T12:20:43Z" finished-at="2018-03-05T12:20:58Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'ABPDigitalNoida-13724', ip: '10.138.10.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\DIGITA~1\AppData\Local\Temp\scoped_dir6520_26382}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bd40fa3b2d2126f3f7b7929426672647]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'ABPDigitalNoida-13724', ip: '10.138.10.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\DIGITA~1\AppData\Local\Temp\scoped_dir6520_26382}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bd40fa3b2d2126f3f7b7929426672647
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at base.sport_SubMenuStoryClick(base.java:703)
+	at Sectionpage.sportsection_spin_SubMenuStoryClickSection(Sectionpage.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_spin_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1042" started-at="2018-03-05T12:20:58Z" finished-at="2018-03-05T12:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2746" started-at="2018-03-05T12:20:59Z" finished-at="2018-03-05T12:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_spin_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="sportsection_spin_SubMenuStoryClickSection" duration-ms="40732" started-at="2018-03-05T12:21:02Z" finished-at="2018-03-05T12:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_spin_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="791" started-at="2018-03-05T12:21:43Z" finished-at="2018-03-05T12:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2863" started-at="2018-03-05T12:21:44Z" finished-at="2018-03-05T12:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_spin_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="sportsection_spin_SubSectionClick" duration-ms="22799" started-at="2018-03-05T12:21:47Z" finished-at="2018-03-05T12:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_spin_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="805" started-at="2018-03-05T12:22:09Z" finished-at="2018-03-05T12:22:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2617" started-at="2018-03-05T12:22:10Z" finished-at="2018-03-05T12:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_sport_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="sportsection_sport_SubMenuStoryClickSection" duration-ms="42623" started-at="2018-03-05T12:22:13Z" finished-at="2018-03-05T12:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_sport_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="754" started-at="2018-03-05T12:22:55Z" finished-at="2018-03-05T12:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2931" started-at="2018-03-05T12:22:56Z" finished-at="2018-03-05T12:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_tech_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="sportsection_tech_SubMenuStoryClickSection" duration-ms="36815" started-at="2018-03-05T12:22:59Z" finished-at="2018-03-05T12:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_tech_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="793" started-at="2018-03-05T12:23:36Z" finished-at="2018-03-05T12:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2218" started-at="2018-03-05T12:23:37Z" finished-at="2018-03-05T12:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_tech_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="sportsection_tech_SubSectionClick" duration-ms="44518" started-at="2018-03-05T12:23:39Z" finished-at="2018-03-05T12:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_tech_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="827" started-at="2018-03-05T12:24:23Z" finished-at="2018-03-05T12:24:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2061" started-at="2018-03-05T12:24:24Z" finished-at="2018-03-05T12:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_video_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="sportsection_video_SubMenuStoryClickSection" duration-ms="39411" started-at="2018-03-05T12:24:26Z" finished-at="2018-03-05T12:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_video_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="729" started-at="2018-03-05T12:25:06Z" finished-at="2018-03-05T12:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2184" started-at="2018-03-05T12:25:06Z" finished-at="2018-03-05T12:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="sportsection_video_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="sportsection_video_SubSectionClick" duration-ms="43664" started-at="2018-03-05T12:25:09Z" finished-at="2018-03-05T12:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsection_video_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="734" started-at="2018-03-05T12:25:52Z" finished-at="2018-03-05T12:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2967" started-at="2018-03-05T12:25:53Z" finished-at="2018-03-05T12:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="tech_section_entertainment_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="tech_section_entertainment_SubMenuAssert" duration-ms="13049" started-at="2018-03-05T12:25:56Z" finished-at="2018-03-05T12:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tech_section_entertainment_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="790" started-at="2018-03-05T12:26:09Z" finished-at="2018-03-05T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2167" started-at="2018-03-05T12:26:10Z" finished-at="2018-03-05T12:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="tech_section_lifestyle_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="tech_section_lifestyle_SubMenuAssert" duration-ms="13183" started-at="2018-03-05T12:26:12Z" finished-at="2018-03-05T12:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tech_section_lifestyle_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="671" started-at="2018-03-05T12:26:25Z" finished-at="2018-03-05T12:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2304" started-at="2018-03-05T12:26:26Z" finished-at="2018-03-05T12:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="tech_section_spin_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="tech_section_spin_SubMenuAssert" duration-ms="32354" started-at="2018-03-05T12:26:28Z" finished-at="2018-03-05T12:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tech_section_spin_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="677" started-at="2018-03-05T12:27:01Z" finished-at="2018-03-05T12:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2306" started-at="2018-03-05T12:27:01Z" finished-at="2018-03-05T12:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="tech_section_sport_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="tech_section_sport_SubMenuAssert" duration-ms="11389" started-at="2018-03-05T12:27:04Z" finished-at="2018-03-05T12:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tech_section_sport_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="718" started-at="2018-03-05T12:27:15Z" finished-at="2018-03-05T12:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2023" started-at="2018-03-05T12:27:16Z" finished-at="2018-03-05T12:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="tech_section_video_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="tech_section_video_SubMenuAssert" duration-ms="31494" started-at="2018-03-05T12:27:18Z" finished-at="2018-03-05T12:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tech_section_video_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="717" started-at="2018-03-05T12:27:49Z" finished-at="2018-03-05T12:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2045" started-at="2018-03-05T12:27:50Z" finished-at="2018-03-05T12:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="869" started-at="2018-03-05T12:27:52Z" finished-at="2018-03-05T12:27:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="techsection_BackToTopSection()[pri:0, instance:Sectionpage@73846619]" name="techsection_BackToTopSection" duration-ms="0" started-at="2018-03-05T12:27:52Z" finished-at="2018-03-05T12:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_BackToTopSection -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2175" started-at="2018-03-05T12:27:53Z" finished-at="2018-03-05T12:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_entertainment_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="techsection_entertainment_SubMenuStoryClickSection" duration-ms="63185" started-at="2018-03-05T12:27:55Z" finished-at="2018-03-05T12:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_entertainment_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1269" started-at="2018-03-05T12:28:58Z" finished-at="2018-03-05T12:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="5958" started-at="2018-03-05T12:28:59Z" finished-at="2018-03-05T12:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_entertainment_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="techsection_entertainment_SubSectionClick" duration-ms="47394" started-at="2018-03-05T12:29:05Z" finished-at="2018-03-05T12:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_entertainment_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="852" started-at="2018-03-05T12:29:53Z" finished-at="2018-03-05T12:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2838" started-at="2018-03-05T12:29:54Z" finished-at="2018-03-05T12:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_lifestyle_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="techsection_lifestyle_SubMenuStoryClickSection" duration-ms="60560" started-at="2018-03-05T12:29:56Z" finished-at="2018-03-05T12:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_lifestyle_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="761" started-at="2018-03-05T12:30:57Z" finished-at="2018-03-05T12:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2038" started-at="2018-03-05T12:30:58Z" finished-at="2018-03-05T12:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_lifestyle_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="techsection_lifestyle_SubSectionClick" duration-ms="19941" started-at="2018-03-05T12:31:00Z" finished-at="2018-03-05T12:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_lifestyle_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="796" started-at="2018-03-05T12:31:20Z" finished-at="2018-03-05T12:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2120" started-at="2018-03-05T12:31:21Z" finished-at="2018-03-05T12:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_spin_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="techsection_spin_SubMenuStoryClickSection" duration-ms="121242" started-at="2018-03-05T12:31:23Z" finished-at="2018-03-05T12:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_spin_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="691" started-at="2018-03-05T12:33:24Z" finished-at="2018-03-05T12:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2024" started-at="2018-03-05T12:33:25Z" finished-at="2018-03-05T12:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_spin_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="techsection_spin_SubSectionClick" duration-ms="49609" started-at="2018-03-05T12:33:27Z" finished-at="2018-03-05T12:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_spin_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="1102" started-at="2018-03-05T12:34:16Z" finished-at="2018-03-05T12:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2999" started-at="2018-03-05T12:34:17Z" finished-at="2018-03-05T12:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_sport_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="techsection_sport_SubMenuStoryClickSection" duration-ms="40973" started-at="2018-03-05T12:34:20Z" finished-at="2018-03-05T12:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_sport_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="741" started-at="2018-03-05T12:35:01Z" finished-at="2018-03-05T12:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2103" started-at="2018-03-05T12:35:02Z" finished-at="2018-03-05T12:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_sport_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="techsection_sport_SubSectionClick" duration-ms="20096" started-at="2018-03-05T12:35:04Z" finished-at="2018-03-05T12:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_sport_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="788" started-at="2018-03-05T12:35:24Z" finished-at="2018-03-05T12:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2122" started-at="2018-03-05T12:35:25Z" finished-at="2018-03-05T12:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_tech_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="techsection_tech_SubMenuStoryClickSection" duration-ms="37372" started-at="2018-03-05T12:35:27Z" finished-at="2018-03-05T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_tech_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="785" started-at="2018-03-05T12:36:05Z" finished-at="2018-03-05T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2338" started-at="2018-03-05T12:36:05Z" finished-at="2018-03-05T12:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_video_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="techsection_video_SubMenuStoryClickSection" duration-ms="39692" started-at="2018-03-05T12:36:08Z" finished-at="2018-03-05T12:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_video_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="758" started-at="2018-03-05T12:36:47Z" finished-at="2018-03-05T12:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2320" started-at="2018-03-05T12:36:48Z" finished-at="2018-03-05T12:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="techsection_video_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="techsection_video_SubSectionClick" duration-ms="43719" started-at="2018-03-05T12:36:50Z" finished-at="2018-03-05T12:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- techsection_video_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="753" started-at="2018-03-05T12:37:34Z" finished-at="2018-03-05T12:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2137" started-at="2018-03-05T12:37:35Z" finished-at="2018-03-05T12:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="video_section_entertainment_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="video_section_entertainment_SubMenuAssert" duration-ms="12374" started-at="2018-03-05T12:37:37Z" finished-at="2018-03-05T12:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video_section_entertainment_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="724" started-at="2018-03-05T12:37:49Z" finished-at="2018-03-05T12:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2290" started-at="2018-03-05T12:37:50Z" finished-at="2018-03-05T12:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="video_section_lifestyle_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="video_section_lifestyle_SubMenuAssert" duration-ms="9985" started-at="2018-03-05T12:37:52Z" finished-at="2018-03-05T12:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video_section_lifestyle_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="660" started-at="2018-03-05T12:38:02Z" finished-at="2018-03-05T12:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2717" started-at="2018-03-05T12:38:03Z" finished-at="2018-03-05T12:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="video_section_spin_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="video_section_spin_SubMenuAssert" duration-ms="10884" started-at="2018-03-05T12:38:06Z" finished-at="2018-03-05T12:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video_section_spin_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="718" started-at="2018-03-05T12:38:17Z" finished-at="2018-03-05T12:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2366" started-at="2018-03-05T12:38:17Z" finished-at="2018-03-05T12:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="video_section_sport_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="video_section_sport_SubMenuAssert" duration-ms="16991" started-at="2018-03-05T12:38:20Z" finished-at="2018-03-05T12:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video_section_sport_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="835" started-at="2018-03-05T12:38:37Z" finished-at="2018-03-05T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2774" started-at="2018-03-05T12:38:38Z" finished-at="2018-03-05T12:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="video_section_tech_SubMenuAssert()[pri:0, instance:Sectionpage@73846619]" name="video_section_tech_SubMenuAssert" duration-ms="11316" started-at="2018-03-05T12:38:40Z" finished-at="2018-03-05T12:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video_section_tech_SubMenuAssert -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="770" started-at="2018-03-05T12:38:52Z" finished-at="2018-03-05T12:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2138" started-at="2018-03-05T12:38:52Z" finished-at="2018-03-05T12:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_BackToTopSection()[pri:0, instance:Sectionpage@73846619]" name="videosection_BackToTopSection" duration-ms="1" started-at="2018-03-05T12:38:55Z" finished-at="2018-03-05T12:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_BackToTopSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="869" started-at="2018-03-05T12:38:55Z" finished-at="2018-03-05T12:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2117" started-at="2018-03-05T12:38:55Z" finished-at="2018-03-05T12:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_entertainment_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="videosection_entertainment_SubMenuStoryClickSection" duration-ms="57481" started-at="2018-03-05T12:38:58Z" finished-at="2018-03-05T12:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_entertainment_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="733" started-at="2018-03-05T12:39:55Z" finished-at="2018-03-05T12:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2279" started-at="2018-03-05T12:39:56Z" finished-at="2018-03-05T12:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_entertainment_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="videosection_entertainment_SubSectionClick" duration-ms="33354" started-at="2018-03-05T12:39:58Z" finished-at="2018-03-05T12:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_entertainment_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="865" started-at="2018-03-05T12:40:31Z" finished-at="2018-03-05T12:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2174" started-at="2018-03-05T12:40:32Z" finished-at="2018-03-05T12:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_lifestyle_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="videosection_lifestyle_SubMenuStoryClickSection" duration-ms="56557" started-at="2018-03-05T12:40:34Z" finished-at="2018-03-05T12:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_lifestyle_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="742" started-at="2018-03-05T12:41:31Z" finished-at="2018-03-05T12:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2273" started-at="2018-03-05T12:41:32Z" finished-at="2018-03-05T12:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_lifestyle_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="videosection_lifestyle_SubSectionClick" duration-ms="32825" started-at="2018-03-05T12:41:34Z" finished-at="2018-03-05T12:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_lifestyle_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="750" started-at="2018-03-05T12:42:07Z" finished-at="2018-03-05T12:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2089" started-at="2018-03-05T12:42:08Z" finished-at="2018-03-05T12:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_spin_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="videosection_spin_SubMenuStoryClickSection" duration-ms="78566" started-at="2018-03-05T12:42:10Z" finished-at="2018-03-05T12:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_spin_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="896" started-at="2018-03-05T12:43:28Z" finished-at="2018-03-05T12:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2376" started-at="2018-03-05T12:43:29Z" finished-at="2018-03-05T12:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_spin_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="videosection_spin_SubSectionClick" duration-ms="51103" started-at="2018-03-05T12:43:32Z" finished-at="2018-03-05T12:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_spin_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="732" started-at="2018-03-05T12:44:23Z" finished-at="2018-03-05T12:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2158" started-at="2018-03-05T12:44:23Z" finished-at="2018-03-05T12:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_sport_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="videosection_sport_SubMenuStoryClickSection" duration-ms="57730" started-at="2018-03-05T12:44:26Z" finished-at="2018-03-05T12:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_sport_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="725" started-at="2018-03-05T12:45:23Z" finished-at="2018-03-05T12:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2679" started-at="2018-03-05T12:45:24Z" finished-at="2018-03-05T12:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_sport_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="videosection_sport_SubSectionClick" duration-ms="31932" started-at="2018-03-05T12:45:27Z" finished-at="2018-03-05T12:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_sport_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="877" started-at="2018-03-05T12:45:59Z" finished-at="2018-03-05T12:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2143" started-at="2018-03-05T12:45:59Z" finished-at="2018-03-05T12:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_tech_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="videosection_tech_SubMenuStoryClickSection" duration-ms="53128" started-at="2018-03-05T12:46:02Z" finished-at="2018-03-05T12:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_tech_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="813" started-at="2018-03-05T12:46:55Z" finished-at="2018-03-05T12:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2070" started-at="2018-03-05T12:46:56Z" finished-at="2018-03-05T12:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_tech_SubSectionClick()[pri:0, instance:Sectionpage@73846619]" name="videosection_tech_SubSectionClick" duration-ms="32416" started-at="2018-03-05T12:46:58Z" finished-at="2018-03-05T12:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_tech_SubSectionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="740" started-at="2018-03-05T12:47:30Z" finished-at="2018-03-05T12:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Sectionpage@73846619]" name="openHomepage" is-config="true" duration-ms="2261" started-at="2018-03-05T12:47:31Z" finished-at="2018-03-05T12:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="videosection_video_SubMenuStoryClickSection()[pri:0, instance:Sectionpage@73846619]" name="videosection_video_SubMenuStoryClickSection" duration-ms="58275" started-at="2018-03-05T12:47:33Z" finished-at="2018-03-05T12:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosection_video_SubMenuStoryClickSection -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Sectionpage@73846619]" name="close" is-config="true" duration-ms="802" started-at="2018-03-05T12:48:31Z" finished-at="2018-03-05T12:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Sectionpage -->
+    </test> <!-- T2ONLINE_SECTIONPAGE -->
+    <test name="T2ONLINE_STORYPAGE" duration-ms="473570" started-at="2018-03-05T07:18:32Z" finished-at="2018-03-05T07:26:26Z">
+      <class name="Storypage">
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2905" started-at="2018-03-05T12:48:32Z" finished-at="2018-03-05T12:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_BackToTop()[pri:0, instance:Storypage@20322d26]" name="story_BackToTop" duration-ms="0" started-at="2018-03-05T12:48:35Z" finished-at="2018-03-05T12:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_BackToTop -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="1100" started-at="2018-03-05T12:48:35Z" finished-at="2018-03-05T12:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2393" started-at="2018-03-05T12:48:36Z" finished-at="2018-03-05T12:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_NextPrevButtonStories()[pri:0, instance:Storypage@20322d26]" name="story_NextPrevButtonStories" duration-ms="89987" started-at="2018-03-05T12:48:39Z" finished-at="2018-03-05T12:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_NextPrevButtonStories -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="1095" started-at="2018-03-05T12:50:09Z" finished-at="2018-03-05T12:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="3838" started-at="2018-03-05T12:50:10Z" finished-at="2018-03-05T12:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_entertainment_SubMenuStoryClick()[pri:0, instance:Storypage@20322d26]" name="story_entertainment_SubMenuStoryClick" duration-ms="49837" started-at="2018-03-05T12:50:13Z" finished-at="2018-03-05T12:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_entertainment_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="793" started-at="2018-03-05T12:51:03Z" finished-at="2018-03-05T12:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2318" started-at="2018-03-05T12:51:04Z" finished-at="2018-03-05T12:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_lifestyle_SubMenuStoryClick()[pri:0, instance:Storypage@20322d26]" name="story_lifestyle_SubMenuStoryClick" duration-ms="41192" started-at="2018-03-05T12:51:06Z" finished-at="2018-03-05T12:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_lifestyle_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="732" started-at="2018-03-05T12:51:48Z" finished-at="2018-03-05T12:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2205" started-at="2018-03-05T12:51:48Z" finished-at="2018-03-05T12:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_spin_SubMenuStoryClick()[pri:0, instance:Storypage@20322d26]" name="story_spin_SubMenuStoryClick" duration-ms="49588" started-at="2018-03-05T12:51:51Z" finished-at="2018-03-05T12:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_spin_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="732" started-at="2018-03-05T12:52:40Z" finished-at="2018-03-05T12:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2850" started-at="2018-03-05T12:52:41Z" finished-at="2018-03-05T12:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_sport_SubMenuStoryClick()[pri:0, instance:Storypage@20322d26]" name="story_sport_SubMenuStoryClick" duration-ms="45745" started-at="2018-03-05T12:52:44Z" finished-at="2018-03-05T12:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_sport_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="862" started-at="2018-03-05T12:53:29Z" finished-at="2018-03-05T12:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2988" started-at="2018-03-05T12:53:30Z" finished-at="2018-03-05T12:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="SKIP" signature="story_tech_SubMenuStoryClick()[pri:0, instance:Storypage@20322d26]" name="story_tech_SubMenuStoryClick" duration-ms="19557" started-at="2018-03-05T12:53:33Z" finished-at="2018-03-05T12:53:53Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'ABPDigitalNoida-13724', ip: '10.138.10.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\DIGITA~1\AppData\Local\Temp\scoped_dir11896_11840}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a9021adf5df307a278b3e92e846babb3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'ABPDigitalNoida-13724', ip: '10.138.10.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\DIGITA~1\AppData\Local\Temp\scoped_dir11896_11840}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a9021adf5df307a278b3e92e846babb3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at base.tech_SubMenuStoryClick(base.java:675)
+	at Storypage.story_tech_SubMenuStoryClick(Storypage.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_tech_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="1016" started-at="2018-03-05T12:53:53Z" finished-at="2018-03-05T12:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2832" started-at="2018-03-05T12:53:54Z" finished-at="2018-03-05T12:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_tech_SubMenuStoryClick()[pri:0, instance:Storypage@20322d26]" name="story_tech_SubMenuStoryClick" duration-ms="79616" started-at="2018-03-05T12:53:57Z" finished-at="2018-03-05T12:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_tech_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="963" started-at="2018-03-05T12:55:16Z" finished-at="2018-03-05T12:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Storypage@20322d26]" name="openHomepage" is-config="true" duration-ms="2819" started-at="2018-03-05T12:55:17Z" finished-at="2018-03-05T12:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="story_video_SubMenuStoryClick()[pri:0, instance:Storypage@20322d26]" name="story_video_SubMenuStoryClick" duration-ms="64835" started-at="2018-03-05T12:55:20Z" finished-at="2018-03-05T12:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- story_video_SubMenuStoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Storypage@20322d26]" name="close" is-config="true" duration-ms="768" started-at="2018-03-05T12:56:25Z" finished-at="2018-03-05T12:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Storypage -->
+    </test> <!-- T2ONLINE_STORYPAGE -->
+    <test name="T2ONLINE_SEARCHPAGE" duration-ms="196757" started-at="2018-03-05T07:26:26Z" finished-at="2018-03-05T07:29:43Z">
+      <class name="Searchpage">
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:Searchpage@6e1ec318]" name="openHomepage" is-config="true" duration-ms="1" started-at="2018-03-05T12:56:26Z" finished-at="2018-03-05T12:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="Searchpagecheck()[pri:0, instance:Searchpage@6e1ec318]" name="Searchpagecheck" duration-ms="196741" started-at="2018-03-05T12:56:26Z" finished-at="2018-03-05T12:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchpagecheck -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Searchpage@6e1ec318]" name="close" is-config="true" duration-ms="15" started-at="2018-03-05T12:59:43Z" finished-at="2018-03-05T12:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Searchpage -->
+    </test> <!-- T2ONLINE_SEARCHPAGE -->
+  </suite> <!-- Suite 1 -->
+</testng-results>

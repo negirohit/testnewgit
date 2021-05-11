@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27722" started-at="2018-07-27T06:01:32Z" finished-at="2018-07-27T06:02:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27722" started-at="2018-07-27T06:01:32Z" finished-at="2018-07-27T06:02:00Z">
+      <class name="abpdigital_Robots.SSl_protocol">
+        <test-method status="PASS" signature="test_ABP_SSl_protocol()[pri:1, instance:abpdigital_Robots.SSl_protocol@754ba872]" name="test_ABP_SSl_protocol" duration-ms="11458" started-at="2018-07-27T11:31:32Z" finished-at="2018-07-27T11:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ABP_SSl_protocol -->
+        <test-method status="PASS" signature="test_Ebela_SSl_protocol()[pri:2, instance:abpdigital_Robots.SSl_protocol@754ba872]" name="test_Ebela_SSl_protocol" duration-ms="5498" started-at="2018-07-27T11:31:44Z" finished-at="2018-07-27T11:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Ebela_SSl_protocol -->
+        <test-method status="PASS" signature="test_T2online_SSl_protocol()[pri:3, instance:abpdigital_Robots.SSl_protocol@754ba872]" name="test_T2online_SSl_protocol" duration-ms="5287" started-at="2018-07-27T11:31:49Z" finished-at="2018-07-27T11:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_T2online_SSl_protocol -->
+        <test-method status="PASS" signature="test_Fortune_SSl_protocol()[pri:4, instance:abpdigital_Robots.SSl_protocol@754ba872]" name="test_Fortune_SSl_protocol" duration-ms="5453" started-at="2018-07-27T11:31:54Z" finished-at="2018-07-27T11:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Fortune_SSl_protocol -->
+      </class> <!-- abpdigital_Robots.SSl_protocol -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

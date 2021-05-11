@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <parameter name="browser_name" value="chrome-win-saucelabs"/>
+  <listeners>
+    <listener class-name="base.AnnotationTransformer"/>
+  </listeners>
+  <test name="CMS(Telegraph)_Test_Cases(failed)">
+    <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+      <class name="planner.idea_rejection">
+        <methods>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- planner.idea_rejection -->
+      <class name="planner.Idea_creation">
+        <methods>
+          <include name="create"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- planner.Idea_creation -->
+      <class name="planner.storyPromote">
+        <methods>
+          <include name="create"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- planner.storyPromote -->
+      <class name="planner.submitStory">
+        <methods>
+          <include name="submit_Story" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- planner.submitStory -->
+      <class name="planner.publish_story_delete">
+        <methods>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- planner.publish_story_delete -->
+      <class name="planner.publish_story">
+        <methods>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- planner.publish_story -->
+      <class name="base.login">
+        <methods>
+          <include name="teardown"/>
+          <include name="mail"/>
+        </methods>
+      </class> <!-- base.login -->
+      <class name="planner.approveStory">
+        <methods>
+          <include name="create"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- planner.approveStory -->
+      <class name="planner.storyOpen">
+        <methods>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- planner.storyOpen -->
+      <class name="workspace.Openstory_assertion">
+        <methods>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- workspace.Openstory_assertion -->
+      <class name="story.blank_story">
+        <methods>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- story.blank_story -->
+      <class name="planner.story_collection_check">
+        <methods>
+          <include name="teardown"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- planner.story_collection_check -->
+    </classes>
+  </test> <!-- CMS(Telegraph)_Test_Cases(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

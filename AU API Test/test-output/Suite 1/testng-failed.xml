@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="ABP AND EBELA APIS (failed)">
+    <classes>
+      <class name="apis.Get_Latest_Articles_PGallery_Article">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+          <include name="get_Latest_Articles_Photo_Gallery_Article"/>
+        </methods>
+      </class> <!-- apis.Get_Latest_Articles_PGallery_Article -->
+      <class name="apis.get_PQ_Articles">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- apis.get_PQ_Articles -->
+      <class name="apis.Get_Articles_By_Tags">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- apis.Get_Articles_By_Tags -->
+      <class name="apis.Get_Article_By_Id">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- apis.Get_Article_By_Id -->
+      <class name="apis.Get_Sub_Pages_By_Page_Id">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- apis.Get_Sub_Pages_By_Page_Id -->
+      <class name="apis.Get_Articles_Between_Time">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- apis.Get_Articles_Between_Time -->
+      <class name="apis.Get_latest_articles_by_vstoryid">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- apis.Get_latest_articles_by_vstoryid -->
+      <class name="apis.Au_pq_api">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- apis.Au_pq_api -->
+      <class name="apis.Get_latest_articles_by_storyid">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- apis.Get_latest_articles_by_storyid -->
+    </classes>
+  </test> <!-- ABP AND EBELA APIS (failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

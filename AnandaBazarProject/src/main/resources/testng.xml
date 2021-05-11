@@ -1,0 +1,7 @@
+<suite name="softwaretesting">
+ <test name="testngTest">
+ <classes>
+ <class name="AnandBazarTest.AnandBazaarTest" />
+ </classes>
+ </test>
+</suite>

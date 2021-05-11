@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="ABP AND EBELA APIS (failed)">
+    <classes>
+      <class name="abp.gettopicsbytag_Ebela">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.gettopicsbytag_Ebela -->
+      <class name="abp.getebelavideobytimestamp">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelavideobytimestamp -->
+      <class name="abp.gettopicsbytag_ABP">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.gettopicsbytag_ABP -->
+      <class name="abp.getsitemapfeed">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getsitemapfeed -->
+      <class name="abp.getebelaarticlefromdeptid">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelaarticlefromdeptid -->
+      <class name="abp.getrelatedebelavideoarticle">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getrelatedebelavideoarticle -->
+      <class name="abp.getabparticlebydepartmentid">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getabparticlebydepartmentid -->
+      <class name="abp.getebelacontestarticlebydept">
+        <methods>
+          <include name="create"/>
+          <include name="get_ebela_contest_article_by_dept"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelacontestarticlebydept -->
+      <class name="abp.getabparticlebyid">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getabparticlebyid -->
+      <class name="abp.getarticlesbycontentid">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getarticlesbycontentid -->
+      <class name="abp.getarticlebyPqId">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getarticlebyPqId -->
+      <class name="abp.getebelaphotosbytimestamp">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getebelaphotosbytimestamp -->
+      <class name="abp.getebelaauthorarticle">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelaauthorarticle -->
+      <class name="abp.getebelavideoarticlebyid">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getebelavideoarticlebyid -->
+      <class name="abp.getrelatedebelaimagearticle">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getrelatedebelaimagearticle -->
+      <class name="abp.gethorroscopearticlebydepartmentidbyarticleid">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.gethorroscopearticlebydepartmentidbyarticleid -->
+      <class name="abp.getebelaotherarticlesbytag">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getebelaotherarticlesbytag -->
+      <class name="abp.getebelaarticlewithcontentid">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelaarticlewithcontentid -->
+      <class name="abp.getebelaimagearticle">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getebelaimagearticle -->
+      <class name="abp.getHoroscopeRelatedArticlesByTagsWithFallBack">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getHoroscopeRelatedArticlesByTagsWithFallBack -->
+      <class name="abp.getebelavideoarticlebytag">
+        <methods>
+          <include name="get_ebela_video_article_by_tag"/>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelavideoarticlebytag -->
+      <class name="abp.getRelatedArticlesByTagsWithFallBackWithDeptID">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getRelatedArticlesByTagsWithFallBackWithDeptID -->
+      <class name="abp.getebelaphotobyid">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelaphotobyid -->
+      <class name="abp.getabpreletedarticle">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getabpreletedarticle -->
+      <class name="abp.getebelaarticlesbycontentid">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelaarticlesbycontentid -->
+      <class name="abp.gethorroscopearticlebydepartmentid">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.gethorroscopearticlebydepartmentid -->
+      <class name="abp.getRelatedArticlesByTagsWithFallBack">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getRelatedArticlesByTagsWithFallBack -->
+      <class name="abp.getEbelaVideoArticleFeeds">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+          <include name="get_ebela_video_by_time_stamp"/>
+        </methods>
+      </class> <!-- abp.getEbelaVideoArticleFeeds -->
+      <class name="abp.ebelaVentunoVideoArticleAPI">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.ebelaVentunoVideoArticleAPI -->
+      <class name="abp.getphotogalleryarticlefrompqid">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getphotogalleryarticlefrompqid -->
+      <class name="abp.getebelaquotearticle">
+        <methods>
+          <include name="close"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- abp.getebelaquotearticle -->
+      <class name="abp.getebelabloggerarticle">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelabloggerarticle -->
+      <class name="abp.getebelaarticlebytag">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getebelaarticlebytag -->
+      <class name="abp.getstorysitemap">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getstorysitemap -->
+      <class name="abp.getmorefromweb">
+        <methods>
+          <include name="create"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- abp.getmorefromweb -->
+    </classes>
+  </test> <!-- ABP AND EBELA APIS (failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

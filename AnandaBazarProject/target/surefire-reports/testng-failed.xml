@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Anandautsav 2018]">
+  <test name="AnandaUtsav Test Cases(failed)">
+    <parameter name="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="AnandBazarTest.pagetest">
+        <methods>
+          <include name="validate_food_section"/>
+          <include name="validate_lifestyle_section"/>
+          <include name="validate_mahishasur_pala"/>
+          <include name="validate_puja_parikrama"/>
+          <include name="validate_sectionPage"/>
+          <include name="validate_celebrities_during_puja"/>
+          <include name="afterClass"/>
+          <include name="validate_storyPage"/>
+          <include name="validate_homeAndDecor"/>
+          <include name="validate_lead_stories"/>
+          <include name="BrowserFactory"/>
+        </methods>
+      </class> <!-- AnandBazarTest.pagetest -->
+    </classes>
+  </test> <!-- AnandaUtsav Test Cases(failed) -->
+</suite> <!-- Failed suite [Anandautsav 2018] -->

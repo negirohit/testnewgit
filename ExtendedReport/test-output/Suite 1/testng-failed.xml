@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="WebPageTest stats(failed)">
+    <classes>
+      <class name="Pingdomtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Pingdomtest -->
+      <class name="Gtmetrixtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Gtmetrixtest -->
+      <class name="Webpagetest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="WebpageTestcall4"/>
+          <include name="WebpageTestcall3"/>
+        </methods>
+      </class> <!-- Webpagetest -->
+    </classes>
+  </test> <!-- WebPageTest stats(failed) -->
+  <test name="GTMetrixTest stats(failed)">
+    <classes>
+      <class name="Pingdomtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Pingdomtest -->
+      <class name="Gtmetrixtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="WebpageTestcall4"/>
+          <include name="WebpageTestcall3"/>
+          <include name="Gtmetrixcall2"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Gtmetrixtest -->
+      <class name="Webpagetest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openFortuneIndiaFolder"/>
+        </methods>
+      </class> <!-- Webpagetest -->
+    </classes>
+  </test> <!-- GTMetrixTest stats(failed) -->
+  <test name="PingdomTest stats(failed)">
+    <classes>
+      <class name="Pingdomtest">
+        <methods>
+          <include name="Pingdomcall4"/>
+          <include name="Pingdomcall2"/>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+          <include name="Pingdomcall3"/>
+        </methods>
+      </class> <!-- Pingdomtest -->
+      <class name="Gtmetrixtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Gtmetrixtest -->
+      <class name="Webpagetest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openFortuneIndiaFolder"/>
+        </methods>
+      </class> <!-- Webpagetest -->
+    </classes>
+  </test> <!-- PingdomTest stats(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

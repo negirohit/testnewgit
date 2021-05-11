@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test name="WebPageTest stats(failed)">
+    <classes>
+      <class name="excel.Gtmetrixtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- excel.Gtmetrixtest -->
+      <class name="excel.Webpagetest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="WebpageTestcall3"/>
+          <include name="WebpageTestcall2"/>
+          <include name="WebpageTestcall4"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- excel.Webpagetest -->
+      <class name="excel.Pingdomtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- excel.Pingdomtest -->
+    </classes>
+  </test> <!-- WebPageTest stats(failed) -->
+  <test name="GTMetrixTest stats(failed)">
+    <classes>
+      <class name="excel.Gtmetrixtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="Gtmetrixcall"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- excel.Gtmetrixtest -->
+      <class name="excel.Webpagetest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- excel.Webpagetest -->
+      <class name="excel.Pingdomtest">
+        <methods>
+          <include name="openFortuneIndiaFolder"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- excel.Pingdomtest -->
+    </classes>
+  </test> <!-- GTMetrixTest stats(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

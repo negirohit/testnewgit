@@ -1,0 +1,68 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+
+<test name="Fortune Homepage in Chrome Windows" >
+     <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+	
+	  <class name="homepage.HomeTC_01"/>
+	  <class name="homepage.HomeTC_02"/>
+	  
+    </classes>
+    
+ </test>
+ 
+ <test name="Fortune Homepage in Firefox Windows" >
+     <parameter name="browser_name" value="firefox-win-saucelabs"/>
+    <classes>
+	
+	  <class name="homepage.HomeTC_01"/>
+	  <class name="homepage.HomeTC_02"/>
+    </classes>
+    
+ </test>
+ 
+ <test name="Fortune Sectionpage in Chrome Windows" >
+     <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+	
+	  <class name="sectionpage.SectionTC_01"/>
+	  <class name="sectionpage.SectionTC_02"/>
+	  
+    </classes>
+    
+ </test>
+ 
+  <test name="Fortune Specialpage in Safari Mac" >
+     <parameter name="browser_name" value="safari-saucelabs"/>
+    <classes>
+	
+	  <class name="specialpage.SpecialTC_02"/>
+	  
+    </classes>
+    
+ </test>
+ 
+  <test name="Fortune Specialpage in Chrome Windows" >
+     <parameter name="browser_name" value="chrome-win-saucelabs"/>
+    <classes>
+	
+	  <class name="specialpage.SpecialTC_01"/>
+	  
+    </classes>
+    
+ </test>
+ 
+  <test name="Fortune Searchpage in Firefox Windows" >
+     <parameter name="browser_name" value="firefox-win-saucelabs"/>
+    <classes>
+	
+	  <class name="searchpage.search"/>
+	  
+    </classes>
+    
+ </test>
+ 
+</suite>
+

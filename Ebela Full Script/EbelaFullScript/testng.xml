@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+
+<test name="Ebela Homepage" >
+    <classes>
+	
+	  
+	  <class name="homepage.BackToTopScroll"/>
+	  <class name="homepage.Brandlogo"/>
+	  <class name="homepage.CuratedStories"/>
+	  <class name="homepage.epaper"/>
+	  <class name="homepage.FooterClick"/>
+	  <class name="homepage.horoscope"/>
+	  <class name="homepage.Nanabidh"/>
+	  <class name="homepage.NavClick"/>
+	  <class name="homepage.Poll"/>
+	  <class name="homepage.SampurnoBibhag"/>
+	  <class name="homepage.social"/>
+	  <class name="homepage.Trending"/>
+	   
+    </classes>
+    
+ </test>
+ 
+<test name="Ebela SectionPage" >
+    <classes>
+    
+    	<class name="sectionpage.BackToTop"/>
+    	<class name="sectionpage.BrandLogo"/>
+    	<class name="sectionpage.breadcrumb"/>
+		<class name="sectionpage.LoadMore"/>
+	 	<class name="sectionpage.NavBarCheck"/>
+	  	<class name="sectionpage.SubSectionCheck"/>
+	  	
+    </classes>
+    
+ </test>
+ 
+ 
+</suite>
+

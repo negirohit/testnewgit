@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AU API Test Cases">
+
+  
+<test name="Ananda Utsav - ABP APIS " >
+    <classes>
+	
+	  <class name="apis.Au_pq_api"/>
+	   <class name="apis.Get_Article_By_Id"/>
+	    <class name="apis.Get_Articles_Between_Time"/>
+	     <class name="apis.Get_Articles_By_Tags"/>
+	      <class name="apis.Get_latest_articles_by_storyid"/>
+	       <class name="apis.Get_latest_articles_by_vstoryid"/>
+	         <class name="apis.get_PQ_Articles"/>
+	          <class name="apis.Get_Sub_Pages_By_Page_Id"/>
+    </classes>
+    
+</test>
+ 
+
+ 
+</suite>
+

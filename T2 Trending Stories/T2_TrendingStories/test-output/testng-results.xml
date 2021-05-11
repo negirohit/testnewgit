@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="178298" started-at="2018-07-23T09:56:32Z" finished-at="2018-07-23T09:59:30Z">
+    <groups>
+    </groups>
+    <test name="RetryMulitple" duration-ms="178298" started-at="2018-07-23T09:56:32Z" finished-at="2018-07-23T09:59:30Z">
+      <class name="TrendingTestCase">
+        <test-method status="PASS" signature="trend_api()[pri:0, instance:TrendingTestCase@6536e911]" name="trend_api" duration-ms="178279" started-at="2018-07-23T15:26:32Z" finished-at="2018-07-23T15:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trend_api -->
+      </class> <!-- TrendingTestCase -->
+    </test> <!-- RetryMulitple -->
+  </suite> <!-- Suite 1 -->
+</testng-results>

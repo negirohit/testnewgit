@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="150598" started-at="2018-07-16T07:38:00Z" finished-at="2018-07-16T07:40:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="150598" started-at="2018-07-16T07:38:00Z" finished-at="2018-07-16T07:40:31Z">
+      <class name="test_sitemap.Abp_sitemap">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="openBrowser" is-config="true" duration-ms="3757" started-at="2018-07-16T13:08:00Z" finished-at="2018-07-16T13:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="openUrl" is-config="true" duration-ms="2273" started-at="2018-07-16T13:08:04Z" finished-at="2018-07-16T13:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="abptopic_SiteMap()[pri:1, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="abptopic_SiteMap" duration-ms="39479" started-at="2018-07-16T13:08:06Z" finished-at="2018-07-16T13:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abptopic_SiteMap -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-07-16T13:08:46Z" finished-at="2018-07-16T13:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=abptopic_SiteMap status=SUCCESS method=Abp_sitemap.abptopic_SiteMap()[pri:1, instance:test_sitemap.Abp_sitemap@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="openUrl" is-config="true" duration-ms="1836" started-at="2018-07-16T13:08:46Z" finished-at="2018-07-16T13:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="abpnews_SiteMap()[pri:2, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="abpnews_SiteMap" duration-ms="37600" started-at="2018-07-16T13:08:48Z" finished-at="2018-07-16T13:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abpnews_SiteMap -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-07-16T13:09:25Z" finished-at="2018-07-16T13:09:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=abpnews_SiteMap status=SUCCESS method=Abp_sitemap.abpnews_SiteMap()[pri:2, instance:test_sitemap.Abp_sitemap@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="openUrl" is-config="true" duration-ms="1525" started-at="2018-07-16T13:09:25Z" finished-at="2018-07-16T13:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="abpSiteMap_index()[pri:3, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="abpSiteMap_index" duration-ms="30683" started-at="2018-07-16T13:09:27Z" finished-at="2018-07-16T13:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abpSiteMap_index -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-07-16T13:09:57Z" finished-at="2018-07-16T13:09:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=abpSiteMap_index status=SUCCESS method=Abp_sitemap.abpSiteMap_index()[pri:3, instance:test_sitemap.Abp_sitemap@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="openUrl" is-config="true" duration-ms="1487" started-at="2018-07-16T13:09:57Z" finished-at="2018-07-16T13:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="abp_SiteMap()[pri:4, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="abp_SiteMap" duration-ms="30944" started-at="2018-07-16T13:09:59Z" finished-at="2018-07-16T13:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abp_SiteMap -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-07-16T13:10:30Z" finished-at="2018-07-16T13:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=abp_SiteMap status=SUCCESS method=Abp_sitemap.abp_SiteMap()[pri:4, instance:test_sitemap.Abp_sitemap@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:test_sitemap.Abp_sitemap@3c0ecd4b]" name="closedriver" is-config="true" duration-ms="992" started-at="2018-07-16T13:10:30Z" finished-at="2018-07-16T13:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- test_sitemap.Abp_sitemap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

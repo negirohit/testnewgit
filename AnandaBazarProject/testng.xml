@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Anandautsav 2018">
+ 	<test name="AnandaUtsav Test Cases">
+ <parameter name="BrowserName" value="chrome"/>
+ 		<classes>
+ 				<class name="AnandBazarTest.pagetest" />
+ 		</classes>
+ </test>
+</suite>

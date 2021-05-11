@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="35" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="63057" started-at="2019-04-01T09:44:01Z" finished-at="2019-04-01T09:45:04Z">
+    <groups>
+    </groups>
+    <test name="ABP AND EBELA APIS " duration-ms="63057" started-at="2019-04-01T09:44:01Z" finished-at="2019-04-01T09:45:04Z">
+      <class name="abp.getabparticlebyid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getabparticlebyid@5b87ed94]" name="create" is-config="true" duration-ms="12" started-at="2019-04-01T15:14:07Z" finished-at="2019-04-01T15:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_abp_article_by_id()[pri:0, instance:abp.getabparticlebyid@5b87ed94]" name="get_abp_article_by_id" duration-ms="766" started-at="2019-04-01T15:14:07Z" finished-at="2019-04-01T15:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_abp_article_by_id -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getabparticlebyid@5b87ed94]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:08Z" finished-at="2019-04-01T15:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getabparticlebyid -->
+      <class name="abp.getebelaarticlebytag">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaarticlebytag@23e028a9]" name="create" is-config="true" duration-ms="12" started-at="2019-04-01T15:14:10Z" finished-at="2019-04-01T15:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_article_by_tag()[pri:0, instance:abp.getebelaarticlebytag@23e028a9]" name="get_ebela_article_by_tag" duration-ms="940" started-at="2019-04-01T15:14:10Z" finished-at="2019-04-01T15:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_article_by_tag -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaarticlebytag@23e028a9]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:11Z" finished-at="2019-04-01T15:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaarticlebytag -->
+      <class name="abp.getsitemapfeed">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getsitemapfeed@6321e813]" name="create" is-config="true" duration-ms="20" started-at="2019-04-01T15:14:56Z" finished-at="2019-04-01T15:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_sitemap_feed()[pri:0, instance:abp.getsitemapfeed@6321e813]" name="get_sitemap_feed" duration-ms="2728" started-at="2019-04-01T15:14:56Z" finished-at="2019-04-01T15:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_sitemap_feed -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getsitemapfeed@6321e813]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:59Z" finished-at="2019-04-01T15:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getsitemapfeed -->
+      <class name="abp.getEbelaVideoArticleFeeds">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getEbelaVideoArticleFeeds@1dfe2924]" name="create" is-config="true" duration-ms="4" started-at="2019-04-01T15:14:29Z" finished-at="2019-04-01T15:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="FAIL" signature="get_ebela_video_by_time_stamp()[pri:0, instance:abp.getEbelaVideoArticleFeeds@1dfe2924]" name="get_ebela_video_by_time_stamp" duration-ms="12345" started-at="2019-04-01T15:14:29Z" finished-at="2019-04-01T15:14:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path count doesn't match.
+Expected: <344>
+  Actual: 311
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path count doesn't match.
+Expected: <344>
+  Actual: 311
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:276)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:259)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)
+	at abp.getEbelaVideoArticleFeeds.get_ebela_video_by_time_stamp(getEbelaVideoArticleFeeds.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_video_by_time_stamp -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getEbelaVideoArticleFeeds@1dfe2924]" name="close" is-config="true" duration-ms="2" started-at="2019-04-01T15:14:42Z" finished-at="2019-04-01T15:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getEbelaVideoArticleFeeds -->
+      <class name="abp.getarticlebyPqId">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getarticlebyPqId@5bc79255]" name="create" is-config="true" duration-ms="16" started-at="2019-04-01T15:14:09Z" finished-at="2019-04-01T15:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_article_by_Pq_Id()[pri:0, instance:abp.getarticlebyPqId@5bc79255]" name="get_article_by_Pq_Id" duration-ms="1023" started-at="2019-04-01T15:14:09Z" finished-at="2019-04-01T15:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_article_by_Pq_Id -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getarticlebyPqId@5bc79255]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:10Z" finished-at="2019-04-01T15:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getarticlebyPqId -->
+      <class name="abp.getebelaimagearticle">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaimagearticle@627551fb]" name="create" is-config="true" duration-ms="4" started-at="2019-04-01T15:14:17Z" finished-at="2019-04-01T15:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_image_article()[pri:0, instance:abp.getebelaimagearticle@627551fb]" name="get_ebela_image_article" duration-ms="6344" started-at="2019-04-01T15:14:17Z" finished-at="2019-04-01T15:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_image_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaimagearticle@627551fb]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:23Z" finished-at="2019-04-01T15:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaimagearticle -->
+      <class name="abp.getrelatedebelaimagearticle">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getrelatedebelaimagearticle@3a883ce7]" name="create" is-config="true" duration-ms="16" started-at="2019-04-01T15:14:54Z" finished-at="2019-04-01T15:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_related_ebela_image_article()[pri:0, instance:abp.getrelatedebelaimagearticle@3a883ce7]" name="get_related_ebela_image_article" duration-ms="925" started-at="2019-04-01T15:14:54Z" finished-at="2019-04-01T15:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_related_ebela_image_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getrelatedebelaimagearticle@3a883ce7]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:55Z" finished-at="2019-04-01T15:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getrelatedebelaimagearticle -->
+      <class name="abp.getabpreletedarticle">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getabpreletedarticle@6e0e048a]" name="create" is-config="true" duration-ms="22" started-at="2019-04-01T15:14:08Z" finished-at="2019-04-01T15:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_abp_releted_article()[pri:0, instance:abp.getabpreletedarticle@6e0e048a]" name="get_abp_releted_article" duration-ms="920" started-at="2019-04-01T15:14:08Z" finished-at="2019-04-01T15:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_abp_releted_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getabpreletedarticle@6e0e048a]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:09Z" finished-at="2019-04-01T15:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getabpreletedarticle -->
+      <class name="abp.getphotogalleryarticlefrompqid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getphotogalleryarticlefrompqid@3d99d22e]" name="create" is-config="true" duration-ms="13" started-at="2019-04-01T15:14:51Z" finished-at="2019-04-01T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_photogallery_article_from_pq_id()[pri:0, instance:abp.getphotogalleryarticlefrompqid@3d99d22e]" name="get_photogallery_article_from_pq_id" duration-ms="1278" started-at="2019-04-01T15:14:51Z" finished-at="2019-04-01T15:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_photogallery_article_from_pq_id -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getphotogalleryarticlefrompqid@3d99d22e]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:52Z" finished-at="2019-04-01T15:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getphotogalleryarticlefrompqid -->
+      <class name="abp.getRelatedArticlesByTagsWithFallBackWithDeptID">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getRelatedArticlesByTagsWithFallBackWithDeptID@cd2dae5]" name="create" is-config="true" duration-ms="8" started-at="2019-04-01T15:14:54Z" finished-at="2019-04-01T15:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_Related_Articles_By_Tags_With_FallBack_With_DeptID()[pri:0, instance:abp.getRelatedArticlesByTagsWithFallBackWithDeptID@cd2dae5]" name="get_Related_Articles_By_Tags_With_FallBack_With_DeptID" duration-ms="845" started-at="2019-04-01T15:14:54Z" finished-at="2019-04-01T15:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Related_Articles_By_Tags_With_FallBack_With_DeptID -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getRelatedArticlesByTagsWithFallBackWithDeptID@cd2dae5]" name="close" is-config="true" duration-ms="1" started-at="2019-04-01T15:14:54Z" finished-at="2019-04-01T15:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getRelatedArticlesByTagsWithFallBackWithDeptID -->
+      <class name="abp.ebelaVentunoVideoArticleAPI">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.ebelaVentunoVideoArticleAPI@887af79]" name="create" is-config="true" duration-ms="46" started-at="2019-04-01T15:14:01Z" finished-at="2019-04-01T15:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="ebela_Ventuno_Video_Article_API()[pri:0, instance:abp.ebelaVentunoVideoArticleAPI@887af79]" name="ebela_Ventuno_Video_Article_API" duration-ms="4702" started-at="2019-04-01T15:14:01Z" finished-at="2019-04-01T15:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebela_Ventuno_Video_Article_API -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.ebelaVentunoVideoArticleAPI@887af79]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:06Z" finished-at="2019-04-01T15:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.ebelaVentunoVideoArticleAPI -->
+      <class name="abp.getHoroscopeRelatedArticlesByTagsWithFallBack">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getHoroscopeRelatedArticlesByTagsWithFallBack@6e6c3152]" name="create" is-config="true" duration-ms="15" started-at="2019-04-01T15:14:46Z" finished-at="2019-04-01T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_Horoscope_Related_Articles_By_Tags_With_FallBack()[pri:0, instance:abp.getHoroscopeRelatedArticlesByTagsWithFallBack@6e6c3152]" name="get_Horoscope_Related_Articles_By_Tags_With_FallBack" duration-ms="1243" started-at="2019-04-01T15:14:46Z" finished-at="2019-04-01T15:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Horoscope_Related_Articles_By_Tags_With_FallBack -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getHoroscopeRelatedArticlesByTagsWithFallBack@6e6c3152]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:47Z" finished-at="2019-04-01T15:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getHoroscopeRelatedArticlesByTagsWithFallBack -->
+      <class name="abp.getstorysitemap">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getstorysitemap@79be0360]" name="create" is-config="true" duration-ms="10" started-at="2019-04-01T15:14:59Z" finished-at="2019-04-01T15:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_article_by_Pq_Id()[pri:0, instance:abp.getstorysitemap@79be0360]" name="get_article_by_Pq_Id" duration-ms="890" started-at="2019-04-01T15:14:59Z" finished-at="2019-04-01T15:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_article_by_Pq_Id -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getstorysitemap@79be0360]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:15:00Z" finished-at="2019-04-01T15:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getstorysitemap -->
+      <class name="abp.getebelaarticlefromdeptid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaarticlefromdeptid@3dd4520b]" name="create" is-config="true" duration-ms="12" started-at="2019-04-01T15:14:11Z" finished-at="2019-04-01T15:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_article_from_deptid()[pri:0, instance:abp.getebelaarticlefromdeptid@3dd4520b]" name="get_ebela_article_from_deptid" duration-ms="786" started-at="2019-04-01T15:14:11Z" finished-at="2019-04-01T15:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_article_from_deptid -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaarticlefromdeptid@3dd4520b]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:12Z" finished-at="2019-04-01T15:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaarticlefromdeptid -->
+      <class name="abp.getebelaarticlesbycontentid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaarticlesbycontentid@5ae63ade]" name="create" is-config="true" duration-ms="11" started-at="2019-04-01T15:14:12Z" finished-at="2019-04-01T15:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_articles_by_contentid()[pri:0, instance:abp.getebelaarticlesbycontentid@5ae63ade]" name="get_ebela_articles_by_contentid" duration-ms="721" started-at="2019-04-01T15:14:12Z" finished-at="2019-04-01T15:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_articles_by_contentid -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaarticlesbycontentid@5ae63ade]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:13Z" finished-at="2019-04-01T15:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaarticlesbycontentid -->
+      <class name="abp.getebelaphotosbytimestamp">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaphotosbytimestamp@1f36e637]" name="create" is-config="true" duration-ms="12" started-at="2019-04-01T15:14:26Z" finished-at="2019-04-01T15:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_photos_by_timestamp()[pri:0, instance:abp.getebelaphotosbytimestamp@1f36e637]" name="get_ebela_photos_by_timestamp" duration-ms="1152" started-at="2019-04-01T15:14:26Z" finished-at="2019-04-01T15:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_photos_by_timestamp -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaphotosbytimestamp@1f36e637]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:27Z" finished-at="2019-04-01T15:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaphotosbytimestamp -->
+      <class name="abp.gethorroscopearticlebydepartmentid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.gethorroscopearticlebydepartmentid@50b494a6]" name="create" is-config="true" duration-ms="20" started-at="2019-04-01T15:14:47Z" finished-at="2019-04-01T15:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_horroscope_article_by_departmentid()[pri:0, instance:abp.gethorroscopearticlebydepartmentid@50b494a6]" name="get_horroscope_article_by_departmentid" duration-ms="1538" started-at="2019-04-01T15:14:47Z" finished-at="2019-04-01T15:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_horroscope_article_by_departmentid -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.gethorroscopearticlebydepartmentid@50b494a6]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:49Z" finished-at="2019-04-01T15:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.gethorroscopearticlebydepartmentid -->
+      <class name="abp.getebelaarticlewithcontentid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaarticlewithcontentid@610694f1]" name="create" is-config="true" duration-ms="21" started-at="2019-04-01T15:14:13Z" finished-at="2019-04-01T15:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_article_with_contentid()[pri:0, instance:abp.getebelaarticlewithcontentid@610694f1]" name="get_ebela_article_with_contentid" duration-ms="721" started-at="2019-04-01T15:14:13Z" finished-at="2019-04-01T15:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_article_with_contentid -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaarticlewithcontentid@610694f1]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:14Z" finished-at="2019-04-01T15:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaarticlewithcontentid -->
+      <class name="abp.getabparticlebydepartmentid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getabparticlebydepartmentid@7fac631b]" name="create" is-config="true" duration-ms="15" started-at="2019-04-01T15:14:06Z" finished-at="2019-04-01T15:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_abp_article_by_departmentid()[pri:0, instance:abp.getabparticlebydepartmentid@7fac631b]" name="get_abp_article_by_departmentid" duration-ms="721" started-at="2019-04-01T15:14:06Z" finished-at="2019-04-01T15:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_abp_article_by_departmentid -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getabparticlebydepartmentid@7fac631b]" name="close" is-config="true" duration-ms="1" started-at="2019-04-01T15:14:07Z" finished-at="2019-04-01T15:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getabparticlebydepartmentid -->
+      <class name="abp.gettopicsbytag_ABP">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.gettopicsbytag_ABP@22a67b4]" name="create" is-config="true" duration-ms="11" started-at="2019-04-01T15:15:00Z" finished-at="2019-04-01T15:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_topics_by_tag_ABP()[pri:0, instance:abp.gettopicsbytag_ABP@22a67b4]" name="get_topics_by_tag_ABP" duration-ms="3437" started-at="2019-04-01T15:15:00Z" finished-at="2019-04-01T15:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_topics_by_tag_ABP -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.gettopicsbytag_ABP@22a67b4]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:15:03Z" finished-at="2019-04-01T15:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.gettopicsbytag_ABP -->
+      <class name="abp.getebelacontestarticlebydept">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelacontestarticlebydept@3701eaf6]" name="create" is-config="true" duration-ms="19" started-at="2019-04-01T15:14:16Z" finished-at="2019-04-01T15:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="FAIL" signature="get_ebela_contest_article_by_dept()[pri:0, instance:abp.getebelacontestarticlebydept@3701eaf6]" name="get_ebela_contest_article_by_dept" duration-ms="632" started-at="2019-04-01T15:14:16Z" finished-at="2019-04-01T15:14:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <204>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <204>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at abp.getebelacontestarticlebydept.get_ebela_contest_article_by_dept(getebelacontestarticlebydept.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_contest_article_by_dept -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelacontestarticlebydept@3701eaf6]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:17Z" finished-at="2019-04-01T15:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelacontestarticlebydept -->
+      <class name="abp.getebelaauthorarticle">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaauthorarticle@43814d18]" name="create" is-config="true" duration-ms="14" started-at="2019-04-01T15:14:14Z" finished-at="2019-04-01T15:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_author_article()[pri:0, instance:abp.getebelaauthorarticle@43814d18]" name="get_ebela_author_article" duration-ms="805" started-at="2019-04-01T15:14:14Z" finished-at="2019-04-01T15:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_author_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaauthorarticle@43814d18]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:14Z" finished-at="2019-04-01T15:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaauthorarticle -->
+      <class name="abp.gethorroscopearticlebydepartmentidbyarticleid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.gethorroscopearticlebydepartmentidbyarticleid@3cef309d]" name="create" is-config="true" duration-ms="12" started-at="2019-04-01T15:14:49Z" finished-at="2019-04-01T15:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_horroscope_article_by_departmentid_by_articleid()[pri:0, instance:abp.gethorroscopearticlebydepartmentidbyarticleid@3cef309d]" name="get_horroscope_article_by_departmentid_by_articleid" duration-ms="1278" started-at="2019-04-01T15:14:49Z" finished-at="2019-04-01T15:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_horroscope_article_by_departmentid_by_articleid -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.gethorroscopearticlebydepartmentidbyarticleid@3cef309d]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:50Z" finished-at="2019-04-01T15:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.gethorroscopearticlebydepartmentidbyarticleid -->
+      <class name="abp.getRelatedArticlesByTagsWithFallBack">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getRelatedArticlesByTagsWithFallBack@49fc609f]" name="create" is-config="true" duration-ms="15" started-at="2019-04-01T15:14:52Z" finished-at="2019-04-01T15:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_Related_Articles_By_Tags_With_FallBack()[pri:0, instance:abp.getRelatedArticlesByTagsWithFallBack@49fc609f]" name="get_Related_Articles_By_Tags_With_FallBack" duration-ms="1591" started-at="2019-04-01T15:14:52Z" finished-at="2019-04-01T15:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Related_Articles_By_Tags_With_FallBack -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getRelatedArticlesByTagsWithFallBack@49fc609f]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:54Z" finished-at="2019-04-01T15:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getRelatedArticlesByTagsWithFallBack -->
+      <class name="abp.getmorefromweb">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getmorefromweb@32709393]" name="create" is-config="true" duration-ms="12" started-at="2019-04-01T15:14:50Z" finished-at="2019-04-01T15:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_more_from_web()[pri:0, instance:abp.getmorefromweb@32709393]" name="get_more_from_web" duration-ms="773" started-at="2019-04-01T15:14:50Z" finished-at="2019-04-01T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_more_from_web -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getmorefromweb@32709393]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:51Z" finished-at="2019-04-01T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getmorefromweb -->
+      <class name="abp.getebelavideoarticlebyid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelavideoarticlebyid@551aa95a]" name="create" is-config="true" duration-ms="13" started-at="2019-04-01T15:14:28Z" finished-at="2019-04-01T15:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_video_article_by_id()[pri:0, instance:abp.getebelavideoarticlebyid@551aa95a]" name="get_ebela_video_article_by_id" duration-ms="798" started-at="2019-04-01T15:14:28Z" finished-at="2019-04-01T15:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_video_article_by_id -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelavideoarticlebyid@551aa95a]" name="close" is-config="true" duration-ms="3" started-at="2019-04-01T15:14:29Z" finished-at="2019-04-01T15:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelavideoarticlebyid -->
+      <class name="abp.getarticlesbycontentid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getarticlesbycontentid@47ef968d]" name="create" is-config="true" duration-ms="19" started-at="2019-04-01T15:14:10Z" finished-at="2019-04-01T15:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_related_ebela_image_article()[pri:0, instance:abp.getarticlesbycontentid@47ef968d]" name="get_related_ebela_image_article" duration-ms="685" started-at="2019-04-01T15:14:10Z" finished-at="2019-04-01T15:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_related_ebela_image_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getarticlesbycontentid@47ef968d]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:10Z" finished-at="2019-04-01T15:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getarticlesbycontentid -->
+      <class name="abp.getebelavideobytimestamp">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelavideobytimestamp@6ebc05a6]" name="create" is-config="true" duration-ms="8" started-at="2019-04-01T15:14:42Z" finished-at="2019-04-01T15:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_video_by_time_stamp()[pri:0, instance:abp.getebelavideobytimestamp@6ebc05a6]" name="get_ebela_video_by_time_stamp" duration-ms="4074" started-at="2019-04-01T15:14:42Z" finished-at="2019-04-01T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_video_by_time_stamp -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelavideobytimestamp@6ebc05a6]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:46Z" finished-at="2019-04-01T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelavideobytimestamp -->
+      <class name="abp.getebelabloggerarticle">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelabloggerarticle@5c5a1b69]" name="create" is-config="true" duration-ms="16" started-at="2019-04-01T15:14:14Z" finished-at="2019-04-01T15:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_blogger_article()[pri:0, instance:abp.getebelabloggerarticle@5c5a1b69]" name="get_ebela_blogger_article" duration-ms="1501" started-at="2019-04-01T15:14:14Z" finished-at="2019-04-01T15:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_blogger_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelabloggerarticle@5c5a1b69]" name="close" is-config="true" duration-ms="1" started-at="2019-04-01T15:14:16Z" finished-at="2019-04-01T15:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelabloggerarticle -->
+      <class name="abp.getebelavideoarticlebytag">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelavideoarticlebytag@35d176f7]" name="create" is-config="true" duration-ms="10" started-at="2019-04-01T15:14:29Z" finished-at="2019-04-01T15:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="FAIL" signature="get_ebela_video_article_by_tag()[pri:0, instance:abp.getebelavideoarticlebytag@35d176f7]" name="get_ebela_video_article_by_tag" duration-ms="782" started-at="2019-04-01T15:14:29Z" finished-at="2019-04-01T15:14:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path count doesn't match.
+Expected: <4>
+  Actual: 2
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path count doesn't match.
+Expected: <4>
+  Actual: 2
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:276)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:259)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)
+	at abp.getebelavideoarticlebytag.get_ebela_video_article_by_tag(getebelavideoarticlebytag.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_video_article_by_tag -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelavideoarticlebytag@35d176f7]" name="close" is-config="true" duration-ms="18" started-at="2019-04-01T15:14:29Z" finished-at="2019-04-01T15:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelavideoarticlebytag -->
+      <class name="abp.getebelaphotobyid">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaphotobyid@2758fe70]" name="create" is-config="true" duration-ms="21" started-at="2019-04-01T15:14:24Z" finished-at="2019-04-01T15:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_photo_by_id()[pri:0, instance:abp.getebelaphotobyid@2758fe70]" name="get_ebela_photo_by_id" duration-ms="1909" started-at="2019-04-01T15:14:24Z" finished-at="2019-04-01T15:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_photo_by_id -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaphotobyid@2758fe70]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:26Z" finished-at="2019-04-01T15:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaphotobyid -->
+      <class name="abp.getrelatedebelavideoarticle">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getrelatedebelavideoarticle@4973813a]" name="create" is-config="true" duration-ms="10" started-at="2019-04-01T15:14:55Z" finished-at="2019-04-01T15:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_related_ebela_video_article()[pri:0, instance:abp.getrelatedebelavideoarticle@4973813a]" name="get_related_ebela_video_article" duration-ms="747" started-at="2019-04-01T15:14:55Z" finished-at="2019-04-01T15:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_related_ebela_video_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getrelatedebelavideoarticle@4973813a]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:56Z" finished-at="2019-04-01T15:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getrelatedebelavideoarticle -->
+      <class name="abp.gettopicsbytag_Ebela">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.gettopicsbytag_Ebela@57855c9a]" name="create" is-config="true" duration-ms="15" started-at="2019-04-01T15:15:03Z" finished-at="2019-04-01T15:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_topics_by_tag_Ebela()[pri:0, instance:abp.gettopicsbytag_Ebela@57855c9a]" name="get_topics_by_tag_Ebela" duration-ms="1145" started-at="2019-04-01T15:15:03Z" finished-at="2019-04-01T15:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_topics_by_tag_Ebela -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.gettopicsbytag_Ebela@57855c9a]" name="close" is-config="true" duration-ms="1" started-at="2019-04-01T15:15:04Z" finished-at="2019-04-01T15:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.gettopicsbytag_Ebela -->
+      <class name="abp.getebelaquotearticle">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaquotearticle@578486a3]" name="create" is-config="true" duration-ms="15" started-at="2019-04-01T15:14:27Z" finished-at="2019-04-01T15:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_quote_article()[pri:0, instance:abp.getebelaquotearticle@578486a3]" name="get_ebela_quote_article" duration-ms="725" started-at="2019-04-01T15:14:27Z" finished-at="2019-04-01T15:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_quote_article -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaquotearticle@578486a3]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:28Z" finished-at="2019-04-01T15:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaquotearticle -->
+      <class name="abp.getebelaotherarticlesbytag">
+        <test-method status="PASS" signature="create()[pri:0, instance:abp.getebelaotherarticlesbytag@2b552920]" name="create" is-config="true" duration-ms="12" started-at="2019-04-01T15:14:23Z" finished-at="2019-04-01T15:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="get_ebela_other_articles_bytag()[pri:0, instance:abp.getebelaotherarticlesbytag@2b552920]" name="get_ebela_other_articles_bytag" duration-ms="926" started-at="2019-04-01T15:14:23Z" finished-at="2019-04-01T15:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ebela_other_articles_bytag -->
+        <test-method status="PASS" signature="close()[pri:0, instance:abp.getebelaotherarticlesbytag@2b552920]" name="close" is-config="true" duration-ms="0" started-at="2019-04-01T15:14:24Z" finished-at="2019-04-01T15:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- abp.getebelaotherarticlesbytag -->
+    </test> <!-- ABP AND EBELA APIS  -->
+  </suite> <!-- Suite 1 -->
+</testng-results>
